@@ -1,3 +1,11 @@
+<div align="center">
+
+**[README](README.md) · [Installation](docs/INSTALLATION.md) · [Getting Started](docs/GETTING_STARTED.md) · [Usage](docs/USAGE_GUIDE.md) · [Gallery](GALLERY.md) · [Support](SUPPORT.md) · [Security](SECURITY.md) · [Privacy](PRIVACY.md) · [EULA](EULA.md) · [License](LICENSE.md)**
+
+</div>
+
+---
+
 # vgmu — mobile vgm music player
 
 <div align="center">
@@ -5,12 +13,8 @@
 
 </div>
 <div align="center" style="margin: 20px 0;">
-  <img src="assets/vgmu-logo.png" alt="vgmu Logo" width="400" style="border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: block;">
+  <img src="assets/vgmu-logo.png" alt="vgmu Logo" width="400" style="border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-top: 24px; display: block;">
 </div>
-
----
-
-**[README](README.md) · [Installation](docs/INSTALLATION.md) · [Getting Started](docs/GETTING_STARTED.md) · [Usage](docs/USAGE_GUIDE.md) · [Gallery](GALLERY.md) · [Support](SUPPORT.md) · [Security](SECURITY.md) · [Privacy](PRIVACY.md) · [EULA](EULA.md) · [License](LICENSE)**
 
 ---
 
@@ -53,7 +57,7 @@ vgmu is a personal project for enjoying video game music on mobile. For question
 
 ## ⚠️ Closed Source
 
-**vgmu 1.0 is closed source.** This repository contains binaries, documentation, and user guides only. The source code is not available. See [LICENSE](LICENSE) for details.
+**vgmu 1.0 is closed source.** This repository contains binaries, documentation, and user guides only. The source code is not available. See [LICENSE](LICENSE.md) for details.
 
 **Note:** GitHub source archives (`.zip`, `.tar.gz`) provided below contain documentation only and are not the application source.
 

@@ -19,7 +19,7 @@
 
 **Q: Will vgmu be open source?**
 
-- No, vgmu 1.0 is closed source. See [LICENSE](LICENSE) for details
+- No, vgmu 1.0 is closed source. See [LICENSE](LICENSE.md) for details
 
 **Q: Can I contribute to vgmu?**
 
@@ -91,7 +91,7 @@
 - [Usage Guide](docs/USAGE_GUIDE.md) — Features and how to use them
 - [Privacy Policy](PRIVACY.md) — Data handling
 - [Security Policy](SECURITY.md) — Reporting vulnerabilities
-- [License](LICENSE) — Terms of use
+- [License](LICENSE.md) — Terms of use
 
 ## Still Need Help?
 

@@ -53,7 +53,7 @@ Discover soundtracks, search the catalog, build playlists, browse albums, play f
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 1.0.0
+**Version:** 1.0.1
 
 ## ⚠️ Closed Source
 

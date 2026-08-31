@@ -31,8 +31,9 @@
 
 **Q: My music library disappeared. Can I recover it?**
 
-- Your library is stored locally on your device. If deleted, it cannot be recovered. Always keep backups
-- vgmu does not sync libraries across devices
+- Your library is stored locally on your device. If deleted without a backup, it cannot be recovered
+- Use **Settings → Backup & Restore** to export a backup file (playlists, folders, liked and saved tracks, custom artwork, and settings) before uninstalling or switching devices, and **Import** it on the new install
+- vgmu does not sync libraries across devices on its own — Backup & Restore is a manual, on-demand transfer, not automatic syncing
 
 ### Common Issues
 

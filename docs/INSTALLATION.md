@@ -46,7 +46,7 @@
 
 - Long-press the vgmu app icon and select "Uninstall"
 - Or go to Settings > Apps > vgmu > Uninstall
-- Your library is deleted when you uninstall; back it up if you need it
+- Your library is deleted when you uninstall — use **Settings → Backup & Restore** in the app first if you want to keep a copy (see the [Usage Guide](USAGE_GUIDE.md#backup--restore) for details)
 
 ## iOS
 
@@ -122,10 +122,11 @@ When a new version is released:
 
 #### Removing vgmu
 
-1. Long-press the vgmu icon on your home screen
-2. Tap **Remove App**
-3. Choose **Delete from iPhone**
-4. Optionally, return to **Settings > General > VPN & Device Management** and untrust the certificate if you no longer use AltStore for other apps
+1. Your library is deleted when you remove the app — use **Settings → Backup & Restore** in the app first if you want to keep a copy (see the [Usage Guide](USAGE_GUIDE.md#backup--restore) for details)
+2. Long-press the vgmu icon on your home screen
+3. Tap **Remove App**
+4. Choose **Delete from iPhone**
+5. Optionally, return to **Settings > General > VPN & Device Management** and untrust the certificate if you no longer use AltStore for other apps
 
 #### Troubleshooting
 

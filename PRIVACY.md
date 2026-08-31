@@ -1,8 +1,8 @@
 # vgmu Privacy Policy
 
-**Version:** 1.0.0
-**Effective date:** 2026-08-19
-**Applies to:** vgmu 1.0.0 personal-use binary releases
+**Version:** 1.0.2
+**Effective date:** 2026-08-31
+**Applies to:** vgmu 1.0.2 personal-use binary releases
 
 This policy describes the current vgmu application (the “App”) in plain language. It is an owner-authored privacy notice from vgmu Developer, not legal advice. Privacy questions can be sent through [Support](SUPPORT.md) or by [opening an issue](../../issues/new?template=feedback.md).
 
@@ -37,7 +37,7 @@ vgmu may ask for access needed for actions you choose, including selecting or sa
 
 Local data remains on the device until you remove it through vgmu, clear the relevant history or files, disconnect Discord, uninstall the App, or otherwise manage the device storage. Download history can be configured to be removed immediately or after a selected retention period. Resolved source audio URLs are intended to be short-lived and are not durable library identifiers.
 
-vgmu does not provide an account-based backup or export service. Device operating-system backup behavior is controlled by the platform and its provider. Third-party services control their own retention of requests and content.
+vgmu does not provide an account-based or cloud-synced backup service. It does offer a manual, on-device backup and restore feature (Settings → Backup & Restore) that exports your library metadata and settings to a file you choose where to store or share; that file stays under your control and is not sent to vgmu or a vgmu-operated service. Device operating-system backup behavior is controlled by the platform and its provider. Third-party services control their own retention of requests and content.
 
 Disconnecting Discord clears the stored Discord token from vgmu’s secure storage. Removing local audio or artwork does not remove copies or records retained by a third-party service.
 

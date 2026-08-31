@@ -16,6 +16,7 @@ A complete reference for everything vgmu can do.
 - [Likes](#likes)
 - [Downloads](#downloads)
 - [Local Library Import](#local-library-import)
+- [Backup & Restore](#backup--restore)
 - [Settings](#settings)
 - [Themes](#themes)
 - [Discord Rich Presence](#discord-rich-presence)
@@ -85,24 +86,34 @@ These three can't be deleted, since they represent live state rather than someth
 
 ### Things you create
 
-- **Playlists** — tap **Create (+) → Create Playlist**, give it a name, and optionally a description and cover photo. Add tracks from any album page, search result, or the player's queue menu.
-- **Folders** — tap **Create (+) → Create Folder** to group existing playlists and saved albums together under one name, description, and cover photo. Deleting a folder never deletes what's inside it.
+- **Playlists** — tap **Create (+) → Create Playlist**, give it a name, and optionally a description and cover photo. Add tracks from any album page, search result, or the player's queue menu. Playlist names must be unique — vgmu warns you if the name is already taken.
+- **Folders** — tap **Create (+) → Create Folder** to group existing playlists and saved albums together under one name, description, and cover photo. Pick which albums and playlists belong to it using a searchable picker with A-Z section headers, artwork thumbnails, and filter chips for Albums, Playlists, and Downloaded. Deleting a folder never deletes what's inside it. Folder names must be unique — vgmu warns you if the name is already taken.
 - **Saved Albums** — any album with at least one track saved to your library appears here automatically.
 
 ### Organizing your Library
 
-- **Filter chips**: All / Playlists / Albums / Downloaded
+- **Filter chips**: All / Playlists / Albums / Folders / Downloaded
 - **Search within your library**
-- **Sort**: Recents or Title
+- **Sort**: Recently Played or Title
 - **View**: list or grid
 - **Pin**: long-press a collection → **Collection options → Pin**, to keep up to 4 favorites at the top of the tab
 - **Delete/Unsave**: long-press → Delete (for playlists/folders) or Unsave (for albums). Deleting a playlist or folder never deletes the underlying tracks, your likes, or any downloaded files — only the organizational grouping.
+- **Hide items already in a folder**: an optional setting (**Settings → Library**) that removes albums and playlists from the main Library list once they belong to a folder, so they only show up inside that folder.
+
+### Editing playlists and folders
+
+Open a playlist or folder and tap **Edit** to change its name, description, and cover photo, or to delete it. Renaming to a name already used by another playlist or folder isn't allowed.
+
+- **Playlists**: tap **Add tracks** inside the editor to search your library and select tracks to add.
+- **Folders**: tap **Add items** inside the editor to open the same searchable, filterable, A-Z-sectioned picker used at creation time, and choose which albums and playlists belong to the folder.
+
+Closing an editor with unsaved changes asks whether to keep editing or discard them — nothing is saved until you tap **Save**.
 
 ## Album Pages
 
 Every album page offers:
 
-- **Play album** — starts playback from the first track
+- **Play album** — starts playback from the first track. Press and hold **Play** to add every track to the playback queue instead, with a confirmation showing how many tracks will be added. The same long-press works on playlists, folders, and Local Library pages.
 - **Save album** — bookmarks it into your Library
 - **Download album** — queues every track for offline saving
 - Per-track rows, each with its own **play**, **like**, **add to queue**, **add to playlist**, and **download** actions
@@ -178,6 +189,14 @@ Finished downloads appear in a "Completed" section — tap **Done** to acknowled
 
 Beyond downloading from the catalog, you can import audio files already on your device. Imported tracks appear in **Library → Local Library**, separate from catalog downloads. Enable **Settings → Local Library → Scan nested folders** if your music is organized into subfolders.
 
+## Backup & Restore
+
+**Settings → Backup & Restore** lets you move your library to a new install or keep a personal copy.
+
+- **Export** saves a backup file containing your playlists, folders, liked and saved tracks, custom cover art, and all settings and themes. Share or store it wherever you like (Files, AirDrop, cloud storage, and so on) — vgmu doesn't upload it anywhere on its own.
+- **Import** restores a backup file onto the current install. This **replaces** everything currently in your library and settings with the backup's contents, so it asks for confirmation before proceeding.
+- **What isn't included**: downloaded audio files and folders imported from your device aren't part of the backup — they stay tied to the install that made them. After importing, saved tracks re-download when opened and album covers refresh automatically; local-import tracks reappear in playlists but need to be re-imported to play.
+
 ## Settings
 
 Reached from the gear icon (⚙️) on any screen.
@@ -188,6 +207,7 @@ Reached from the gear icon (⚙️) on any screen.
 | **Download Quality** | Choose Best Available, FLAC Only, M4A/AAC, MP3, or OGG |
 | **Confirmations** | "Always ask before downloading" and "Always ask before saving" toggles |
 | **Default App View** | Which tab opens on launch — Library, Home, Search, or Downloads |
+| **Library** | "Hide items already in a folder" — remove albums and playlists from the main Library list once they belong to a folder |
 | **Themes** | See [Themes](#themes) below |
 | **Marquee Scroll Speed** | How fast long titles scroll |
 | **Playlist Artwork** | Use playlist art for tracks missing their own artwork, and optionally override track art with playlist art |
@@ -197,6 +217,7 @@ Reached from the gear icon (⚙️) on any screen.
 | **Download History** | How long completed-download history is kept |
 | **Storage** | Breakdown of space used: downloaded tracks, local imports, artwork, and total |
 | **Discord Rich Presence** | See [Discord Rich Presence](#discord-rich-presence) below |
+| **Backup & Restore** | See [Backup & Restore](#backup--restore) above |
 | **Help** | Quick in-app usage reference |
 | **About** | App version and info |
 | **Legal & Safety** | Links to the Privacy Policy, EULA, and License |

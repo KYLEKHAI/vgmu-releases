@@ -57,7 +57,7 @@ vgmu is a personal project for enjoying video game music on mobile. For question
 
 ## ⚠️ Closed Source
 
-**vgmu 1.0 is closed source.** This repository contains binaries, documentation, and user guides only. The source code is not available. See [LICENSE](LICENSE.md) for details.
+**vgmu is closed source.** This repository contains binaries, documentation, and user guides only. The source code is not available. See [LICENSE](LICENSE.md) for details.
 
 **Note:** GitHub source archives (`.zip`, `.tar.gz`) provided below contain documentation only and are not the application source.
 

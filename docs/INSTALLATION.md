@@ -38,9 +38,12 @@
 
 ### Updating vgmu
 
-- Check the [Releases](../../releases) page for new versions
-- Download and install the new APK using the same steps above
-- Your library and preferences are preserved (if not uninstalling first)
+Installing a new APK **does not** preserve your library, playlists, or settings — back up first.
+
+1. Open vgmu and go to **Settings → Backup & Restore → Export backup**. Save the exported file somewhere outside the app (Files, email, cloud storage) — Auto Backup's own snapshots live inside the app itself, so they're lost along with everything else when you update, and won't help here.
+2. Check the [Releases](../../releases) page for new versions
+3. Download and install the new APK using the same steps above
+4. Open vgmu and go to **Settings → Backup & Restore → Import backup** to restore your library, playlists, and settings from the file you exported in step 1
 
 ### Uninstalling
 
@@ -113,12 +116,15 @@ Alternatively, connect your iPhone to your computer via USB and launch the vgmu 
 
 #### Updating vgmu
 
+Installing a new IPA **does not** preserve your Library or settings — back up first.
+
 When a new version is released:
 
-1. Download the new IPA from [Releases](../../releases)
-2. Follow the same AltServer installation steps (Step 3 above)
-3. AltServer will replace the old version with the new one
-4. Your Library and settings are preserved across updates
+1. Open vgmu and go to **Settings → Backup & Restore → Export backup**. Save the exported file somewhere outside the app (Files, email, cloud storage) — Auto Backup's own snapshots live inside the app itself, so they're lost along with everything else when you update, and won't help here.
+2. Download the new IPA from [Releases](../../releases)
+3. Follow the same AltServer installation steps (Step 3 above)
+4. AltServer will replace the old version with the new one
+5. Open vgmu and go to **Settings → Backup & Restore → Import backup** to restore your Library and settings from the file you exported in step 1
 
 #### Removing vgmu
 

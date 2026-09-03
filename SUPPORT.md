@@ -61,6 +61,7 @@
 **App runs slowly**
 
 - Large libraries may impact performance; consider organizing or removing unused items
+- The playback queue loads in batches of 100 — very large queues no longer cause lag or crashes
 - Close other apps to free up device memory
 - Restart your device
 

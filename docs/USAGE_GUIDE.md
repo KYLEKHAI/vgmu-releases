@@ -113,7 +113,7 @@ Closing an editor with unsaved changes asks whether to keep editing or discard t
 
 Every album page offers:
 
-- **Play album** — starts playback from the first track. Press and hold **Play** to add every track to the playback queue instead, with a confirmation showing how many tracks will be added. The same long-press works on playlists, folders, and Local Library pages.
+- **Play album** — starts playback from the first track. Press and hold **Play** to add every track to the playback queue instead; a confirmation appears when adding 100 or more tracks. The same long-press works on playlists, folders, and Local Library pages.
 - **Save album** — bookmarks it into your Library
 - **Download album** — queues every track for offline saving
 - Per-track rows, each with its own **play**, **like**, **add to queue**, **add to playlist**, and **download** actions
@@ -142,7 +142,9 @@ vgmu keeps two separate lists:
 - **Queue** — tracks you've manually added; these always play first
 - **Next Up** — the rest of the current context (the album, playlist, or search results you were browsing), playing automatically after the Queue is empty
 
-From the queue view you can reorder tracks, remove them, clear the manual queue entirely, or promote an upcoming "Next Up" track into your manual queue.
+Both lists load in batches of 100 tracks at a time to keep the queue responsive, even with very large collections. Section headers show the total count (e.g. "Queue (350)"), and a "+N more tracks" indicator appears when additional tracks are waiting to load. The next batch loads automatically as you play through them.
+
+From the queue view you can reorder tracks, remove them, clear the queue, or promote an upcoming "Next Up" track into your manual queue. When tracks are still pending beyond the loaded batch, the clear button offers a choice between clearing the loaded tracks or the entire queue including all pending tracks.
 
 **Shuffle** reshuffles the Next Up list; turning shuffle back off restores the original order.
 

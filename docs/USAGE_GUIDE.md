@@ -94,7 +94,7 @@ These three can't be deleted, since they represent live state rather than someth
 
 - **Filter chips**: All / Playlists / Albums / Folders / Downloaded
 - **Search within your library**
-- **Sort**: Recently Played or Title
+- **Sort**: Recently Played or Title — playing a collection inside a folder updates the timestamp for both the collection and the parent folder
 - **View**: list or grid
 - **Pin**: long-press a collection → **Collection options → Pin**, to keep up to 4 favorites at the top of the tab
 - **Delete/Unsave**: long-press → Delete (for playlists/folders) or Unsave (for albums). Deleting a playlist or folder never deletes the underlying tracks, your likes, or any downloaded files — only the organizational grouping.
@@ -209,7 +209,7 @@ Reached from the gear icon (⚙️) on any screen.
 | **Download Quality** | Choose Best Available, FLAC Only, M4A/AAC, MP3, or OGG |
 | **Confirmations** | "Always ask before downloading" and "Always ask before saving" toggles |
 | **Default App View** | Which tab opens on launch — Library, Home, Search, or Downloads |
-| **Library** | "Hide items already in a folder" — remove albums and playlists from the main Library list once they belong to a folder |
+| **Library** | "Hide items already in a folder" — remove albums and playlists from the main Library list once they belong to a folder; "Rounded artwork" — display track and album artwork as circles instead of rounded squares |
 | **Themes** | See [Themes](#themes) below |
 | **Marquee Scroll Speed** | How fast long titles scroll |
 | **Playlist Artwork** | Use playlist art for tracks missing their own artwork, and optionally override track art with playlist art |
@@ -228,7 +228,7 @@ Reached from the gear icon (⚙️) on any screen.
 
 vgmu ships with dozens of built-in themes across several categories, previewed live before you apply them:
 
-- **Baseline (Simple UI)** — follows your device's system light/dark setting, with a selectable accent color
+- **Baseline (Simple UI)** — follows your device's system light/dark setting, with a selectable accent color. The theme picker's preview swatch reflects your chosen accent and light/dark mode
 - **Light & Classic**, **Dark & Classic**
 - **Warm**, **Nature**, **Atmospheric**
 - **Gaming** — including console- and platform-inspired palettes

@@ -51,7 +51,7 @@ Once a download finishes and is verified, it's added to **Library → Offline Li
 
 ## 7. Build a Playlist
 
-Go to **Library**, tap the **+ (Create)** button, and choose **Create Playlist**. Give it a name and, optionally, a description and cover photo. Add tracks to it from any album page, search result, or the full player's queue menu.
+Go to **Library**, tap the **+ (Create)** button, and choose **Create Playlist**. Give it a name and, optionally, a description and cover photo. Add tracks to it from any album page, search result, the full player's queue menu, or by holding the like button in the full player.
 
 You can also create **Folders** to group playlists and saved albums together.
 

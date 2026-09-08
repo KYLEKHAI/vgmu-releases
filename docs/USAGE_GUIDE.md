@@ -128,12 +128,12 @@ The mini-player (bottom of screen) gives you play/pause, previous/next, and a co
 
 - Large artwork with swipeable transitions between tracks
 - A full seek bar
-- **Like** (heart)
+- **Like** (heart) — a quick tap likes the track; **press and hold** the heart to add the current track to a playlist instead (the heart pulses to confirm), then pick an existing playlist or create a new one
 - **Shuffle** toggle
 - **Repeat**, which cycles Off → Repeat All → Repeat One (a small "1" badge shows when repeat-one is active)
 - **Queue** button, opening the full queue view
 - Swipe the screen down to dismiss it back to the mini-player
-- Tapping the title/artist jumps you to the album, playlist, or folder the current track is playing from
+- Tapping the title/artist jumps you to the album, playlist, or folder the current track is playing from — and scrolls straight to the exact track and highlights it. When you're playing a whole folder, it opens the album that holds the track inside that folder.
 
 ### Queue and Next Up
 
@@ -146,7 +146,7 @@ Both lists load in batches of 100 tracks at a time to keep the queue responsive,
 
 From the queue view you can reorder tracks, remove them, clear the queue, or promote an upcoming "Next Up" track into your manual queue. When tracks are still pending beyond the loaded batch, the clear button offers a choice between clearing the loaded tracks or the entire queue including all pending tracks.
 
-**Shuffle** reshuffles the Next Up list; turning shuffle back off restores the original order.
+**Shuffle** reshuffles the Next Up list; turning shuffle back off restores the original order. Shuffling a folder that holds several albums mixes all of their tracks together — including the very first track — rather than shuffling one album at a time.
 
 ### Background and lock-screen playback
 

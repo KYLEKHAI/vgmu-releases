@@ -12,7 +12,7 @@ A visual tour of vgmu's interface, screen by screen.
 
 ## Welcome Screen
 
-<div align="center"><b>The first thing you see on launch — no account, no sign-up, straight into the app.</b></div>
+<div align="center"><b>The first thing you see on launch. No account, no sign-up, straight into the app.</b></div>
 
 <div align="center">
 <table><tr>
@@ -35,11 +35,11 @@ A visual tour of vgmu's interface, screen by screen.
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/home-most-favorites.jpg" width="240"><br>
-<sub><b>Figure 2 — Discover, Most Favorites</b><br>The Home feed's curated row, surfacing popular soundtracks like <i>Minecraft</i>, <i>Zelda: Breath of the Wild</i>, <i>Super Mario 64</i>, and <i>Mario Kart Wii</i>, with a pinned mini-player for <i>Kingdom Hearts III</i>.</sub>
+<sub><b>Figure 2 — Discover — Most Favorites</b><br>The Home feed's curated row, surfacing popular soundtracks like <i>Minecraft</i>, <i>Zelda: Breath of the Wild</i>, <i>Super Mario 64</i>, and <i>Mario Kart Wii</i>, with a pinned mini-player for <i>Kingdom Hearts III</i>.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/browse-top-100.jpg" width="240"><br>
-<sub><b>Figure 3 — Browse, All-Time Top 100</b><br>On-demand discovery: Random Album / Random Song shortcuts up top, with the All-Time Top 100 preset ranking <i>Minecraft</i> and <i>Persona 5</i>.</sub>
+<sub><b>Figure 3 — Browse — All-Time Top 100</b><br>On-demand discovery: Random Album / Random Song shortcuts up top, with the All-Time Top 100 preset ranking <i>Minecraft</i> and <i>Persona 5</i>.</sub>
 </td>
 </tr></table>
 </div>
@@ -54,11 +54,11 @@ A visual tour of vgmu's interface, screen by screen.
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/search-donkey-kong.jpg" width="240"><br>
-<sub><b>Figure 4 — "donkey kong," sorted by Popularity</b><br>184 matching albums, with Reset Filters and Album Type chips above the results.</sub>
+<sub><b>Figure 4 — "donkey kong" — sorted by Popularity</b><br>184 matching albums, with Reset Filters and Album Type chips above the results.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/search-stardew-valley.jpg" width="240"><br>
-<sub><b>Figure 5 — "stardew," sorted by Name</b><br>All 13 Stardew Valley soundtrack releases, sorted alphabetically with Album Type and Year filters.</sub>
+<sub><b>Figure 5 — "stardew" — sorted by Name</b><br>All 13 Stardew Valley soundtrack releases, sorted alphabetically with Album Type and Year filters.</sub>
 </td>
 </tr></table>
 </div>
@@ -79,7 +79,7 @@ A visual tour of vgmu's interface, screen by screen.
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/library-folder-view.jpg" width="240"><br>
-<sub><b>Figure 7 — Folder, "favorites!!"</b><br>A user-created folder grouping a playlist and an album, with a custom description and Play/Edit/Pin actions.</sub>
+<sub><b>Figure 7 — Folder — "favorites!!"</b><br>A user-created folder grouping a playlist and an album, with a custom description and Play/Edit/Pin actions.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/library-playlist-tracks.jpg" width="240"><br>
@@ -90,22 +90,22 @@ A visual tour of vgmu's interface, screen by screen.
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/library-offline-collection-options.jpg" width="240"><br>
-<sub><b>Figure 9 — Offline Library, options</b><br>The auto-generated Offline Library collection (10 downloaded tracks), with Pin/Delete/Cancel.</sub>
+<sub><b>Figure 9 — Offline Library — options</b><br>The auto-generated Offline Library collection (10 downloaded tracks), with Pin/Delete/Cancel.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/library-offline-track-list.jpg" width="240"><br>
-<sub><b>Figure 10 — Offline Library, tracks</b><br>Downloaded <i>Wii Sports</i> tracks with a delete action in place of download, since they're already on-device.</sub>
+<sub><b>Figure 10 — Offline Library — tracks</b><br>Downloaded <i>Wii Sports</i> tracks with a delete action in place of download, since they're already on-device.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/library-local-import-picker.jpg" width="240"><br>
-<sub><b>Figure 11 — Local Library, file picker</b><br>Importing audio straight from the device's file system via the native document picker.</sub>
+<sub><b>Figure 11 — Local Library — file picker</b><br>Importing audio straight from the device's file system via the native document picker.</sub>
 </td>
 </tr></table>
 
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/library-importing-progress.jpg" width="240"><br>
-<sub><b>Figure 12 — Local Library, import progress</b><br>Batch-importing 129 local files with a live per-file progress bar.</sub>
+<sub><b>Figure 12 — Local Library — import progress</b><br>Batch-importing 129 local files with a live per-file progress bar.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/library-collection-options.jpg" width="240"><br>
@@ -152,18 +152,18 @@ A visual tour of vgmu's interface, screen by screen.
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/album-information-octopath.jpg" width="240"><br>
-<sub><b>Figure 19 — Album information, Octopath Traveler II</b><br>Extended metadata: artist, type, year, publisher, developers, platforms, and description.</sub>
+<sub><b>Figure 19 — Album information — Octopath Traveler II</b><br>Extended metadata: artist, type, year, publisher, developers, platforms, and description.</sub>
 </td>
 </tr></table>
 
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/album-artwork-gallery.jpg" width="240"><br>
-<sub><b>Figure 20 — Artwork gallery, Kingdom Hearts III</b><br>Browsing alternate cover art and logo variants pulled from the catalog.</sub>
+<sub><b>Figure 20 — Artwork gallery — Kingdom Hearts III</b><br>Browsing alternate cover art and logo variants pulled from the catalog.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/album-artwork-save-sheet.jpg" width="240"><br>
-<sub><b>Figure 21 — Artwork gallery, save options</b><br>Saving high-resolution artwork to Photos or Files from a 48-image gallery.</sub>
+<sub><b>Figure 21 — Artwork gallery — save options</b><br>Saving high-resolution artwork to Photos or Files from a 48-image gallery.</sub>
 </td>
 <td align="center" width="280"></td>
 </tr></table>
@@ -213,14 +213,14 @@ A visual tour of vgmu's interface, screen by screen.
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/playback-lock-screen-full.jpg" width="240"><br>
-<sub><b>Figure 29 — Lock screen, full artwork</b><br>Background playback continuing with full-bleed album art on the lock screen.</sub>
+<sub><b>Figure 29 — Lock screen — full artwork</b><br>Background playback continuing with full-bleed album art on the lock screen.</sub>
 </td>
 <td align="center" width="280"></td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>
 
-<div align="center"><b>The always-visible mini-player (artwork, title/artist, transport controls, compact seek bar) sits beneath every screen — see the bottom of most figures above.</b></div>
+<div align="center"><b>The always-visible mini-player (artwork, title/artist, transport controls, compact seek bar) sits beneath every screen. You can see it at the bottom of most figures above.</b></div>
 
 <div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
 
@@ -257,7 +257,7 @@ A visual tour of vgmu's interface, screen by screen.
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/downloads-history-detail.jpg" width="240"><br>
-<sub><b>Figure 35 — Download History detail</b><br>Full per-track metadata for a verified download — file name, format, size, timestamps, checksum.</sub>
+<sub><b>Figure 35 — Download History detail</b><br>Full per-track metadata for a verified download: file name, format, size, timestamps, checksum.</sub>
 </td>
 </tr></table>
 </div>
@@ -272,7 +272,7 @@ A visual tour of vgmu's interface, screen by screen.
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-theme-kawaii-pink.jpg" width="240"><br>
-<sub><b>Figure 36 — Light & Classic theme, Kawaii Pink</b><br>Pastel surfaces with a sweet berry accent.</sub>
+<sub><b>Figure 36 — Light & Classic theme — Kawaii Pink</b><br>Pastel surfaces with a sweet berry accent.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-ios-icon-customize.jpg" width="240"><br>
@@ -280,11 +280,11 @@ A visual tour of vgmu's interface, screen by screen.
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-theme-discord-gaming.jpg" width="240"><br>
-<sub><b>Figure 38 — Gaming theme, Discord</b><br>Dark community surfaces with the classic blurple accent.</sub>
+<sub><b>Figure 38 — Gaming theme — Discord</b><br>Dark community surfaces with the classic blurple accent.</sub>
 </td>
 </tr></table>
 
-<div align="center"><b>Baseline (Simple UI) with an accent color, or dozens of full fixed-palette presets — Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and more — with a live preview before applying.</b></div>
+<div align="center"><b>Baseline (Simple UI) with an accent color, or dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and more), each with a live preview before applying.</b></div>
 
 <table><tr>
 <td align="center" width="280">
@@ -293,7 +293,7 @@ A visual tour of vgmu's interface, screen by screen.
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-help.jpg" width="240"><br>
-<sub><b>Figure 40 — Help, "How to use vgmu"</b><br>The in-app guide's topic index — gestures, discovery, library, downloads, playback, settings, and more.</sub>
+<sub><b>Figure 40 — Help — "How to use vgmu"</b><br>The in-app guide's topic index: gestures, discovery, library, downloads, playback, settings, and more.</sub>
 </td>
 <td align="center" width="280"></td>
 </tr></table>
@@ -313,15 +313,15 @@ A visual tour of vgmu's interface, screen by screen.
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-storage-discord-rp.jpg" width="240"><br>
-<sub><b>Figure 41 — Storage breakdown</b><br>Downloaded tracks, local imports, and artwork by size — 619.4 MB total.</sub>
+<sub><b>Figure 41 — Storage breakdown</b><br>Downloaded tracks, local imports, and artwork by size, 619.4 MB in total.</sub>
 </td>
 <td align="center" width="320">
 <img src="assets/screenshots/discord-rp-nintendo.png" width="280"><br>
-<sub><b>Figure 42 — Discord profile, Nintendo</b><br>"Music Box - Food Mart" live on a connected Discord profile.</sub>
+<sub><b>Figure 42 — Discord profile — Nintendo</b><br>"Music Box - Food Mart" live on a connected Discord profile.</sub>
 </td>
 <td align="center" width="320">
 <img src="assets/screenshots/discord-rp-atlus-sega.png" width="280"><br>
-<sub><b>Figure 43 — Discord profile, Atlus & Sega</b><br>"Last Surprise" from <i>Persona 5 Royal</i> with a live progress bar.</sub>
+<sub><b>Figure 43 — Discord profile — Atlus & Sega</b><br>"Last Surprise" from <i>Persona 5 Royal</i> with a live progress bar.</sub>
 </td>
 </tr></table>
 </div>

@@ -20,8 +20,12 @@
 
 ## Download
 
-- **Android:** Download from [Releases](../../releases)
-- **iOS:** Download from [Releases](../../releases)
+- **Current release:** [v1.0.5 — September 8, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.0.5)
+- **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
+- **iOS:** Start with the [AltStore Classic self-sideload guide](docs/INSTALLATION.md#ios).
+- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.0.5/vgmu-1.0.5-SHA256SUMS.txt)
+
+The landing site is built from a separate private repository; its production URL will be added after deployment.
 
 See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructions.
 
@@ -57,9 +61,9 @@ vgmu is a personal project for enjoying video game music on mobile. For question
 
 ## ⚠️ Closed Source
 
-**vgmu is closed source.** This repository contains binaries, documentation, and user guides only. The source code is not available. See [LICENSE](LICENSE.md) for details.
+**vgmu is closed source.** This repository contains release distribution material, documentation, and user guides. Neither the application source nor the website source is available here. See [LICENSE](LICENSE.md) for details.
 
-**Note:** GitHub source archives (`.zip`, `.tar.gz`) provided below contain documentation only and are not the application source.
+**Note:** GitHub source archives (`.zip`, `.tar.gz`) provided below contain public repository files such as documentation; they are neither the application source nor installable binaries.
 
 ## Made possible with
 

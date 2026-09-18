@@ -1,6 +1,6 @@
 <div align="center">
 
-**[README](README.md) · [Installation](docs/INSTALLATION.md) · [Getting Started](docs/GETTING_STARTED.md) · [Usage](docs/USAGE_GUIDE.md) · [Gallery](GALLERY.md) · [Support](SUPPORT.md) · [Security](SECURITY.md) · [Privacy](PRIVACY.md) · [EULA](EULA.md) · [License](LICENSE.md)**
+**[Website](https://vgmu.kylekhai.workers.dev/) · [README](README.md) · [Installation](docs/INSTALLATION.md) · [Getting Started](docs/GETTING_STARTED.md) · [Usage](docs/USAGE_GUIDE.md) · [Gallery](GALLERY.md) · [Support](SUPPORT.md) · [Security](SECURITY.md) · [Privacy](PRIVACY.md) · [EULA](EULA.md) · [License](LICENSE.md)**
 
 </div>
 
@@ -10,6 +10,8 @@
 
 <div align="center">
 ♫ An ad-free mobile (Android/iOS) application for video game music on the go! Discover, organize, and enjoy your favourite game soundtracks locally offline or via streaming! No email, accounts or subscription is needed to use the app! ♪
+
+**Live site: [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/)**
 
 </div>
 <div align="center" style="margin: 20px 0;">

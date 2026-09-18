@@ -25,7 +25,7 @@
 - **iOS:** Start with the [AltStore Classic self-sideload guide](docs/INSTALLATION.md#ios).
 - [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.0.6/vgmu-1.0.6-SHA256SUMS.txt)
 
-The landing site is built from a separate private repository; its production URL will be added after deployment.
+**Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen. The site is built from a separate private repository.
 
 See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructions.
 

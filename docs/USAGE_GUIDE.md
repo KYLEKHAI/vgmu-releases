@@ -118,6 +118,7 @@ Every album page offers:
 - **Save album** — bookmarks it into your Library
 - **Download album** — queues every track for offline saving
 - Per-track rows, each with its own **play**, **like**, **add to queue**, **add to playlist**, and **download** actions
+- A **track search** that filters the list. While a search is active, playback follows it: tapping a track, or **Play album**, plays just the matching tracks, and Next Up holds those results instead of the whole album. The same applies to playlist and folder pages.
 - A gallery of alternate cover art, when the catalog provides more than one image
 - An "album information" panel with additional metadata
 
@@ -196,7 +197,7 @@ Beyond downloading from the catalog, you can import audio files already on your 
 
 **Settings → Backup & Restore** lets you move your library to a new install or keep a personal copy.
 
-- **Export** saves a backup file containing your playlists, folders, liked and saved tracks, custom cover art, and all settings and themes. Share or store it wherever you like (Files, AirDrop, cloud storage, and so on). vgmu doesn't upload it anywhere on its own.
+- **Export** saves a backup file containing your playlists, folders, liked and saved tracks, custom cover art, and all settings and themes. Share or store it wherever you like (Files, AirDrop, cloud storage, and so on). vgmu doesn't upload it anywhere on its own. A confirmation appears once the export has finished.
 - **Import** restores a backup file onto the current install. This **replaces** everything currently in your library and settings with the backup's contents, so it asks for confirmation before proceeding.
 - **What isn't included**: downloaded audio files and folders imported from your device aren't part of the backup, since they stay tied to the install that made them. After importing, saved tracks re-download when opened and album covers refresh automatically; local-import tracks reappear in playlists but need to be re-imported to play.
 

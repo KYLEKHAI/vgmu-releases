@@ -58,6 +58,16 @@
 - Check device storage — downloads require free space
 - The music source may be temporarily unavailable; try again later
 
+**Local Library folder won't refresh**
+
+- Use a folder vgmu can access, and avoid importing the main Downloads folder directly
+- If vgmu asks you to add a folder again, choose the same folder with **Add path** to restore access; your imported tracks stay
+- On iPhone, folders added before version 1.0.7 need to be added again once
+
+**Discord Rich Presence says "Not available in this build"**
+
+- Android versions 1.0.5 and 1.0.6 shipped without Discord Rich Presence. Update to 1.0.7 or later to use it again
+
 **App runs slowly**
 
 - Large libraries may impact performance; consider organizing or removing unused items

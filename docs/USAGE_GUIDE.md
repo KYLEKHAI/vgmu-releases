@@ -193,6 +193,8 @@ Finished downloads appear in a "Completed" section. Tap **Done** to acknowledge 
 
 Beyond downloading from the catalog, you can import audio files already on your device. Imported tracks appear in **Library → Local Library**, separate from catalog downloads. Enable **Settings → Local Library → Scan nested folders** if your music is organized into subfolders.
 
+Use **Refresh** on an imported path to pick up new files. Refresh keeps working after vgmu is closed and reopened. On iPhone, folders added before version 1.0.7 need to be added again once with **Add path**; your imported tracks stay.
+
 ## Backup & Restore
 
 **Settings → Backup & Restore** lets you move your library to a new install or keep a personal copy.
@@ -219,11 +221,11 @@ Reached from the gear icon on any screen.
 | **Local Library**         | Scan nested folders when importing                                                                                                                                                                                |
 | **Network**               | Allow Home to auto-refresh over cellular (off = Wi-Fi only)                                                                                                                                                       |
 | **Download History**      | How long completed-download history is kept                                                                                                                                                                       |
-| **Storage**               | Breakdown of space used: downloaded tracks, local imports, artwork, and total                                                                                                                                     |
+| **Storage**               | Breakdown of space used: downloaded tracks, local imports, artwork, the online artwork cache, and total. **Clear online artwork cache** frees cached online covers, which download again when shown               |
 | **Discord Rich Presence** | See [Discord Rich Presence](#discord-rich-presence) below                                                                                                                                                         |
 | **Backup & Restore**      | See [Backup & Restore](#backup--restore) above                                                                                                                                                                    |
 | **Help**                  | Quick in-app usage reference                                                                                                                                                                                      |
-| **About**                 | App version and info                                                                                                                                                                                              |
+| **About**                 | App version, credits, and links to the vgmu website and releases page                                                                                                                                             |
 | **Legal & Safety**        | Links to the Privacy Policy, EULA, and License                                                                                                                                                                    |
 
 ## Themes

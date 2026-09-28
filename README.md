@@ -22,10 +22,10 @@
 
 ## Download
 
-- **Current release:** [v1.0.7 — September 24, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.0.7)
+- **Current release:** [v1.1.0 — September 28, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.1.0)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Start with the [AltStore Classic self-sideload guide](docs/INSTALLATION.md#ios).
-- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.0.7/vgmu-1.0.7-SHA256SUMS.txt)
+- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.1.0/vgmu-1.1.0-SHA256SUMS.txt)
 
 **Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen. The site is built from a separate private repository.
 
@@ -34,17 +34,17 @@ See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructio
 ## Peek Into The App
 
 <p align="center">
-  <img src="assets/screenshots/home-most-favorites.jpg" width="150">
-  <img src="assets/screenshots/search-donkey-kong.jpg" width="150">
-  <img src="assets/screenshots/library-playlist-tracks.jpg" width="150">
-  <img src="assets/screenshots/album-persona-5-royal.jpg" width="150">
-  <img src="assets/screenshots/playback-now-playing-kirby.jpg" width="150">
-  <img src="assets/screenshots/downloads-active-queue.jpg" width="150">
-  <img src="assets/screenshots/settings-theme-kawaii-pink.jpg" width="150">
+  <img src="assets/screenshots/console-home.jpg" width="150">
+  <img src="assets/screenshots/console-now-playing.jpg" width="150">
+  <img src="assets/screenshots/pictochat-home.jpg" width="150">
+  <img src="assets/screenshots/pictochat-now-playing-chat.jpg" width="150">
+  <img src="assets/screenshots/clean-home.jpg" width="150">
+  <img src="assets/screenshots/console-dark-library.jpg" width="150">
+  <img src="assets/screenshots/pictochat-look.jpg" width="150">
   <img src="assets/screenshots/discord-rp-nintendo.png" width="150">
 </p>
 
-Discover soundtracks, search the catalog, build playlists, browse albums, play full-screen, download for offline, customize the look, and show off on Discord — see the full [Gallery](GALLERY.md) for a complete tour of every screen.
+Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, download for offline, and show off on Discord — see the full [Gallery](GALLERY.md) for every screen in all three.
 
 ## Quick Links
 
@@ -59,7 +59,7 @@ Discover soundtracks, search the catalog, build playlists, browse albums, play f
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 1.0.7
+**Version:** 1.1.0
 
 ## ⚠️ Closed Source
 

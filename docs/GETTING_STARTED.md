@@ -10,7 +10,7 @@ The first time you open vgmu, you'll see a one-time **Welcome screen** with the 
 
 ## 2. The Four Tabs
 
-vgmu has four tabs at the bottom of the screen, plus a Settings gear icon in the top-right corner of every screen.
+vgmu has four tabs at the bottom of the screen, plus a Settings button in the top-right corner of every screen.
 
 | Tab           | What it's for                                                      |
 | ------------- | ------------------------------------------------------------------ |
@@ -19,11 +19,11 @@ vgmu has four tabs at the bottom of the screen, plus a Settings gear icon in the
 | **Library**   | Your personal collection — likes, playlists, folders, saved albums |
 | **Downloads** | Track the progress of anything you're saving for offline listening |
 
-Tap the **gear icon** on any screen to open **Settings**.
+Tap the **settings button** on any screen to open **Settings**.
 
 ## 3. Explore Home
 
-Home shows three sections pulled from the online catalog:
+Home starts with your own rows (a greeting, Continue listening, Jump back in, your likes, and more), then three sections pulled from the online catalog:
 
 - **Latest** — recently added soundtracks
 - **Top 40** — currently popular albums
@@ -57,9 +57,10 @@ You can also create **Folders** to group playlists and saved albums together.
 
 ## 8. Adjust Settings
 
-Tap the gear icon to open **Settings**, where you can:
+Tap the settings button to open **Settings**, where you can:
 
-- Change your **theme** — from a simple light/dark "Simple UI" with an accent color, to dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and many more)
+- Pick an **interface style**: Console (a home-menu look), PictoChat (the Nintendo DS chat app), or Clean (the original look). See [Usage Guide → Interface Styles](USAGE_GUIDE.md#interface-styles)
+- In Clean, change your **theme** — from a simple light/dark "Simple UI" with an accent color, to dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and many more)
 - Choose your **preferred download quality/format**
 - Turn on **Wi-Fi-only** downloads and Home refreshes
 - Connect **Discord Rich Presence**, which is optional (see [Usage Guide → Discord Rich Presence](USAGE_GUIDE.md#discord-rich-presence) for what it shares and its risks before enabling it)

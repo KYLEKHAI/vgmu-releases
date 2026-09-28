@@ -18,6 +18,7 @@ A complete reference for everything vgmu can do.
 - [Local Library Import](#local-library-import)
 - [Backup & Restore](#backup--restore)
 - [Settings](#settings)
+- [Interface Styles](#interface-styles)
 - [Themes](#themes)
 - [Discord Rich Presence](#discord-rich-presence)
 - [Offline & Error Handling](#offline--error-handling)
@@ -26,13 +27,24 @@ A complete reference for everything vgmu can do.
 
 ## Navigation
 
-vgmu has four tabs (**Home**, **Search**, **Library**, and **Downloads**) plus a **Settings** gear icon in the header of every screen. There is no account or sign-in; everything works locally on your device from the moment you install the app.
+vgmu has four tabs (**Home**, **Search**, **Library**, and **Downloads**) plus a **Settings** button in the header of every screen (a gear, or sliders in PictoChat). There is no account or sign-in; everything works locally on your device from the moment you install the app.
 
 A **mini-player** appears above the tab bar whenever a track is loaded, showing artwork, title/artist, transport controls, and a compact progress bar. Tap it to open the full-screen **Now Playing** player.
 
 ## Home
 
-Home shows three sections pulled live from the online catalog:
+Home starts with rows built from your own listening, each of which you can turn on or off under **Settings → Interface style → Home**:
+
+- **Greeting** — a short hello for the time of day on the first visit after vgmu opens, which then rolls into the date
+- **Continue listening** — the track you paused, with time left, where it plays from, the next three tracks, and a Resume button
+- **Jump back in** — the collections you played most recently
+- **New in your Library** — albums you saved and playlists you made recently
+- **Your Liked Tracks** — your latest likes
+- **Re-discover** — liked tracks you haven't played in two weeks
+- **Because you played** — more from the series of an album you played recently
+- **Trending now** — what people are viewing on the catalog
+
+Below those, Home shows three sections pulled live from the online catalog:
 
 - **Latest** — recently added soundtracks
 - **Top 40** — currently popular albums
@@ -205,7 +217,7 @@ Use **Refresh** on an imported path to pick up new files. Refresh keeps working 
 
 ## Settings
 
-Reached from the gear icon on any screen.
+Reached from the settings button on any screen.
 
 | Section                   | What it does                                                                                                                                                                                                      |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -214,7 +226,9 @@ Reached from the gear icon on any screen.
 | **Confirmations**         | "Always ask before downloading" and "Always ask before saving" toggles                                                                                                                                            |
 | **Default App View**      | Which tab opens on launch — Library, Home, Search, or Downloads                                                                                                                                                   |
 | **Library**               | "Hide items already in a folder" — remove albums and playlists from the main Library list once they belong to a folder; "Rounded artwork" — display track and album artwork as circles instead of rounded squares |
-| **Themes**                | See [Themes](#themes) below                                                                                                                                                                                       |
+| **Interface style**       | Clean, Console, or PictoChat, plus Haptics, Crop artwork to fill, the Now Playing background, and the Home rows. See [Interface Styles](#interface-styles) below |
+| **Colors / Look / Themes** | Each style's color settings: Console's Colors, PictoChat's Look, or Clean's Themes |
+| **Themes (Clean)**        | See [Themes](#themes) below                                                                                                                                                                                       |
 | **Marquee Scroll Speed**  | How fast long titles scroll                                                                                                                                                                                       |
 | **Playlist Artwork**      | Use playlist art for tracks missing their own artwork, and optionally override track art with playlist art                                                                                                        |
 | **Track Metadata**        | Apply playlist-level track edits globally                                                                                                                                                                         |
@@ -228,9 +242,19 @@ Reached from the gear icon on any screen.
 | **About**                 | App version, credits, and links to the vgmu website and releases page                                                                                                                                             |
 | **Legal & Safety**        | Links to the Privacy Policy, EULA, and License                                                                                                                                                                    |
 
+## Interface Styles
+
+vgmu 1.1 has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean and are offered the new looks once. See the [Gallery](../GALLERY.md) for every screen in all three.
+
+- **Console** — a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fifteen accent colors plus any custom color, and a Background slider from darker to brighter. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, or nothing. Track rows keep the heart inline and put Add to playlist, Add to queue, and Download in a ⋯ sheet.
+- **PictoChat** — the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
+- **Clean** — the original, restrained vgmu look, with the color themes below and nothing animating.
+
+In every style, **Haptics** turns tap feedback on or off and **Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.
+
 ## Themes
 
-vgmu ships with dozens of built-in themes across several categories, previewed live before you apply them:
+Themes apply to the Clean interface style. vgmu ships with dozens of built-in themes across several categories, previewed live before you apply them:
 
 - **Baseline (Simple UI)** — follows your device's system light/dark setting, with a selectable accent color. The theme picker's preview swatch reflects your chosen accent and light/dark mode
 - **Light & Classic**, **Dark & Classic**

@@ -2,48 +2,31 @@
 
 # vgmu Gallery
 
-A visual tour of vgmu's interface, screen by screen.
+A screen-by-screen tour of vgmu 1.1 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The accent is pink in all three, and a few screens show dark appearance.
 
-**[Welcome Screen](#welcome-screen) · [Home Tab](#home-tab) · [Search](#search) · [Library](#library) · [Album Pages](#album-pages) · [Playback](#playback) · [Downloads](#downloads) · [Settings and Themes](#settings-and-themes) · [Backup & Restore](#backup--restore) · [Discord](#discord)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools)**
 
 </div>
 
 ---
 
-## Welcome Screen
+## Start here
 
-<div align="center"><b>The first thing you see on launch. No account, no sign-up, straight into the app.</b></div>
-
-<div align="center">
-<table><tr>
-<td align="center" width="280">
-<img src="assets/screenshots/welcome-screen.png" width="240"><br>
-<sub><b>Figure 1 — Welcome to vgmu</b><br>The first-time launch screen: a tiled logo backdrop behind the vgmu wordmark and a single "Start Listening" call to action.</sub>
-</td>
-</tr></table>
-</div>
-
-<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
-
----
-
-## Home Tab
-
-<div align="center"><b>Where every session starts: curated picks from the online catalog and one-tap presets for quick discovery.</b></div>
+<div align="center"><b>The launch splash, the welcome, and the one-time offer of the new looks. vgmu has three interfaces that share one Library, one set of downloads, and every setting: switch between them anytime in Settings under Interface style.</b></div>
 
 <div align="center">
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/home-most-favorites.jpg" width="240"><br>
-<sub><b>Figure 2 — Discover — Most Favorites</b><br>The Home feed's curated row, surfacing popular soundtracks like <i>Minecraft</i>, <i>Zelda: Breath of the Wild</i>, <i>Super Mario 64</i>, and <i>Mario Kart Wii</i>, with a pinned mini-player for <i>Kingdom Hearts III</i>.</sub>
+<img src="assets/screenshots/common-splash.jpg" width="240"><br>
+<sub><b>Figure 1 — Launch splash</b><br>The vgmu logo's EQ columns fill with color from left to right, drain, and fill again, in every interface, then the app fades in.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/home-latest.jpg" width="240"><br>
-<sub><b>Figure 3 — Discover — Latest</b><br>The newest soundtracks added to the catalog, from <i>CICADAMATA Demo Disk OST</i> to <i>DEATH STRANDING 2</i>, each tagged by release type and year.</sub>
+<img src="assets/screenshots/common-welcome.jpg" width="240"><br>
+<sub><b>Figure 2 — Welcome to vgmu</b><br>The first launch: the new vector logo over a tiled logo backdrop and a single Start Listening button. No account, no sign-up.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/browse-top-100.jpg" width="240"><br>
-<sub><b>Figure 4 — Browse — All-Time Top 100</b><br>On-demand discovery: Random Album / Random Song shortcuts up top, with the All-Time Top 100 preset ranking <i>Minecraft</i> and <i>Persona 5</i>.</sub>
+<img src="assets/screenshots/common-new-look.jpg" width="240"><br>
+<sub><b>Figure 3 — Two new looks</b><br>People updating from 1.0 keep the Clean look they know and are offered Console or PictoChat once. Any choice can be changed later in Settings.</sub>
 </td>
 </tr></table>
 </div>
@@ -52,306 +35,683 @@ A visual tour of vgmu's interface, screen by screen.
 
 ---
 
-## Search
+## Console · Home
+
+<div align="center"><b>Console is a home-menu interface after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color (pink here), SF Pro Rounded everywhere, and gentle motion.</b></div>
 
 <div align="center">
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/search-donkey-kong.jpg" width="240"><br>
-<sub><b>Figure 5 — "donkey kong" — sorted by Popularity</b><br>184 matching albums, with Reset Filters and Album Type chips above the results.</sub>
+<img src="assets/screenshots/console-home-greeting.jpg" width="240"><br>
+<sub><b>Figure 4 — Launch greeting</b><br>On the first Home visit after a cold start, a short game-flavored greeting for the time of day pops in letter by letter, then rolls up into the date.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/search-stardew-valley.jpg" width="240"><br>
-<sub><b>Figure 6 — "stardew" — sorted by Name</b><br>All 13 Stardew Valley soundtrack releases, sorted alphabetically with Album Type and Year filters.</sub>
+<img src="assets/screenshots/console-home.jpg" width="240"><br>
+<sub><b>Figure 5 — Home</b><br>Continue listening picks up the paused track with time left, where it plays from, and the next three tracks. Jump back in and New in your Library sit below, with Your Liked Tracks, Re-discover, Because you played, Trending now, and the catalog after them.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-dark-home.jpg" width="240"><br>
+<sub><b>Figure 6 — Home in dark</b><br>The same Home on Console's navy-black shell. Appearance follows the device or can be pinned to Light or Dark.</sub>
 </td>
 </tr></table>
 </div>
-
-<div align="center"><b>Search by album/soundtrack title with Sort, Album Type, Year, and Platform filters, plus paginated infinite-scroll results with a live count.</b></div>
 
 <div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
 
 ---
 
-## Library
+## Console · Search and albums
+
+<div align="center"><b>Search the catalog with sort and filter chips, then open an album to play, save, or download it.</b></div>
 
 <div align="center">
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/library-overview.jpg" width="240"><br>
-<sub><b>Figure 7 — Library overview</b><br>The "All" tab's Recents: a pinned Liked Tracks playlist plus saved albums for <i>Kingdom Hearts -HD 2.5 ReMIX-</i>, <i>Persona 3 Reload</i>, and <i>EarthBound</i>.</sub>
+<img src="assets/screenshots/console-search.jpg" width="240"><br>
+<sub><b>Figure 7 — Search — Final Fantasy</b><br>525 matching albums with Sort, Album type, Year, and Platform chips above the results.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/library-folder-view.jpg" width="240"><br>
-<sub><b>Figure 8 — Folder — "favorites!!"</b><br>A user-created folder grouping a playlist and an album, with a custom description and Play/Edit/Pin actions.</sub>
+<img src="assets/screenshots/console-search-filter.jpg" width="240"><br>
+<sub><b>Figure 8 — Album type filter</b><br>Narrow results to gamerips, soundtracks, singles, arrangements, or remixes.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/library-playlist-tracks.jpg" width="240"><br>
-<sub><b>Figure 9 — Playlist track list</b><br>A <i>BLUE REFLECTION</i> playlist, with per-track like, queue, add-to-playlist, and reveal-in-folder actions.</sub>
+<img src="assets/screenshots/console-album.jpg" width="240"><br>
+<sub><b>Figure 9 — Album — Kirby Air Riders</b><br>A saved album with its description, Play, pin, album information, and the saved bookmark.</sub>
 </td>
 </tr></table>
-
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/library-offline-collection-options.jpg" width="240"><br>
-<sub><b>Figure 10 — Offline Library — options</b><br>The auto-generated Offline Library collection (10 downloaded tracks), with Pin/Delete/Cancel.</sub>
+<img src="assets/screenshots/console-album-info.jpg" width="240"><br>
+<sub><b>Figure 10 — Album information</b><br>Artist, type, year, publisher, developers, platforms, and the full description.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/library-offline-track-list.jpg" width="240"><br>
-<sub><b>Figure 11 — Offline Library — tracks</b><br>Downloaded <i>Wii Sports</i> tracks with a delete action in place of download, since they're already on-device.</sub>
+<img src="assets/screenshots/console-track-actions.jpg" width="240"><br>
+<sub><b>Figure 11 — Track actions</b><br>A track's ⋯ button opens a 3DS-style sheet with Add to playlist, Add to queue, and Download. The heart stays inline on the row.</sub>
 </td>
-<td align="center" width="280">
-<img src="assets/screenshots/library-local-import-picker.jpg" width="240"><br>
-<sub><b>Figure 12 — Local Library — file picker</b><br>Importing audio straight from the device's file system via the native document picker.</sub>
-</td>
-</tr></table>
-
-<table><tr>
-<td align="center" width="280">
-<img src="assets/screenshots/library-importing-progress.jpg" width="240"><br>
-<sub><b>Figure 13 — Local Library — import progress</b><br>Batch-importing 129 local files with a live per-file progress bar.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/library-collection-options.jpg" width="240"><br>
-<sub><b>Figure 14 — Collection options</b><br>Long-press menu on a saved album: Pin, Unsave, or Cancel.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/library-add-to-playlist.jpg" width="240"><br>
-<sub><b>Figure 15 — Add to playlist</b><br>Choosing a destination playlist for a track, with a shortcut to start a new one.</sub>
-</td>
-</tr></table>
-
-<table><tr>
-<td align="center" width="280">
-<img src="assets/screenshots/library-create-playlist.jpg" width="240"><br>
-<sub><b>Figure 16 — Create Playlist</b><br>Naming a new playlist with custom artwork and a description.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/library-add-tracks-picker.jpg" width="240"><br>
-<sub><b>Figure 17 — Add tracks to a playlist</b><br>Picking tracks from All/Local/Liked filtered library views.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/library-rounded-artwork.jpg" width="240"><br>
-<sub><b>Figure 18 — Rounded artwork and filters</b><br>Circular cover art enabled in Settings, with Playlists/Albums/Folders/Downloaded chips and a Recently Added sort over folders and saved albums.</sub>
-</td>
+<td align="center" width="280"></td>
 </tr></table>
 </div>
-
-<div align="center"><b>Saved albums (any album with at least one library track), filter chips, and sort/view toggles round out collection management.</b></div>
 
 <div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
 
 ---
 
-## Album Pages
+## Console · Library
 
-<div align="center"><b>Every album's home base: play the whole thing, save it, download it, or dig into individual tracks and artwork.</b></div>
+<div align="center"><b>Your albums, playlists, folders, likes, and downloads, as a list or a grid of bezeled covers.</b></div>
 
 <div align="center">
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/album-mario-kart-wii.jpg" width="240"><br>
-<sub><b>Figure 19 — Mario Kart Wii</b><br>Play, Save, and Download actions on a 145-track album, with a "Saved album to Library" confirmation.</sub>
+<img src="assets/screenshots/console-library.jpg" width="240"><br>
+<sub><b>Figure 12 — Library</b><br>Liked Tracks and a folder pinned to the top, then collections by Recently Played, with filter chips for Playlists, Albums, Folders, and Downloaded.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/album-persona-5-royal.jpg" width="240"><br>
-<sub><b>Figure 20 — Persona 5 Royal</b><br>The disc listing with "Last Surprise" actively playing and liked, alongside per-track actions.</sub>
+<img src="assets/screenshots/console-library-grid.jpg" width="240"><br>
+<sub><b>Figure 13 — Library grid</b><br>The same Library as a grid, with custom playlist and folder artwork.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/album-information-octopath.jpg" width="240"><br>
-<sub><b>Figure 21 — Album information — Octopath Traveler II</b><br>Extended metadata: artist, type, year, publisher, developers, platforms, and description.</sub>
+<img src="assets/screenshots/console-dark-library.jpg" width="240"><br>
+<sub><b>Figure 14 — Library in dark</b><br>The list view on the dark shell.</sub>
 </td>
 </tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-playlist.jpg" width="240"><br>
+<sub><b>Figure 15 — Playlist — Road Trip Mix</b><br>A playlist with its own cover and description, Play, Edit, Download, and Pin.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-folder.jpg" width="240"><br>
+<sub><b>Figure 16 — Folder — Nintendo Classics</b><br>A folder grouping albums, with its own search and filter chips inside.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-liked.jpg" width="240"><br>
+<sub><b>Figure 17 — Liked Tracks</b><br>Every liked track in one place, sorted by Recently Added.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-offline.jpg" width="240"><br>
+<sub><b>Figure 18 — Offline Library</b><br>Downloaded tracks, grouped by album, playable with no connection.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-collection-options.jpg" width="240"><br>
+<sub><b>Figure 19 — Collection options</b><br>Hold a Library item to pin or delete it.</sub>
+</td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
 
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Console · Playback
+
+<div align="center"><b>Now Playing in Console, with a choice of moving backgrounds behind the player while music plays.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-now-playing.jpg" width="240"><br>
+<sub><b>Figure 20 — Now Playing — Notes</b><br>The cover in a white bezel with music notes in the logo's colors floating in and out behind it (the default background).</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-now-playing-xmb.jpg" width="240"><br>
+<sub><b>Figure 21 — Now Playing — XMB</b><br>The XMB wave rolling through the space between the cover and the title.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-now-playing-rings.jpg" width="240"><br>
+<sub><b>Figure 22 — Now Playing — Rings</b><br>Wii Menu style rings drifting slowly, one in your accent color.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-dark-now-playing.jpg" width="240"><br>
+<sub><b>Figure 23 — Now Playing in dark</b><br>Notes on the dark shell.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-queue.jpg" width="240"><br>
+<sub><b>Figure 24 — Playback Queue</b><br>The current track, your manual queue, and Next Up from the playlist, each clearable.</sub>
+</td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Console · Downloads and settings
+
+<div align="center"><b>Downloads, Settings, and the guide, all in Console's panels.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-downloads.jpg" width="240"><br>
+<sub><b>Figure 25 — Downloads</b><br>Active, Pending, Needs Attention, and Completed, with Play and Done on finished tracks.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-settings.jpg" width="240"><br>
+<sub><b>Figure 26 — Interface style</b><br>Pick Clean, Console, or PictoChat from picture cards. Haptics and Crop artwork to fill apply in every style.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-settings-home-rows.jpg" width="240"><br>
+<sub><b>Figure 27 — Now Playing background and Home</b><br>Choose XMB, Rings, Notes, or None, and turn each part of Home on or off.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-colors.jpg" width="240"><br>
+<sub><b>Figure 28 — Colors</b><br>Appearance, fifteen accent colors plus any custom color, and a Background slider from darker to brighter.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-backup.jpg" width="240"><br>
+<sub><b>Figure 29 — Backup & Restore</b><br>Export a backup file, import one, or schedule automatic backups.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-help.jpg" width="240"><br>
+<sub><b>Figure 30 — Help</b><br>The in-app guide, with a topic index that jumps to each section.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-about.jpg" width="240"><br>
+<sub><b>Figure 31 — About</b><br>The new logo, the version, and an update check.</sub>
+</td>
+<td align="center" width="280"></td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## PictoChat · Home
+
+<div align="center"><b>PictoChat draws the same app like the Nintendo DS chat app: a pixel font, pixel-cornered messages with name tabs, DS buttons that press in, pixel icons, and your DS color (a custom pink here) on the DS menu's grid.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-home-greeting.jpg" width="240"><br>
+<sub><b>Figure 32 — Launch greeting</b><br>The greeting types itself in letter by letter, like the DS keyboard, in the colored title bar.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-home.jpg" width="240"><br>
+<sub><b>Figure 33 — Home</b><br>Continue listening as a message with its name tab, then Jump back in and New in your Library in pixel frames.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-dark-home.jpg" width="240"><br>
+<sub><b>Figure 34 — Home in dark</b><br>An authored dark counterpart on a graphite grid, since the DS itself had no dark mode.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## PictoChat · Search and albums
+
+<div align="center"><b>Search, albums, and track actions in DS materials.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-search.jpg" width="240"><br>
+<sub><b>Figure 35 — Search — Pokémon</b><br>DS buttons for the filters and results outlined as one message.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-album.jpg" width="240"><br>
+<sub><b>Figure 36 — Album — Kirby Air Riders</b><br>The cover in an ink frame with pixel corners, pixel-framed info tags, and DS buttons.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-album-tracks.jpg" width="240"><br>
+<sub><b>Figure 37 — Track list</b><br>Rows divided by pale ruled lines in your color, with a Disc name tab.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-album-info.jpg" width="240"><br>
+<sub><b>Figure 38 — Album information</b><br>Sheets get PictoChat's colored title bar and a DS close button.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-track-actions.jpg" width="240"><br>
+<sub><b>Figure 39 — Track actions</b><br>The ⋯ sheet in PictoChat, with pixel icons.</sub>
+</td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## PictoChat · Library
+
+<div align="center"><b>The Library as messages and pixel frames.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-library.jpg" width="240"><br>
+<sub><b>Figure 40 — Library</b><br>Collections outlined like one message, with pixel pin icons and DS filter buttons.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-library-grid.jpg" width="240"><br>
+<sub><b>Figure 41 — Library grid</b><br>Covers in ink frames with pixel corners.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-dark-library.jpg" width="240"><br>
+<sub><b>Figure 42 — Library in dark</b><br>The list view on the graphite grid.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-playlist.jpg" width="240"><br>
+<sub><b>Figure 43 — Playlist</b><br>A playlist page with DS Play, Edit, Download, and Pin buttons.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-folder.jpg" width="240"><br>
+<sub><b>Figure 44 — Folder</b><br>A folder of albums with its own search and filters.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-liked.jpg" width="240"><br>
+<sub><b>Figure 45 — Liked Tracks</b><br>A pixel heart for Liked Tracks.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-offline.jpg" width="240"><br>
+<sub><b>Figure 46 — Offline Library</b><br>The playing track marked with the DS's colored corner brackets and square EQ bars.</sub>
+</td>
+<td align="center" width="280"></td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## PictoChat · Playback
+
+<div align="center"><b>Now Playing frames the cover and the title as two messages, over its own Now Playing background.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-now-playing.jpg" width="240"><br>
+<sub><b>Figure 47 — Now Playing — Squares</b><br>The DS boot screen's outlined squares fade in and out behind the player (the default background).</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-now-playing-chat.jpg" width="240"><br>
+<sub><b>Figure 48 — Now Playing — Chat</b><br>A faint pretend chat room behind the player: people come and go, type messages, and send hand-drawn pictures that draw themselves in.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-dark-now-playing.jpg" width="240"><br>
+<sub><b>Figure 49 — Chat in dark</b><br>The chat room on the dark canvas.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-now-playing-shuffle.jpg" width="240"><br>
+<sub><b>Figure 50 — Shuffle and repeat one</b><br>Selected buttons fill with your color and keep their icons legible. Repeat one gets a small black DS badge.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-queue.jpg" width="240"><br>
+<sub><b>Figure 51 — Playback Queue</b><br>Name tabs for each part of the queue and the selection corners on the current track.</sub>
+</td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## PictoChat · Look
+
+<div align="center"><b>Make PictoChat yours: your DS color, the background, the font, and more, under Settings → Look.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-look.jpg" width="240"><br>
+<sub><b>Figure 52 — Your color</b><br>Fifteen of the DS's sixteen user colors in the DS's own 4 × 4 grid, plus a custom color picker (the pink here).</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-look-fonts.jpg" width="240"><br>
+<sub><b>Figure 53 — Fonts and pixel art</b><br>NDS12 (the DS's own pixel font), DotGothic16, or M PLUS 1p, each shown in its own face, plus Pixelate artwork with a Pixel size slider.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-settings-home-rows.jpg" width="240"><br>
+<sub><b>Figure 54 — Now Playing background</b><br>Squares, Chat, or None, and the Home switches as DS ON/OFF toggles.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-paper-home.jpg" width="240"><br>
+<sub><b>Figure 55 — Paper lines background</b><br>Lined paper ruled in your color, like a PictoChat message, instead of the grid.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-paper-library.jpg" width="240"><br>
+<sub><b>Figure 56 — Library on paper</b><br>The Library on the lined paper background.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-smallgrid-home.jpg" width="240"><br>
+<sub><b>Figure 57 — Smaller grid</b><br>The Grid size slider shows more of the grid, like the DS screen.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-dotgothic-home.jpg" width="240"><br>
+<sub><b>Figure 58 — DotGothic16</b><br>A finer pixel font that is easier to read, with full Japanese.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-mplus-home.jpg" width="240"><br>
+<sub><b>Figure 59 — M PLUS 1p</b><br>A plain sans, like Nintendo's system menus.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-settings.jpg" width="240"><br>
+<sub><b>Figure 60 — Interface style</b><br>The Interface style cards drawn in PictoChat.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## PictoChat · Downloads and settings
+
+<div align="center"><b>The rest of the app, drawn the DS way.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-downloads.jpg" width="240"><br>
+<sub><b>Figure 61 — Downloads</b><br>Each section a message with its name tab.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-backup.jpg" width="240"><br>
+<sub><b>Figure 62 — Backup & Restore</b><br>Export and Import as DS buttons.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-help.jpg" width="240"><br>
+<sub><b>Figure 63 — Help</b><br>The guide's topics as DS buttons.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-about.jpg" width="240"><br>
+<sub><b>Figure 64 — About</b><br>About and update check in message panels.</sub>
+</td>
+<td align="center" width="280"></td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Clean · Home and library
+
+<div align="center"><b>Clean is the original, restrained vgmu look, with the same Home, Library, and features. It keeps the color themes and the Simple UI accent (pink here).</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-home-greeting.jpg" width="240"><br>
+<sub><b>Figure 65 — Home and greeting</b><br>The greeting under the Home title, then Continue listening and Jump back in, drawn plainly with nothing animating.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-home.jpg" width="240"><br>
+<sub><b>Figure 66 — Home</b><br>The same Home rows as Console and PictoChat, turned on or off in Settings.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-dark-home.jpg" width="240"><br>
+<sub><b>Figure 67 — Home in dark</b><br>Simple UI follows the device's dark appearance.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-library.jpg" width="240"><br>
+<sub><b>Figure 68 — Library</b><br>Filter chips, sort, and a list or grid.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-library-grid.jpg" width="240"><br>
+<sub><b>Figure 69 — Library grid</b><br>Large rounded covers.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-dark-library.jpg" width="240"><br>
+<sub><b>Figure 70 — Library in dark</b><br>The Library in dark appearance.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-playlist.jpg" width="240"><br>
+<sub><b>Figure 71 — Playlist</b><br>A playlist with its own cover and description.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-folder.jpg" width="240"><br>
+<sub><b>Figure 72 — Folder</b><br>A folder with a collage cover of the albums inside.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-liked.jpg" width="240"><br>
+<sub><b>Figure 73 — Liked Tracks</b><br>Liked Tracks in the accent color.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Clean · Albums and playback
+
+<div align="center"><b>Albums and Now Playing in Clean.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-album.jpg" width="240"><br>
+<sub><b>Figure 74 — Album</b><br>Album metadata and description with Play, Pin, and Save.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-now-playing.jpg" width="240"><br>
+<sub><b>Figure 75 — Now Playing</b><br>The classic player with like, shuffle, repeat, and the queue.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-downloads.jpg" width="240"><br>
+<sub><b>Figure 76 — Downloads</b><br>The download manager in Clean.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Clean · Settings and themes
+
+<div align="center"><b>Clean keeps Simple UI's accent colors and the full set of color themes.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-settings.jpg" width="240"><br>
+<sub><b>Figure 77 — Interface style</b><br>The Interface style cards in Clean.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-themes.jpg" width="240"><br>
+<sub><b>Figure 78 — Simple UI accent</b><br>Appearance, the accent swatches with a custom color, and Browse all themes.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/settings-theme-kawaii-pink.jpg" width="240"><br>
+<sub><b>Figure 79 — Kawaii Pink theme</b><br>Pastel surfaces with a sweet berry accent.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/settings-theme-discord-gaming.jpg" width="240"><br>
+<sub><b>Figure 80 — Discord theme</b><br>One of the gaming themes: dark community surfaces with the classic blurple accent.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-backup.jpg" width="240"><br>
+<sub><b>Figure 81 — Backup & Restore</b><br>Export, Import, and Auto Backup.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-help.jpg" width="240"><br>
+<sub><b>Figure 82 — Help</b><br>The in-app guide.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-about.jpg" width="240"><br>
+<sub><b>Figure 83 — About</b><br>Version and update check.</sub>
+</td>
+<td align="center" width="280"></td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Albums and library tools
+
+<div align="center"><b>Features that work the same in every interface (shown here in Clean).</b></div>
+
+<div align="center">
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/album-artwork-gallery.jpg" width="240"><br>
-<sub><b>Figure 22 — Artwork gallery — Kingdom Hearts III</b><br>Browsing alternate cover art and logo variants pulled from the catalog.</sub>
+<sub><b>Figure 84 — Artwork gallery</b><br>Browse alternate cover art and logo variants from the catalog.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/album-artwork-save-sheet.jpg" width="240"><br>
-<sub><b>Figure 23 — Artwork gallery — save options</b><br>Saving high-resolution artwork to Photos or Files from a 48-image gallery.</sub>
-</td>
-<td align="center" width="280"></td>
-</tr></table>
-</div>
-
-<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
-
----
-
-## Playback
-
-<div align="center">
-<table><tr>
-<td align="center" width="280">
-<img src="assets/screenshots/playback-now-playing-diva.jpg" width="220"><br>
-<sub><b>Figure 24 — Project DIVA Extend</b><br>"Title Theme" with repeat-one enabled.</sub>
+<sub><b>Figure 85 — Save artwork</b><br>Save high-resolution artwork to Photos or Files.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/playback-now-playing-tomodachi.jpg" width="220"><br>
-<sub><b>Figure 25 — Tomodachi Collection</b><br>"Music Box - Food Mart" from the Platinum Soundtrack.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/playback-now-playing-kirby.jpg" width="220"><br>
-<sub><b>Figure 26 — Kirby Air Riders</b><br>"Starlit Journey (EN ver.)," liked and mid-playback.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/playback-now-playing-square-enix-cry.jpg" width="220"><br>
-<sub><b>Figure 27 — SQUARE ENIX MUSIC: cry...</b><br>"The Girl Who Stole the Stars," shown with the app's blue accent theme.</sub>
+<img src="assets/screenshots/library-add-to-playlist.jpg" width="240"><br>
+<sub><b>Figure 86 — Add to playlist</b><br>Choose a playlist for a track, or start a new one.</sub>
 </td>
 </tr></table>
-
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/playback-queue.jpg" width="240"><br>
-<sub><b>Figure 28 — Playback Queue</b><br>Drag-to-reorder queue with a "Reordered Queue" confirmation and an auto-populated Next Up list.</sub>
+<img src="assets/screenshots/library-add-tracks-picker.jpg" width="240"><br>
+<sub><b>Figure 87 — Add tracks</b><br>Pick tracks from All, Local, or Liked views.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/library-local-import-picker.jpg" width="240"><br>
+<sub><b>Figure 88 — Local Library import</b><br>Import audio straight from the device's files.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/library-importing-progress.jpg" width="240"><br>
+<sub><b>Figure 89 — Import progress</b><br>Batch-importing local files with a live progress bar.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/library-rounded-artwork.jpg" width="240"><br>
+<sub><b>Figure 90 — Rounded artwork</b><br>Circular cover art, turned on in Settings.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/playback-swipe-next-track.jpg" width="240"><br>
-<sub><b>Figure 29 — Swipe to next track</b><br>Mid-swipe transition from <i>Plants vs. Zombies</i>' "Zombies on Your Lawn" into "Graze the Roof."</sub>
+<sub><b>Figure 91 — Swipe to next track</b><br>Swipe the player sideways to change tracks.</sub>
 </td>
-<td align="center" width="280">
-<img src="assets/screenshots/playback-lock-screen-widget.jpg" width="240"><br>
-<sub><b>Figure 30 — Lock screen media controls</b><br>System-level playback controls while the device is locked.</sub>
-</td>
-</tr></table>
-
-<table><tr>
-<td align="center" width="280">
-<img src="assets/screenshots/playback-lock-screen-full.jpg" width="240"><br>
-<sub><b>Figure 31 — Lock screen — full artwork</b><br>Background playback continuing with full-bleed album art on the lock screen.</sub>
-</td>
-<td align="center" width="280"></td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>
-
-<div align="center"><b>The always-visible mini-player (artwork, title/artist, transport controls, compact seek bar) sits beneath every screen. You can see it at the bottom of most figures above.</b></div>
 
 <div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
 
 ---
 
-## Downloads
+## Everywhere · Downloads and backups
 
-<div align="center"><b>Grab tracks or whole albums for offline listening, with per-track control over format and queue state.</b></div>
+<div align="center"><b>Offline saving and backups, in every interface.</b></div>
 
 <div align="center">
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/downloads-active-queue.jpg" width="240"><br>
-<sub><b>Figure 32 — Active queue</b><br>"Stickerbush Symphony" downloading at 4%, with empty Pending and Needs Attention sections.</sub>
+<img src="assets/screenshots/downloads-batch-remaining.jpg" width="240"><br>
+<sub><b>Figure 92 — Batch download</b><br>Grab the rest of an album's tracks in one go.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/downloads-batch-remaining.jpg" width="240"><br>
-<sub><b>Figure 33 — Batch download prompt</b><br><i>Wii Sports</i> has 1 of 51 tracks saved, with a prompt to grab the remaining 50 (56.7 MB).</sub>
+<img src="assets/screenshots/downloads-confirm-modal.jpg" width="240"><br>
+<sub><b>Figure 93 — Download confirmation</b><br>Confirm a download before it starts (optional).</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/downloads-cancel-modal.jpg" width="240"><br>
-<sub><b>Figure 34 — Cancel options</b><br>Mid-batch: cancel just the current track, cancel the whole remaining queue, or keep downloading.</sub>
+<sub><b>Figure 94 — Cancel options</b><br>Cancel one track, the rest of the queue, or keep going.</sub>
 </td>
 </tr></table>
-
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/downloads-confirm-modal.jpg" width="240"><br>
-<sub><b>Figure 35 — Download confirmation</b><br>Confirming a single-track download from the <i>Donkey Kong Country 2</i> album page.</sub>
+<img src="assets/screenshots/downloads-history-detail.jpg" width="240"><br>
+<sub><b>Figure 95 — Download History</b><br>File name, format, size, timestamps, and checksum for a verified download.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-download-quality.jpg" width="240"><br>
-<sub><b>Figure 36 — Format selection</b><br>Choosing MP3, alongside Best Available, FLAC Only, M4A/AAC, and OGG.</sub>
+<sub><b>Figure 96 — Download quality</b><br>Best Available, FLAC, M4A/AAC, MP3, or OGG.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/downloads-history-detail.jpg" width="240"><br>
-<sub><b>Figure 37 — Download History detail</b><br>Full per-track metadata for a verified download: file name, format, size, timestamps, checksum.</sub>
+<img src="assets/screenshots/settings-backup-export.jpg" width="240"><br>
+<sub><b>Figure 97 — Export a backup</b><br>Playlists, folders, likes, custom art, and settings in one file, through the share sheet.</sub>
 </td>
 </tr></table>
-</div>
-
-<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
-
----
-
-## Settings and Themes
-
-<div align="center">
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/settings-theme-kawaii-pink.jpg" width="240"><br>
-<sub><b>Figure 38 — Light & Classic theme — Kawaii Pink</b><br>Pastel surfaces with a sweet berry accent.</sub>
+<img src="assets/screenshots/settings-auto-backup-frequency.jpg" width="240"><br>
+<sub><b>Figure 98 — Auto Backup</b><br>Back up automatically, from every app open to weekly.</sub>
 </td>
-<td align="center" width="280">
-<img src="assets/screenshots/settings-ios-icon-customize.jpg" width="240"><br>
-<sub><b>Figure 39 — iOS icon customization</b><br>The vgmu Home Screen icon with Default/Dark/Clear/Tinted variants.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/settings-theme-discord-gaming.jpg" width="240"><br>
-<sub><b>Figure 40 — Gaming theme — Discord</b><br>Dark community surfaces with the classic blurple accent.</sub>
-</td>
-</tr></table>
-
-<div align="center"><b>Baseline (Simple UI) with an accent color, or dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and more), each with a live preview before applying.</b></div>
-
-<table><tr>
-<td align="center" width="280">
-<img src="assets/screenshots/settings-about.jpg" width="240"><br>
-<sub><b>Figure 41 — About</b><br>App identity, version, and author info, linking to the GitHub releases repo.</sub>
-</td>
-<td align="center" width="280">
-<img src="assets/screenshots/settings-help.jpg" width="240"><br>
-<sub><b>Figure 42 — Help — "How to use vgmu"</b><br>The in-app guide's topic index: gestures, discovery, library, downloads, playback, settings, and more.</sub>
-</td>
+<td align="center" width="280"></td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>
 
-<div align="center"><b>Other settings include Default App View, Confirmations, Marquee Scroll Speed, Playlist Artwork behavior, Track Metadata edits, Local Library folder scanning, and Download History retention.</b></div>
-
 <div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
 
 ---
 
-## Backup & Restore
+## Everywhere · System and Discord
 
-<div align="center"><b>Move a library to a new install, or let vgmu snapshot it on a schedule and restore from those snapshots in place.</b></div>
+<div align="center"><b>Lock screen controls, the Home Screen icon, and Discord Rich Presence.</b></div>
 
 <div align="center">
 <table><tr>
 <td align="center" width="280">
-<img src="assets/screenshots/settings-backup-export.jpg" width="240"><br>
-<sub><b>Figure 43 — Backup & Restore — export</b><br>Exporting playlists, folders, liked and saved tracks, custom art, and settings as one dated file, here 9.1 MB, through the system share sheet.</sub>
+<img src="assets/screenshots/playback-lock-screen-widget.jpg" width="240"><br>
+<sub><b>Figure 99 — Lock screen controls</b><br>System playback controls while the phone is locked.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/settings-auto-backup-frequency.jpg" width="240"><br>
-<sub><b>Figure 44 — Auto Backup — frequency</b><br>Scheduling unattended backups from every app open through 15 minutes, hourly, daily, weekly, or off, with Every hour selected.</sub>
+<img src="assets/screenshots/playback-lock-screen-full.jpg" width="240"><br>
+<sub><b>Figure 100 — Lock screen artwork</b><br>Full album art on the lock screen during background playback.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/settings-ios-icon-customize.jpg" width="240"><br>
+<sub><b>Figure 101 — iOS icon</b><br>Default, Dark, Clear, and Tinted Home Screen icons.</sub>
 </td>
 </tr></table>
-</div>
-
-<div align="center"><b>Auto Backup keeps a rolling window of recent snapshots, each restorable by timestamp. Downloaded audio and local imports stay with the install that made them.</b></div>
-
-<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
-
----
-
-## Discord
-
-<div align="center"><b>Optional Rich Presence shows your current track live on your Discord profile, with a matching in-app theme to go with it.</b></div>
-
-<div align="center">
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-storage-discord-rp.jpg" width="240"><br>
-<sub><b>Figure 45 — Storage breakdown</b><br>Downloaded tracks, local imports, and artwork by size, 619.4 MB in total.</sub>
+<sub><b>Figure 102 — Storage and Discord</b><br>Storage by type, and the optional Discord Rich Presence connection.</sub>
 </td>
-<td align="center" width="320">
-<img src="assets/screenshots/discord-rp-nintendo.png" width="280"><br>
-<sub><b>Figure 46 — Discord profile — Nintendo</b><br>"Music Box - Food Mart" live on a connected Discord profile.</sub>
+<td align="center" width="280">
+<img src="assets/screenshots/discord-rp-nintendo.png" width="240"><br>
+<sub><b>Figure 103 — Discord profile</b><br>What you are playing, live on your Discord profile.</sub>
 </td>
-<td align="center" width="320">
-<img src="assets/screenshots/discord-rp-atlus-sega.png" width="280"><br>
-<sub><b>Figure 47 — Discord profile — Atlus & Sega</b><br>"Last Surprise" from <i>Persona 5 Royal</i> with a live progress bar.</sub>
+<td align="center" width="280">
+<img src="assets/screenshots/discord-rp-atlus-sega.png" width="240"><br>
+<sub><b>Figure 104 — Discord progress</b><br>"Last Surprise" from <i>Persona 5 Royal</i> with a live progress bar.</sub>
 </td>
 </tr></table>
 </div>
@@ -361,5 +721,5 @@ A visual tour of vgmu's interface, screen by screen.
 ---
 
 <div align="center">
-<sub>Customizable, simple and functional. Download now!</sub>
+<sub>Three looks, one library. Download now!</sub>
 </div>

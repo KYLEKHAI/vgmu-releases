@@ -34,14 +34,16 @@ See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructio
 ## Peek Into The App
 
 <p align="center">
-  <img src="assets/screenshots/console-home.jpg" width="150">
-  <img src="assets/screenshots/console-now-playing.jpg" width="150">
-  <img src="assets/screenshots/pictochat-home.jpg" width="150">
-  <img src="assets/screenshots/pictochat-now-playing-chat.jpg" width="150">
-  <img src="assets/screenshots/clean-home.jpg" width="150">
-  <img src="assets/screenshots/console-dark-library.jpg" width="150">
-  <img src="assets/screenshots/pictochat-look.jpg" width="150">
-  <img src="assets/screenshots/discord-rp-nintendo.png" width="150">
+  <img src="assets/screenshots/console-home.jpg" width="190">
+  <img src="assets/screenshots/pictochat-home.jpg" width="190">
+  <img src="assets/screenshots/clean-album.jpg" width="190">
+  <img src="assets/screenshots/console-now-playing.jpg" width="190">
+</p>
+<p align="center">
+  <img src="assets/screenshots/pictochat-now-playing-chat.jpg" width="190">
+  <img src="assets/screenshots/console-dark-library.jpg" width="190">
+  <img src="assets/screenshots/pictochat-look.jpg" width="190">
+  <img src="assets/screenshots/discord-rp-nintendo.png" width="190">
 </p>
 
 Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, download for offline, and show off on Discord — see the full [Gallery](GALLERY.md) for every screen in all three.

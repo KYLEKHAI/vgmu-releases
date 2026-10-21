@@ -22,10 +22,10 @@
 
 ## Download
 
-- **Current release:** [v1.1.0 — September 28, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.1.0)
+- **Current release:** [v1.2.0 — October 21, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.2.0)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Start with the [AltStore Classic self-sideload guide](docs/INSTALLATION.md#ios).
-- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.1.0/vgmu-1.1.0-SHA256SUMS.txt)
+- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.2.0/vgmu-1.2.0-SHA256SUMS.txt)
 
 **Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen. The site is built from a separate private repository.
 
@@ -41,12 +41,12 @@ See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructio
 </p>
 <p align="center">
   <img src="assets/screenshots/pictochat-now-playing-chat.jpg" width="190">
-  <img src="assets/screenshots/console-dark-library.jpg" width="190">
-  <img src="assets/screenshots/pictochat-look.jpg" width="190">
+  <img src="assets/screenshots/console-stats-top-game.jpg" width="190">
+  <img src="assets/screenshots/console-sound-lab.jpg" width="190">
   <img src="assets/screenshots/discord-rp-nintendo.png" width="190">
 </p>
 
-Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, download for offline, and show off on Discord — see the full [Gallery](GALLERY.md) for every screen in all three.
+Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, reshape any track in the Sound Lab, look back on your listening with Stats, download for offline, and show off on Discord — see the full [Gallery](GALLERY.md) for every screen in all three.
 
 ## Quick Links
 
@@ -61,7 +61,7 @@ Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoCh
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 1.1.0
+**Version:** 1.2.0
 
 ## ⚠️ Closed Source
 

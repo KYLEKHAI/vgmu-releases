@@ -2,9 +2,9 @@
 
 # vgmu Gallery
 
-A screen-by-screen tour of vgmu 1.1 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The accent is pink in all three, and a few screens show dark appearance.
+A screen-by-screen tour of vgmu 1.2 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The accent is pink in all three, and a few screens show dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab)**
 
 </div>
 
@@ -749,6 +749,78 @@ A screen-by-screen tour of vgmu 1.1 in all three interfaces: <b>Console</b>, <b>
 <img src="assets/screenshots/discord-rp-atlus-sega.png" width="240"><br>
 <sub><b>Figure 111 — Discord progress</b><br>"Last Surprise" from <i>Persona 5 Royal</i> with a live progress bar.</sub>
 </td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Listening stats
+
+<div align="center"><b>New in 1.2: Stats turns your plays into a short recap story, a summary, and a card you can share. Open it from the chart button on Home.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-stats-recap.jpg" width="240"><br>
+<sub><b>Figure 112 — Recap — time listened</b><br>How much game music you played this week, across how many games and tracks.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-stats-top-game.jpg" width="240"><br>
+<sub><b>Figure 113 — Recap — top game</b><br>The soundtrack you spent the most time with.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-stats-streak.jpg" width="240"><br>
+<sub><b>Figure 114 — Recap — peak hour and streak</b><br>The hour you listen most and your longest run of days in a row.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-stats-summary.jpg" width="240"><br>
+<sub><b>Figure 115 — Stats summary</b><br>Week, Month, Year, or All time, with your top games and highlights.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-recap-share.jpg" width="240"><br>
+<sub><b>Figure 116 — Share your recap</b><br>A story-sized card in your interface style. Pick what it shows, add photo or GIF stickers, and share it as an image or a GIF.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-stats-top-game.jpg" width="240"><br>
+<sub><b>Figure 117 — Recap in PictoChat</b><br>The same recap drawn in PictoChat's pixel font and DS frames.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Sound Lab
+
+<div align="center"><b>New in 1.2: speed, pitch, reverb, and a three-band equalizer for every track. Open it from the sliders button in Now Playing or from Settings.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-sound-lab.jpg" width="240"><br>
+<sub><b>Figure 118 — Sound Lab — Slowed + Reverb</b><br>One tap for the Slowed + Reverb or Nightcore preset, or set speed and pitch yourself. Linked pitch follows speed like a record player.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-sound-lab-eq.jpg" width="240"><br>
+<sub><b>Figure 119 — Reverb and equalizer</b><br>Add reverb, then shape bass, mids, and treble.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-sound-lab.jpg" width="240"><br>
+<sub><b>Figure 120 — Sound Lab in PictoChat</b><br>DS buttons and switches throughout.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-sound-lab.jpg" width="240"><br>
+<sub><b>Figure 121 — Sound Lab in Clean</b><br>The original look with your accent color.</sub>
+</td>
+<td align="center" width="280"></td>
+<td align="center" width="280"></td>
 </tr></table>
 </div>
 

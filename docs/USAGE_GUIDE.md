@@ -13,6 +13,8 @@ A complete reference for everything vgmu can do.
 - [Library](#library)
 - [Album Pages](#album-pages)
 - [Playback](#playback)
+- [Sound Lab](#sound-lab)
+- [Listening Stats](#listening-stats)
 - [Likes](#likes)
 - [Downloads](#downloads)
 - [Local Library Import](#local-library-import)
@@ -168,6 +170,27 @@ Playback continues when you close or minimize vgmu, and when your device is lock
 
 Your queue, current track, and playback position are saved automatically and restored the next time you open the app.
 
+## Sound Lab
+
+The Sound Lab changes how every track sounds. Open it from the sliders button in Now Playing, or from **Settings → Sound effects & equalizer**, and switch it **On**.
+
+- **Effects**: pick **Slowed + Reverb** or **Nightcore** for a one-tap preset, or **Off** to go back to normal.
+- **Speed & Pitch**: with **Linked**, pitch follows speed like a record player. Choose **Independent** to change speed and pitch separately.
+- **Reverb**: the **Mix** control adds space to the sound.
+- **Equalizer**: three sliders for bass, mids, and treble. **Reset** puts them back to 0 dB.
+
+Effects belong to your listening session, like shuffle and repeat: they apply to every track until you switch the Sound Lab off. They work on downloaded and streamed tracks alike. While the Sound Lab is on, a streamed track is downloaded whole before it plays, so online tracks may take a little longer to start; the next track in your queue is fetched ahead so it starts with effects right away.
+
+## Listening Stats
+
+vgmu keeps a log of what you play, on your device only, and turns it into **Stats**. Open it with the chart button at the top of Home.
+
+- **Recap**: a short story of cards for the range you pick: time listened, your top game, the track on repeat, your busiest day, your peak listening hour and longest streak, and your top games. Tap to move forward, use the arrows to go back, or tap **Skip** to jump to the summary.
+- **Summary**: choose **Week**, **Month**, **Year**, or **All time** to see time listened, plays, albums, top games, top tracks, a listening chart, and highlights such as your most replayed track and new games.
+- **Share**: makes a story-sized card in your current interface style. Choose what it shows (highlights, top games, top tracks, a listening chart), add up to three photo or GIF stickers that you can move, pinch, and rotate, then **Share image** or **Share GIF**. vgmu remembers your choices for next time.
+
+Your play history is never sent anywhere. It is included in backups, so it moves with your library to a new install.
+
 ## Likes
 
 Tap the **heart icon** on any track row or in the full player to like it. Liking a track also saves its parent album to your Library if it isn't already saved. Liked tracks show up in **Library → Liked Tracks**; tap the heart again to remove one.
@@ -211,8 +234,9 @@ Use **Refresh** on an imported path to pick up new files. Refresh keeps working 
 
 **Settings → Backup & Restore** lets you move your library to a new install or keep a personal copy.
 
-- **Export** saves a backup file containing your playlists, folders, liked and saved tracks, custom cover art, and all settings and themes. Share or store it wherever you like (Files, AirDrop, cloud storage, and so on). vgmu doesn't upload it anywhere on its own. A confirmation appears once the export has finished.
+- **Export** saves a backup file containing your playlists, folders, liked and saved tracks, custom cover art, listening history, and all settings and themes. Share or store it wherever you like (Files, AirDrop, cloud storage, and so on). vgmu doesn't upload it anywhere on its own.
 - **Import** restores a backup file onto the current install. This **replaces** everything currently in your library and settings with the backup's contents, so it asks for confirmation before proceeding.
+- **Older versions**: a backup made with vgmu 1.2 or later can't be imported into an older version of vgmu. Update the app first; vgmu 1.2 still imports backups made by older versions.
 - **What isn't included**: downloaded audio files and folders imported from your device aren't part of the backup, since they stay tied to the install that made them. After importing, saved tracks re-download when opened and album covers refresh automatically; local-import tracks reappear in playlists but need to be re-imported to play.
 
 ## Settings

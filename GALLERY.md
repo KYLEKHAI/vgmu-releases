@@ -2,9 +2,9 @@
 
 # vgmu Gallery
 
-A screen-by-screen tour of vgmu 1.2 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The accent is pink in all three, and a few screens show dark appearance.
+A screen-by-screen tour of vgmu 1.3 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. Most screens use a pink accent; the screens new in 1.3 use purple, and some show dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing)**
 
 </div>
 
@@ -193,7 +193,7 @@ A screen-by-screen tour of vgmu 1.2 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-downloads.jpg" width="240"><br>
-<sub><b>Figure 26 — Downloads</b><br>Active, Pending, Needs Attention, and Completed, with Play and Done on finished tracks.</sub>
+<sub><b>Figure 26 — Downloads</b><br>In the Manager tab: Active, Pending, Needs Attention, and Completed, with Download History a tap away.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-settings.jpg" width="240"><br>
@@ -211,7 +211,7 @@ A screen-by-screen tour of vgmu 1.2 in all three interfaces: <b>Console</b>, <b>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-backup.jpg" width="240"><br>
-<sub><b>Figure 30 — Backup & Restore</b><br>Export a backup file, import one, or schedule automatic backups.</sub>
+<sub><b>Figure 30 — Backup & Restore</b><br>In the Manager tab: export a backup file, import one, or schedule automatic backups.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-help.jpg" width="240"><br>
@@ -462,7 +462,7 @@ A screen-by-screen tour of vgmu 1.2 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/pictochat-downloads.jpg" width="240"><br>
-<sub><b>Figure 67 — Downloads</b><br>Each section a message with its name tab.</sub>
+<sub><b>Figure 67 — Downloads</b><br>Each section a message with its name tab, under Manager.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/pictochat-backup.jpg" width="240"><br>
@@ -797,7 +797,7 @@ A screen-by-screen tour of vgmu 1.2 in all three interfaces: <b>Console</b>, <b>
 
 ## Everywhere · Sound Lab
 
-<div align="center"><b>New in 1.2: speed, pitch, reverb, and a three-band equalizer for every track. Open it from the sliders button in Now Playing or from Settings.</b></div>
+<div align="center"><b>New in 1.2: speed, pitch, reverb, and a three-band equalizer for every track. Open it from the sliders button in Now Playing or from the Manager tab.</b></div>
 
 <div align="center">
 <table><tr>
@@ -818,6 +818,120 @@ A screen-by-screen tour of vgmu 1.2 in all three interfaces: <b>Console</b>, <b>
 <td align="center" width="280">
 <img src="assets/screenshots/clean-sound-lab.jpg" width="240"><br>
 <sub><b>Figure 121 — Sound Lab in Clean</b><br>The original look with your accent color.</sub>
+</td>
+<td align="center" width="280"></td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Manager and Transfer Hub
+
+<div align="center"><b>New in 1.3: the Downloads tab is now Manager, home to Sound Lab, Transfer Hub, Backup, and Downloads. Move music to and from a computer over Wi-Fi, or export it as tagged files.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-manager.jpg" width="240"><br>
+<sub><b>Figure 122 — Manager</b><br>The new fourth tab: Sound Lab, Transfer Hub, Backup, and Downloads, one tap each. Downloads shows how many are still in progress.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-manager.jpg" width="240"><br>
+<sub><b>Figure 123 — Manager in PictoChat</b><br>The same four tiles, drawn as DS panels.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-manager.jpg" width="240"><br>
+<sub><b>Figure 124 — Manager in Clean</b><br>The original look with your accent color.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-transfer-hub.jpg" width="240"><br>
+<sub><b>Figure 125 — Transfer Hub</b><br>Everything that moves music between this phone and a computer, grouped by direction.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-transfer-hub.jpg" width="240"><br>
+<sub><b>Figure 126 — Transfer Hub in PictoChat</b><br>Onto this phone and Off this phone, as message panels.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-wifi-transfer.jpg" width="240"><br>
+<sub><b>Figure 127 — Wi-Fi Transfer</b><br>Open the address on a computer on the same Wi-Fi and enter the code. Plug in a cable for a faster direct address.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-wifi-banner.jpg" width="240"><br>
+<sub><b>Figure 128 — Keeps running while you browse</b><br>Wi-Fi Transfer stays on as you move around vgmu, with its code and a Stop button above the player.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/wifi-transfer-web.png" width="240"><br>
+<sub><b>Figure 129 — The page on your computer</b><br>Drop music files or folders in, or download albums and playlists: all of one, single tracks, or the ones you tick, as one .zip or separate files.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-export.jpg" width="240"><br>
+<sub><b>Figure 130 — Export Music</b><br>Copy downloaded albums and playlists into any folder as tagged files, with cover art, that any player can open.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Sharing
+
+<div align="center"><b>New in 1.3: send a playlist or a whole folder to a friend as a link or a .vgmu file. They open it in vgmu and stream it from the catalog.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-share-playlist.jpg" width="240"><br>
+<sub><b>Figure 131 — Share a playlist</b><br>Send a link or a small .vgmu file. Only the track list travels: whoever opens it streams the tracks from the catalog.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-share-file.jpg" width="240"><br>
+<sub><b>Figure 132 — Share as a file</b><br>Send the .vgmu file through Messages, AirDrop, or anywhere else. It can carry the playlist's cover too.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/share-file-preview.jpg" width="240"><br>
+<sub><b>Figure 133 — Readable without vgmu</b><br>A .vgmu file opens as plain text anywhere, so the track list shows even on a phone without vgmu.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-share-folder.jpg" width="240"><br>
+<sub><b>Figure 134 — Share a folder</b><br>Share a whole folder of playlists and albums the same way.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-shared-with-you.jpg" width="240"><br>
+<sub><b>Figure 135 — Shared with You</b><br>Everything sent to you, with who sent it and how much is already in your Library. Play it first or add it.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-shared-playlist.jpg" width="240"><br>
+<sub><b>Figure 136 — A shared playlist</b><br>Play it as is, add it as a new playlist, or add its tracks to one you already have.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-shared-folder.jpg" width="240"><br>
+<sub><b>Figure 137 — A shared folder</b><br>Add it as a new folder with all of its playlists and albums.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-shared-playlist.jpg" width="240"><br>
+<sub><b>Figure 138 — Shared playlist in PictoChat</b><br>A friend's playlist, drawn the DS way.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-shared-with-you.jpg" width="240"><br>
+<sub><b>Figure 139 — Shared with You in Clean</b><br>The same cards in the original look.</sub>
+</td>
+</tr></table>
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/shared-link-web.png" width="240"><br>
+<sub><b>Figure 140 — Opening a link</b><br>A share link opens a page with the playlist or folder and an Open in vgmu button, or a way to get vgmu.</sub>
 </td>
 <td align="center" width="280"></td>
 <td align="center" width="280"></td>

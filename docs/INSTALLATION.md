@@ -51,7 +51,7 @@ Replace `filename` with the downloaded APK or IPA. If values differ, do not inst
 
 Back up before changing your installation. Do not rely on an update or reinstall preserving all local data.
 
-1. In VGMU, open **Settings → Backup & Restore → Export backup**.
+1. In VGMU, open **Manager → Backup → Export backup** (before version 1.3, **Settings → Backup & Restore**).
 2. Save the exported file **outside the app**. Auto Backup snapshots inside the app can be lost when the app is removed.
 3. Install the new APK or IPA using the steps above.
 4. Use **Import backup** as needed. Review the [usage guide](USAGE_GUIDE.md#backup--restore) for backup contents and limitations; do not assume saved audio is included.

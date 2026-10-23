@@ -43,10 +43,10 @@ See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructio
   <img src="assets/screenshots/pictochat-now-playing-chat.jpg" width="190">
   <img src="assets/screenshots/console-stats-top-game.jpg" width="190">
   <img src="assets/screenshots/console-sound-lab.jpg" width="190">
-  <img src="assets/screenshots/discord-rp-nintendo.png" width="190">
+  <img src="assets/screenshots/console-shared-playlist.jpg" width="190">
 </p>
 
-Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, reshape any track in the Sound Lab, look back on your listening with Stats, download for offline, and show off on Discord — see the full [Gallery](GALLERY.md) for every screen in all three.
+Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, reshape any track in the Sound Lab, look back on your listening with Stats, share playlists and folders with friends, move music to and from a computer over Wi-Fi, download for offline, and show off on Discord — see the full [Gallery](GALLERY.md) for every screen in all three.
 
 ## Quick Links
 

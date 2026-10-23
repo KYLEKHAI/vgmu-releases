@@ -37,7 +37,7 @@ vgmu may ask for access needed for actions you choose, including selecting or sa
 
 Local data remains on the device until you remove it through vgmu, clear the relevant history or files, disconnect Discord, uninstall the App, or otherwise manage the device storage. Download history can be configured to be removed immediately or after a selected retention period. Resolved source audio URLs are intended to be short-lived and are not durable library identifiers.
 
-vgmu does not provide an account-based or cloud-synced backup service. It does offer a manual, on-device backup and restore feature (Settings → Backup & Restore) that exports your library metadata and settings to a file you choose where to store or share; that file stays under your control and is not sent to vgmu or a vgmu-operated service. Device operating-system backup behavior is controlled by the platform and its provider. Third-party services control their own retention of requests and content.
+vgmu does not provide an account-based or cloud-synced backup service. It does offer a manual, on-device backup and restore feature (Manager → Backup; Settings → Backup & Restore before version 1.3) that exports your library metadata and settings to a file you choose where to store or share; that file stays under your control and is not sent to vgmu or a vgmu-operated service. Device operating-system backup behavior is controlled by the platform and its provider. Third-party services control their own retention of requests and content.
 
 Disconnecting Discord clears the stored Discord token from vgmu’s secure storage. Removing local audio or artwork does not remove copies or records retained by a third-party service.
 

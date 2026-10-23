@@ -32,7 +32,7 @@
 **Q: My music library disappeared. Can I recover it?**
 
 - Your library is stored locally on your device. If deleted without a backup, it cannot be recovered
-- Use **Settings → Backup & Restore** to export a backup file (playlists, folders, liked and saved tracks, custom artwork, and settings) before uninstalling or switching devices, and **Import** it on the new install
+- Use **Manager → Backup** to export a backup file (playlists, folders, liked and saved tracks, custom artwork, and settings) before uninstalling or switching devices, and **Import** it on the new install
 - vgmu does not sync libraries across devices on its own — Backup & Restore is a manual, on-demand transfer, not automatic syncing
 
 ### Common Issues
@@ -63,6 +63,18 @@
 - Use a folder vgmu can access, and avoid importing the main Downloads folder directly
 - If vgmu asks you to add a folder again, choose the same folder with **Add path** to restore access; your imported tracks stay
 - On iPhone, folders added before version 1.0.7 need to be added again once
+
+**Wi-Fi Transfer page won't load on the computer**
+
+- Keep vgmu open on the phone: transfer stops when you leave the app
+- The phone and computer need to be on the same Wi-Fi. School, office, and hotel networks often keep devices from reaching each other; try a home network or your phone's hotspot
+- Or plug the phone in with a cable and use the **By cable · faster** address. If none appears, turn on Personal Hotspot (iPhone) or USB tethering (Android)
+- After ten wrong codes Wi-Fi Transfer stops; tap **Start** again for a new code
+
+**A shared link or .vgmu file doesn't open in vgmu**
+
+- Update to vgmu 1.3 or later; earlier versions can't open shared playlists
+- For a link, tap **Open in vgmu** on the page it shows. For a file in Messages, tap it, then choose vgmu. You can also save it to Files and use **Open a shared file…** in Shared with You
 
 **Discord Rich Presence says "Not available in this build"**
 

@@ -16,7 +16,10 @@ A complete reference for everything vgmu can do.
 - [Sound Lab](#sound-lab)
 - [Listening Stats](#listening-stats)
 - [Likes](#likes)
+- [Manager](#manager)
 - [Downloads](#downloads)
+- [Sharing Playlists and Folders](#sharing-playlists-and-folders)
+- [Transfer Hub](#transfer-hub)
 - [Local Library Import](#local-library-import)
 - [Backup & Restore](#backup--restore)
 - [Settings](#settings)
@@ -29,9 +32,11 @@ A complete reference for everything vgmu can do.
 
 ## Navigation
 
-vgmu has four tabs (**Home**, **Search**, **Library**, and **Downloads**) plus a **Settings** button in the header of every screen (a gear, or sliders in PictoChat). There is no account or sign-in; everything works locally on your device from the moment you install the app.
+vgmu has four tabs (**Home**, **Search**, **Library**, and **Manager**) plus a **Settings** button in the header of every screen (a gear, or sliders in PictoChat). There is no account or sign-in; everything works locally on your device from the moment you install the app.
 
 A **mini-player** appears above the tab bar whenever a track is loaded, showing artwork, title/artist, transport controls, and a compact progress bar. Tap it to open the full-screen **Now Playing** player.
+
+Tap the tab you're already on to return to its first page.
 
 ## Home
 
@@ -56,7 +61,7 @@ Each card shows the album title and a subtitle (type and year, when known). Pull
 
 **Automatic refresh** is Wi-Fi-first by default. Home only refreshes itself over cellular data if you enable **Settings → Network → Refresh Home on cellular**. If a refresh fails, Home keeps showing your last successful data along with an "Updated {time}" note so you're never left with a blank screen.
 
-Tap **Browse** in the header to jump to more discovery options.
+Tap **Browse** in the header to jump to more discovery options, or the **chart** button to see your [Listening Stats](#listening-stats).
 
 ## Browse
 
@@ -111,9 +116,10 @@ These three can't be deleted, since they represent live state rather than someth
 - **Search within your library**
 - **Sort**: Recently Played or Title. Playing a collection inside a folder updates the timestamp for both the collection and the parent folder
 - **View**: list or grid
-- **Pin**: long-press a collection → **Collection options → Pin**, to keep up to 4 favorites at the top of the tab
+- **Pin**: long-press a collection → **Collection options → Pin**, to keep up to 8 favorites at the top of the tab
 - **Delete/Unsave**: long-press → Delete (for playlists/folders) or Unsave (for albums). Deleting a playlist or folder removes only the organizational grouping, never the underlying tracks, your likes, or any downloaded files.
-- **Hide items already in a folder**: an optional setting (**Settings → Library**) that removes albums and playlists from the main Library list once they belong to a folder, so they only show up inside that folder.
+- **Shared with You**: the **people** button beside the list and grid toggle opens what friends have sent you (see [Sharing Playlists and Folders](#sharing-playlists-and-folders)). The **Shared** filter chip lists the playlists you've added from them.
+- **Hide items already in a folder**: on by default (**Settings → Library**), it removes albums and playlists from the main Library list once they belong to a folder, so they only show up inside that folder.
 
 ### Editing playlists and folders
 
@@ -135,6 +141,7 @@ Every album page offers:
 - A **track search** that filters the list. While a search is active, playback follows it: tapping a track, or **Play album**, plays just the matching tracks, and Next Up holds those results instead of the whole album. The same applies to playlist and folder pages.
 - A gallery of alternate cover art, when the catalog provides more than one image
 - An "album information" panel with additional metadata
+- The album's description. In Console and PictoChat it shows right on the page; in Clean, tap the album's title area to reveal it
 
 ## Playback
 
@@ -148,6 +155,7 @@ The mini-player (bottom of screen) gives you play/pause, previous/next, and a co
 - **Shuffle** toggle
 - **Repeat**, which cycles Off → Repeat All → Repeat One (a small "1" badge shows when repeat-one is active)
 - **Queue** button, opening the full queue view
+- **Sliders** button, opening the [Sound Lab](#sound-lab)
 - Swipe the screen down to dismiss it back to the mini-player
 - Tapping the title/artist jumps you to the album, playlist, or folder the current track is playing from, scrolling straight to that track and highlighting it. When you're playing a whole folder, it opens the album that holds the track inside that folder.
 
@@ -172,32 +180,44 @@ Your queue, current track, and playback position are saved automatically and res
 
 ## Sound Lab
 
-The Sound Lab changes how every track sounds. Open it from the sliders button in Now Playing, or from **Settings → Sound effects & equalizer**, and switch it **On**.
+The Sound Lab changes how every track sounds. Open it from the **sliders** button in Now Playing, or from the **Sound Lab** tile in **Manager**, and turn it on.
 
-- **Effects**: pick **Slowed + Reverb** or **Nightcore** for a one-tap preset, or **Off** to go back to normal.
-- **Speed & Pitch**: with **Linked**, pitch follows speed like a record player. Choose **Independent** to change speed and pitch separately.
-- **Reverb**: the **Mix** control adds space to the sound.
-- **Equalizer**: three sliders for bass, mids, and treble. **Reset** puts them back to 0 dB.
+- **Presets**: **Slowed + Reverb** (0.8× speed with reverb) or **Nightcore** (1.25× speed), one tap each. **Off** resets speed, pitch, and reverb.
+- **Speed**: from 0.5× to 1.5×.
+- **Pitch**: **Linked** pitch follows speed like a record player; **Independent** sets pitch on its own, up to 12 semitones up or down.
+- **Reverb**: a Mix slider that adds space to the sound.
+- **Equalizer**: Bass, Mid, and Treble, each up to 12 dB up or down, with a Reset button.
 
-Effects belong to your listening session, like shuffle and repeat: they apply to every track until you switch the Sound Lab off. They work on downloaded and streamed tracks alike. While the Sound Lab is on, a streamed track is downloaded whole before it plays, so online tracks may take a little longer to start; the next track in your queue is fetched ahead so it starts with effects right away.
+Effects work on downloaded and streamed tracks, and stay on for every track until you turn the Sound Lab off. Your settings are remembered for next time and included in backups. While it's on, a streamed track downloads whole before it plays, so it can take a moment longer to start. Tracks longer than 10 minutes play without effects.
 
 ## Listening Stats
 
-vgmu keeps a log of what you play, on your device only, and turns it into **Stats**. Open it with the chart button at the top of Home.
+Tap the **chart** button at the top of **Home** to open Stats. Pick **Week**, **Month**, **Year**, or **All time** for a short recap you tap through: time listened, your top games and tracks, your busiest day, longest streak, peak hour, and new games. Tap **Skip** to go straight to the summary, where you can open a top game or play a top track.
 
-- **Recap**: a short story of cards for the range you pick: time listened, your top game, the track on repeat, your busiest day, your peak listening hour and longest streak, and your top games. Tap to move forward, use the arrows to go back, or tap **Skip** to jump to the summary.
-- **Summary**: choose **Week**, **Month**, **Year**, or **All time** to see time listened, plays, albums, top games, top tracks, a listening chart, and highlights such as your most replayed track and new games.
-- **Share**: makes a story-sized card in your current interface style. Choose what it shows (highlights, top games, top tracks, a listening chart), add up to three photo or GIF stickers that you can move, pinch, and rotate, then **Share image** or **Share GIF**. vgmu remembers your choices for next time.
+A track counts as played once you've listened for 30 seconds, or half of a shorter track. Your play history stays on your device and is included in backups.
 
-Your play history is never sent anywhere. It is included in backups, so it moves with your library to a new install.
+### Share your recap
+
+In Stats, tap **Share** to make a story-sized card in your interface style. Choose what it shows (highlights, top games, top tracks, and a listening chart), and add up to three photo or GIF stickers you can drag, pinch, and turn. Then tap **Share image**, or **Share GIF** for an animated card.
 
 ## Likes
 
 Tap the **heart icon** on any track row or in the full player to like it. Liking a track also saves its parent album to your Library if it isn't already saved. Liked tracks show up in **Library → Liked Tracks**; tap the heart again to remove one.
 
+## Manager
+
+The **Manager** tab holds the tools that look after your music, as four tiles:
+
+- **Sound Lab** — speed, pitch, reverb, and the equalizer (see [Sound Lab](#sound-lab))
+- **Transfer Hub** — move music to and from a computer (see [Transfer Hub](#transfer-hub))
+- **Backup** — save or restore your Library (see [Backup & Restore](#backup--restore))
+- **Downloads** — the download queue and history (see [Downloads](#downloads)). The tile says how many are in progress.
+
+Manager's tab icon shows a live badge count of active, pending, and in-progress downloads.
+
 ## Downloads
 
-The **Downloads** tab tracks everything you're saving for offline playback. Its tab icon shows a live badge count of active, pending, and in-progress jobs.
+**Manager → Downloads** tracks everything you're saving for offline playback: Active, Pending, Needs Attention, and Completed. The clock button opens your Download History.
 
 ### How the queue works
 
@@ -224,6 +244,41 @@ You can pause and resume the active download, or cancel just the current track v
 
 Finished downloads appear in a "Completed" section. Tap **Done** to acknowledge them, after which they move into a **Download History** you can review later. You control how long history entries stick around in **Settings → Download History**. Every file is checksum-verified before it's counted as successfully saved.
 
+## Sharing Playlists and Folders
+
+Send a playlist or a whole folder to a friend. Only the list of tracks travels, never audio: whoever opens it streams the tracks from the catalog, or downloads them as usual.
+
+- **Share**: open one of your playlists or folders and tap the **Share** button. Add your name if you like, then pick **Share link** to send a link by Messages, email, or anything else, or **Share file** to send a small **.vgmu** file. **Include the cover** adds a playlist's custom cover to the file (links can't carry it).
+- **Tracks from your own files** can't be shared and are left out; the sheet says how many. A playlist made only of your own files points you to **Transfer Hub** to send the music itself.
+- **Opening a link** shows a page with the playlist or folder and an **Open in vgmu** button. Without vgmu, that page offers the download instead.
+- **Opening a file**: tap a .vgmu file in Files, or in Messages tap it and then vgmu. A .vgmu file is plain text, so without vgmu it still shows the track list.
+- **Shared with You**: everything sent to you lands here as a card, kept apart from your own playlists until you add it. Open it from the **people** button in Library; its badge counts what you haven't added yet. **Open a shared file…** reads a .vgmu file saved in Files.
+- **Adding it**: a shared playlist page shows who sent it, its tracks, and how many are already in your Library. **Play** streams it straight away, **Add as a new playlist** keeps it, and **Add tracks…** merges it into one of your playlists without repeating tracks. A shared folder offers **Add as a new folder**, which makes the folder and its playlists and saves its albums.
+- **Deleting**: the trash button on a card, or **Delete** on its page, removes it along with the playlist or folder you made from it. Saved albums, likes, and downloads stay, and a playlist you merged it into is never deleted.
+
+## Transfer Hub
+
+**Manager → Transfer Hub** gathers every way music moves between this phone and a computer.
+
+### Wi-Fi Transfer
+
+1. Tap **Start**. vgmu shows an address and a four-digit code.
+2. On a computer on the same Wi-Fi, open the address in a web browser and enter the code.
+3. **Send to your phone**: drop music files or whole folders onto the page, or use **Choose files** / **Choose a folder**. MP3, FLAC, M4A, and Ogg files go into **Library → Local Library** under "Wi-Fi Transfer", with their tags and covers.
+4. **Get from your phone**: every downloaded album and playlist is listed. Use **Download all**, open one to download single tracks, or tick tracks for **Download selected**. With **Save as one .zip** ticked, you get one download that opens into a folder named after the album or playlist; untick it for separate files.
+
+You can keep using vgmu while Wi-Fi Transfer runs: a banner above the mini-player shows the code and has **Stop**. The screen stays on, and transfer stops when you leave vgmu. Ten wrong codes stop it, and you start again for a new code. Some school, office, and hotel networks keep devices from reaching each other; if the page won't load, try a home network or your phone's hotspot.
+
+**Faster by cable**: plug the phone into the computer with a cable, and a second address appears, **By cable · faster**, which skips the router. If it doesn't, turn on Personal Hotspot (iPhone) or USB tethering (Android) with the cable plugged in.
+
+### Export albums or playlists
+
+**Export** copies downloaded albums and playlists into a folder you choose (Files, a drive, or a shared folder), one folder per album or playlist. Files are named "01 - Title" or by title alone. **Write tags** and **Embed cover art** rewrite MP3 and FLAC tags so a computer's music player shows the right title, album, track number, and cover; M4A and Ogg files keep the tags they came with.
+
+### Import a folder and back up
+
+**Import a folder** brings in files you copied by USB, AirDrop, or iCloud, through Local Library (see [Local Library Import](#local-library-import)). **Back up your Library** opens [Backup & Restore](#backup--restore).
+
 ## Local Library Import
 
 Beyond downloading from the catalog, you can import audio files already on your device. Imported tracks appear in **Library → Local Library**, separate from catalog downloads. Enable **Settings → Local Library → Scan nested folders** if your music is organized into subfolders.
@@ -232,11 +287,12 @@ Use **Refresh** on an imported path to pick up new files. Refresh keeps working 
 
 ## Backup & Restore
 
-**Settings → Backup & Restore** lets you move your library to a new install or keep a personal copy.
+**Manager → Backup** lets you move your library to a new install or keep a personal copy.
 
-- **Export** saves a backup file containing your playlists, folders, liked and saved tracks, custom cover art, listening history, and all settings and themes. Share or store it wherever you like (Files, AirDrop, cloud storage, and so on). vgmu doesn't upload it anywhere on its own.
+- **Export** saves a backup file containing your playlists, folders, liked and saved tracks, custom cover art, listening history, and all settings and themes. Share or store it wherever you like (Files, AirDrop, cloud storage, and so on). vgmu doesn't upload it anywhere on its own. A confirmation appears once the export has finished.
 - **Import** restores a backup file onto the current install. This **replaces** everything currently in your library and settings with the backup's contents, so it asks for confirmation before proceeding.
-- **Older versions**: a backup made with vgmu 1.2 or later can't be imported into an older version of vgmu. Update the app first; vgmu 1.2 still imports backups made by older versions.
+- **Auto Backup** saves a backup inside vgmu on a schedule you choose, from every time you open vgmu to monthly. The last five are kept, and a scheduled backup that matches the newest one isn't saved again. Use **Restore from auto-backup** to bring one back.
+- **Older versions**: backups made with vgmu 1.2 or later can't be imported into older versions.
 - **What isn't included**: downloaded audio files and folders imported from your device aren't part of the backup, since they stay tied to the install that made them. After importing, saved tracks re-download when opened and album covers refresh automatically; local-import tracks reappear in playlists but need to be re-imported to play.
 
 ## Settings
@@ -248,7 +304,7 @@ Reached from the settings button on any screen.
 | **Catalog Source**        | Toggle the live online catalog on/off — turn it off to restrict vgmu to your offline Library only                                                                                                                 |
 | **Download Quality**      | Choose Best Available, FLAC Only, M4A/AAC, MP3, or OGG                                                                                                                                                            |
 | **Confirmations**         | "Always ask before downloading" and "Always ask before saving" toggles                                                                                                                                            |
-| **Default App View**      | Which tab opens on launch — Library, Home, Search, or Downloads                                                                                                                                                   |
+| **Default App View**      | Which tab opens on launch — Library, Home, Search, or Manager                                                                                                                                                     |
 | **Library**               | "Hide items already in a folder" — remove albums and playlists from the main Library list once they belong to a folder; "Rounded artwork" — display track and album artwork as circles instead of rounded squares |
 | **Interface style**       | Clean, Console, or PictoChat, plus Haptics, Crop artwork to fill, the Now Playing background, and the Home rows. See [Interface Styles](#interface-styles) below |
 | **Colors / Look / Themes** | Each style's color settings: Console's Colors, PictoChat's Look, or Clean's Themes |
@@ -261,7 +317,6 @@ Reached from the settings button on any screen.
 | **Download History**      | How long completed-download history is kept                                                                                                                                                                       |
 | **Storage**               | Breakdown of space used: downloaded tracks, local imports, artwork, the online artwork cache, and total. **Clear online artwork cache** frees cached online covers, which download again when shown               |
 | **Discord Rich Presence** | See [Discord Rich Presence](#discord-rich-presence) below                                                                                                                                                         |
-| **Backup & Restore**      | See [Backup & Restore](#backup--restore) above                                                                                                                                                                    |
 | **Help**                  | Quick in-app usage reference                                                                                                                                                                                      |
 | **About**                 | App version, credits, and links to the vgmu website and releases page                                                                                                                                             |
 | **Legal & Safety**        | Links to the Privacy Policy, EULA, and License                                                                                                                                                                    |
@@ -270,7 +325,7 @@ Reached from the settings button on any screen.
 
 vgmu 1.1 has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean and are offered the new looks once. See the [Gallery](../GALLERY.md) for every screen in all three.
 
-- **Console** — a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fifteen accent colors plus any custom color, and a Background slider from darker to brighter. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, or nothing. Track rows keep the heart inline and put Add to playlist, Add to queue, and Download in a ⋯ sheet.
+- **Console** — a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (Wii blue by default) plus any custom color, and a Background slider from darker to brighter. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, or nothing. Track rows keep the heart inline and put Add to playlist, Add to queue, and Download in a ⋯ sheet.
 - **PictoChat** — the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
 - **Clean** — the original, restrained vgmu look, with the color themes below and nothing animating.
 

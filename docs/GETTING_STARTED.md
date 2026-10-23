@@ -17,7 +17,7 @@ vgmu has four tabs at the bottom of the screen, plus a Settings button in the to
 | **Home**      | Discover music — curated sections from the online catalog          |
 | **Search**    | Find a specific album, soundtrack, or artist                       |
 | **Library**   | Your personal collection — likes, playlists, folders, saved albums |
-| **Downloads** | Track the progress of anything you're saving for offline listening |
+| **Manager**   | Downloads, the Sound Lab, Transfer Hub, and backups                 |
 
 Tap the **settings button** on any screen to open **Settings**.
 
@@ -29,13 +29,13 @@ Home starts with your own rows (a greeting, Continue listening, Jump back in, yo
 - **Top 40** — currently popular albums
 - **Most Favorites** — all-time favorites
 
-Pull down to refresh. Tap **Browse** in the header for more ways to discover music (see [Usage Guide → Browse](USAGE_GUIDE.md#browse)).
+Pull down to refresh. The **chart** button at the top opens your listening stats, a recap of your week, month, year, or all time that you can share as an image or GIF (see [Usage Guide → Listening Stats](USAGE_GUIDE.md#listening-stats)). Tap **Browse** in the header for more ways to discover music (see [Usage Guide → Browse](USAGE_GUIDE.md#browse)).
 
 Tap any album card to open its album page.
 
 ## 4. Play Your First Track
 
-On an album page, tap any track to start playing it instantly. No download required. A **mini-player** appears at the bottom of the screen showing the artwork, title, and playback controls. Tap the mini-player to open the **full player** with larger artwork, a seek bar, shuffle, repeat, and queue controls.
+On an album page, tap any track to start playing it instantly. No download required. A **mini-player** appears at the bottom of the screen showing the artwork, title, and playback controls. Tap the mini-player to open the **full player** with larger artwork, a seek bar, shuffle, repeat, and queue controls. Its **sliders** button opens the **Sound Lab**, where you can change speed, pitch, and reverb, or shape the sound with an equalizer (see [Usage Guide → Sound Lab](USAGE_GUIDE.md#sound-lab)).
 
 You'll need an internet connection to play a track this way. Playback continues if you lock your device or switch apps, and you can control it from your lock screen or notification shade.
 
@@ -45,7 +45,7 @@ Tap the **heart icon** on a track row, or the heart icon in the full player, to 
 
 ## 6. Save Music for Offline Listening
 
-Tap the **download icon** on a track or an entire album to save it to your device. Downloads are handled **one at a time** in a queue. Watch progress on the **Downloads** tab, which also shows a live count badge of anything in progress.
+Tap the **download icon** on a track or an entire album to save it to your device. Downloads are handled **one at a time** in a queue. Watch progress in **Manager → Downloads**; the Manager tab shows a live count badge of anything in progress.
 
 Once a download finishes and is verified, it's added to **Library → Offline Library**, where it plays without any internet connection.
 
@@ -55,6 +55,8 @@ Go to **Library**, tap the **+ (Create)** button, and choose **Create Playlist**
 
 You can also create **Folders** to group playlists and saved albums together.
 
+To send a playlist or folder to a friend, open it and tap **Share**: they get a link or a small .vgmu file that opens in vgmu (see [Usage Guide → Sharing Playlists and Folders](USAGE_GUIDE.md#sharing-playlists-and-folders)). To move music to or from a computer, use **Manager → Transfer Hub** (see [Usage Guide → Transfer Hub](USAGE_GUIDE.md#transfer-hub)).
+
 ## 8. Adjust Settings
 
 Tap the settings button to open **Settings**, where you can:
@@ -62,10 +64,12 @@ Tap the settings button to open **Settings**, where you can:
 - Pick an **interface style**: Console (a home-menu look), PictoChat (the Nintendo DS chat app), or Clean (the original look). See [Usage Guide → Interface Styles](USAGE_GUIDE.md#interface-styles)
 - In Clean, change your **theme** — from a simple light/dark "Simple UI" with an accent color, to dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and many more)
 - Choose your **preferred download quality/format**
-- Turn on **Wi-Fi-only** downloads and Home refreshes
+- Choose whether Home can refresh over **cellular data**
 - Connect **Discord Rich Presence**, which is optional (see [Usage Guide → Discord Rich Presence](USAGE_GUIDE.md#discord-rich-presence) for what it shares and its risks before enabling it)
 - Check your library's **storage usage**
 - Set your **default tab** on launch
+
+Back up your Library, or turn on **Auto Backup**, under **Manager → Backup**.
 
 See the full [Usage Guide](USAGE_GUIDE.md) for a complete tour of every setting and feature, or **Settings → Help** in the app itself for a quick in-app reference.
 

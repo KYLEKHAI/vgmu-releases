@@ -188,17 +188,17 @@ The Sound Lab changes how every track sounds. Open it from the **sliders** butto
 - **Reverb**: a Mix slider that adds space to the sound.
 - **Equalizer**: Bass, Mid, and Treble, each up to 12 dB up or down, with a Reset button.
 
-Effects work on downloaded and streamed tracks, and stay on for every track until you turn the Sound Lab off. Your settings are remembered for next time and included in backups. While it's on, a streamed track downloads whole before it plays, so it can take a moment longer to start. Tracks longer than 10 minutes play without effects.
+Effects work on downloaded and streamed tracks, and stay on for every track until you turn the Sound Lab off. Your settings are remembered for next time and included in backups. While it's on, a streamed track downloads whole before it plays, so it can take a moment longer to start. Reverb fades in a moment after a track starts; the Sound Lab shows **Adding reverb…** meanwhile. Tracks longer than 10 minutes play without effects.
 
 ## Listening Stats
 
-Tap the **chart** button at the top of **Home** to open Stats. Pick **Week**, **Month**, **Year**, or **All time** for a short recap you tap through: time listened, your top games and tracks, your busiest day, longest streak, peak hour, and new games. Tap **Skip** to go straight to the summary, where you can open a top game or play a top track.
+Tap the **chart** button at the top of **Home** to open Stats. Pick **Week**, **Month**, **Year**, or **All time** for a short recap you tap through: time listened, your top games and tracks, your busiest day, longest streak, peak hour, and new games. Tap **Skip** to go straight to the summary, where you can open a top game or play one of your top ten tracks. Its **Listening time** chart shows the time above each bar; in **Month**, tap a bar to see that day's time.
 
 A track counts as played once you've listened for 30 seconds, or half of a shorter track. Your play history stays on your device and is included in backups.
 
 ### Share your recap
 
-In Stats, tap **Share** to make a story-sized card in your interface style. Choose what it shows (highlights, top games, top tracks, and a listening chart), and add up to three photo or GIF stickers you can drag, pinch, and turn. Then tap **Share image**, or **Share GIF** for an animated card.
+In Stats, tap **Share** to make a story-sized card in your interface style. Choose what it shows (highlights, top games, top tracks, and a listening chart), and add up to three photo or GIF stickers you can drag, pinch, and turn. Then tap **Share image**, or **Share GIF** for an animated card. The preview shows progress while the card is made (closing the sheet cancels it), and a notice confirms when it's shared or saved to Photos.
 
 ## Likes
 
@@ -248,12 +248,12 @@ Finished downloads appear in a "Completed" section. Tap **Done** to acknowledge 
 
 Send a playlist or a whole folder to a friend. Only the list of tracks travels, never audio: whoever opens it streams the tracks from the catalog, or downloads them as usual.
 
-- **Share**: open one of your playlists or folders and tap the **Share** button. Add your name if you like, then pick **Share link** to send a link by Messages, email, or anything else, or **Share file** to send a small **.vgmu** file. **Include the cover** adds a playlist's custom cover to the file (links can't carry it).
+- **Share**: open one of your playlists or folders and tap the **Share** button. Add your name if you like, then pick **Share link** to send a link by Messages, email, or anything else, or **Share file** to send a small **.vgmu** file. **Include the cover** adds the playlist's or folder's custom cover to the file (links can't carry it). A link is sent with a line naming what it is, like *Check out my vgmu playlist "Road Trip"*.
 - **Tracks from your own files** can't be shared and are left out; the sheet says how many. A playlist made only of your own files points you to **Transfer Hub** to send the music itself.
 - **Opening a link** shows a page with the playlist or folder and an **Open in vgmu** button. Without vgmu, that page offers the download instead.
 - **Opening a file**: tap a .vgmu file in Files, or in Messages tap it and then vgmu. A .vgmu file is plain text, so without vgmu it still shows the track list.
 - **Shared with You**: everything sent to you lands here as a card, kept apart from your own playlists until you add it. Open it from the **people** button in Library; its badge counts what you haven't added yet. **Open a shared file…** reads a .vgmu file saved in Files.
-- **Adding it**: a shared playlist page shows who sent it, its tracks, and how many are already in your Library. **Play** streams it straight away, **Add as a new playlist** keeps it, and **Add tracks…** merges it into one of your playlists without repeating tracks. A shared folder offers **Add as a new folder**, which makes the folder and its playlists and saves its albums.
+- **Adding it**: a shared playlist page shows who sent it, its tracks, and how many are already in your Library. **Play** streams it straight away, **Add as a new playlist** keeps it, and **Add tracks…** merges it into one of your playlists without repeating tracks. A shared folder offers **Add as a new folder**, which makes the folder and its playlists and saves its albums. If every track is already in your Library, vgmu asks before adding it.
 - **Deleting**: the trash button on a card, or **Delete** on its page, removes it along with the playlist or folder you made from it. Saved albums, likes, and downloads stay, and a playlist you merged it into is never deleted.
 
 ## Transfer Hub

@@ -74,6 +74,7 @@
 **A shared link or .vgmu file doesn't open in vgmu**
 
 - Update to vgmu 1.3 or later; earlier versions can't open shared playlists
+- Update to 1.3.1 if a .vgmu file won't open from Files, iCloud Drive, or Downloads, or its name has square brackets
 - For a link, tap **Open in vgmu** on the page it shows. For a file in Messages, tap it, then choose vgmu. You can also save it to Files and use **Open a shared file…** in Shared with You
 
 **Discord Rich Presence says "Not available in this build"**

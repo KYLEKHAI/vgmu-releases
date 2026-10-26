@@ -18,25 +18,59 @@ You need enough storage for the app and saved audio, and an internet connection 
 
 Published device testing covers iOS 26.3 on iPhone 16 and 17. Other configurations are not verified.
 
-### Requirements
+You sideload VGMU yourself with one of two self-signing stores. Both use your own Apple ID, and install the same IPA from the [latest release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest). If one stops working after an iOS or store update, switch to the other (see [Switching stores](#switching-between-altstore-and-sidestore)).
 
-- AltStore **Classic**, installed with AltServer on a Mac or Windows computer.
-- Your own Apple ID for self-signing, an iPhone, and storage for the app and saved audio.
-- A connection to download the IPA, and AltServer reachable during installation and refresh.
-- A plan to refresh before expiry: a free Apple ID normally gives seven days. Apple's active sideloaded-app limits also apply, with AltStore itself using a slot.
+| | AltStore Classic | SideStore |
+|---|---|---|
+| Computer needed | For setup **and** every refresh (AltServer) | For setup only (iloader) |
+| Refresh | On the same network as AltServer | On the phone, with LocalDevVPN connected |
+| Setup guide | [AltStore FAQ](https://faq.altstore.io/altstore-classic/how-to-install-altstore-macos) | [SideStore docs](https://docs.sidestore.io/docs/installation/prerequisites) |
 
-### Setup and installation
+### Common requirements
 
-1. Follow AltStore's current [macOS setup](https://faq.altstore.io/altstore-classic/how-to-install-altstore-macos) or [Windows setup](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows). Install AltServer and AltStore Classic, connect and trust the device, and enable Developer Mode where required. Platform prerequisites are maintained in those official guides.
+- An iPhone with a passcode, your own Apple ID, and storage for the app and saved audio.
+- A Mac, Windows, or Linux computer for setup (AltServer runs on Mac and Windows only).
+- A plan to refresh before expiry: a free Apple ID normally gives seven days. A free account can have three sideloaded apps active at once, and the store itself uses one.
+- Developer Mode turned on (iOS 16 and later), when the setup guide asks for it.
+
+Never send your Apple ID or credentials to VGMU support or enter them into the landing website. VGMU does not handle your Apple ID; review each store's policies for its signing and account processing.
+
+### Option A: AltStore Classic
+
+1. Follow AltStore's current [macOS setup](https://faq.altstore.io/altstore-classic/how-to-install-altstore-macos) or [Windows setup](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows). Install AltServer and AltStore Classic, connect and trust the device, and enable Developer Mode where required.
 2. Download the `.ipa` from the [latest VGMU release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) and [verify its checksum](#verify-your-download).
-3. With AltServer running and reachable, open **AltStore → My Apps → +** on your iPhone. Choose the downloaded IPA and complete signing in AltStore with your Apple ID. Never send credentials to VGMU support or enter them into the landing website.
+3. With AltServer running and reachable, open **AltStore → My Apps → +**, choose the downloaded IPA, and complete signing with your Apple ID.
 4. Open VGMU and follow [Getting Started](GETTING_STARTED.md).
 
-### Expiry and refresh
+**Refresh:** In **My Apps**, use **Refresh All** while AltServer is reachable, before the seven-day window ends. Background refresh depends on your setup and is not guaranteed. See [AltStore's refresh guidance](https://faq.altstore.io/altstore-classic/your-altstore) and [troubleshooting](https://faq.altstore.io/altstore-classic/troubleshooting-guide).
 
-In AltStore's **My Apps** tab, use **Refresh All** while AltServer is reachable, before the seven-day free-account window ends. Automatic background refresh depends on your setup and is not guaranteed. See [AltStore's current refresh guidance](https://faq.altstore.io/altstore-classic/your-altstore) and [troubleshooting](https://faq.altstore.io/altstore-classic/troubleshooting-guide).
+This route uses AltStore Classic. AltStore PAL is a different distribution route and does not apply here.
 
-This guide describes the AltServer-based Classic route. AltStore PAL is a different distribution route. VGMU does not handle your Apple ID; review AltStore's policies for its signing and account processing.
+### Option B: SideStore with iloader
+
+[iloader](https://github.com/nab138/iloader) is a desktop app that installs SideStore and its pairing file over USB. After that, SideStore refreshes on the phone without a computer.
+
+1. Follow SideStore's current [prerequisites](https://docs.sidestore.io/docs/installation/prerequisites) and [install guide](https://docs.sidestore.io/docs/installation/install). In short:
+   - Install [LocalDevVPN](https://apps.apple.com/app/localdevvpn/id6755608044) from the App Store on the iPhone.
+   - On the computer, install iloader from its [official releases](https://github.com/nab138/iloader/releases) only. Windows also needs iTunes (for its device driver); macOS includes it.
+   - Connect the iPhone by USB, trust the computer, open iloader, sign in with your Apple ID, select the device, and choose **Install SideStore (Stable)**.
+   - On the iPhone, trust the developer profile in **Settings → General → VPN & Device Management**, turn on Developer Mode if asked, connect LocalDevVPN, and sign in to SideStore with the same Apple ID.
+2. Download the `.ipa` from the [latest VGMU release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) and [verify its checksum](#verify-your-download).
+3. With LocalDevVPN connected, open **SideStore → My Apps → +**, choose the downloaded IPA, and complete signing with your Apple ID.
+4. Open VGMU and follow [Getting Started](GETTING_STARTED.md).
+
+**Refresh:** Connect LocalDevVPN, then tap the days counter or **Refresh All** in SideStore's **My Apps**. LocalDevVPN must be on any time SideStore installs, updates, or refreshes an app, and it needs Wi-Fi. If refresh fails after an iOS update or reset, the pairing file may need replacing: run iloader again. iloader problems are handled by its developers, not SideStore or VGMU support.
+
+### Switching between AltStore and SideStore
+
+Store updates often fix whatever broke in the other one, so switching is a normal fix.
+
+1. In VGMU, **Manager → Backup → Export backup**, and save the file outside the app.
+2. Set up the other store using its option above. To stay within the three-app limit, remove the store you are leaving if needed.
+3. Install the VGMU IPA from the new store, signed with the same Apple ID.
+4. Open VGMU. If your library is missing, use **Import backup**.
+
+Only one store manages refreshes for an installed copy of VGMU, so refresh from the store you installed it with most recently.
 
 ## Verify your download
 

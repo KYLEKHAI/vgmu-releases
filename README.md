@@ -22,10 +22,10 @@
 
 ## Download
 
-- **Current release:** [v1.3.1 — October 25, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.3.1)
+- **Current release:** [v1.3.2 — October 26, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.3.2)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).
-- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.3.1/vgmu-1.3.1-SHA256SUMS.txt)
+- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.3.2/vgmu-1.3.2-SHA256SUMS.txt)
 
 **Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen. The site is built from a separate private repository.
 
@@ -61,7 +61,7 @@ Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoCh
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 1.3.1
+**Version:** 1.3.2
 
 ## ⚠️ Closed Source
 

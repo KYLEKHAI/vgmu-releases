@@ -51,7 +51,7 @@ Home starts with rows built from your own listening, each of which you can turn 
 - **Because you played** — more from the series of an album you played recently
 - **Trending now** — what people are viewing on the catalog
 
-Below those, Home shows three sections pulled live from the online catalog:
+Below those, Home shows three sections pulled live from the online catalog, which you can turn off in the same place:
 
 - **Latest** — recently added soundtracks
 - **Top 40** — currently popular albums
@@ -198,7 +198,7 @@ A track counts as played once you've listened for 30 seconds, or half of a short
 
 ### Share your recap
 
-In Stats, tap **Share** to make a story-sized card in your interface style. Choose what it shows (highlights, top games, top tracks, and a listening chart), and add up to three photo or GIF stickers you can drag, pinch, and turn. Then tap **Share image**, or **Share GIF** for an animated card. The preview shows progress while the card is made (closing the sheet cancels it), and a notice confirms when it's shared or saved to Photos.
+In Stats, tap **Share** to make a story-sized card in your interface style. Choose what it shows (highlights, top games, top tracks, and a listening chart), and add up to three photo or GIF stickers you can drag, pinch, and turn. Then tap **Share image**, or **Share GIF** for an animated card. The preview shows progress while the card is made (closing the sheet cancels it), and a notice confirms when it's shared or saved to Photos. The file is named `vgmu_stats` with the date.
 
 ## Likes
 
@@ -323,10 +323,10 @@ Reached from the settings button on any screen.
 
 ## Interface Styles
 
-vgmu 1.1 has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean and are offered the new looks once. See the [Gallery](../GALLERY.md) for every screen in all three.
+vgmu 1.1 has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean. See the [Gallery](../GALLERY.md) for every screen in all three.
 
-- **Console** — a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (Wii blue by default) plus any custom color, and a Background slider from darker to brighter. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, or nothing. Track rows keep the heart inline and put Add to playlist, Add to queue, and Download in a ⋯ sheet.
-- **PictoChat** — the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
+- **Console** — a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (Wii blue by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, or nothing. Track rows keep the heart inline and put Add to playlist, Add to queue, and Download in a ⋯ sheet.
+- **PictoChat** — the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
 - **Clean** — the original, restrained vgmu look, with the color themes below and nothing animating.
 
 In every style, **Haptics** turns tap feedback on or off and **Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.

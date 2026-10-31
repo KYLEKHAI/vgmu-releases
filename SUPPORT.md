@@ -77,6 +77,12 @@
 - Update to 1.3.1 if a .vgmu file won't open from Files, iCloud Drive, or Downloads, or its name has square brackets
 - For a link, tap **Open in vgmu** on the page it shows. For a file in Messages, tap it, then choose vgmu. You can also save it to Files and use **Open a shared file…** in Shared with You
 
+**Discord Rich Presence won't connect**
+
+- On Android, install the Discord app and sign in, then tap **Connect Discord** in vgmu. If the status says vgmu can't reach the Discord app, open Discord, check you're signed in, and play a track again
+- On iPhone, finish the Discord sign-in after tapping **Connect Discord**. If the status says the sign-in expired or was cancelled, tap **Connect Discord** again
+- With **Use manual token (advanced)**, a failed connection usually means the token is wrong or no longer valid; vgmu clears it, so paste a current one or switch to **Connect Discord**
+
 **Discord Rich Presence says "Not available in this build"**
 
 - Android versions 1.0.5 and 1.0.6 shipped without Discord Rich Presence. Update to 1.0.7 or later to use it again

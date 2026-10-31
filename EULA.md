@@ -32,7 +32,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER WILL NOT BE LIABLE FOR IND
 
 ## 5. Privacy summary
 
-vgmu does not operate a user-account, cloud-sync, advertising, or analytics service. Core settings, library metadata, playlists, likes, queues, download history, artwork, and saved audio are managed on the device. Network requests to third-party catalog, artwork, audio, and optional Discord services can expose ordinary request and network metadata to those services. If you enable Discord Rich Presence, the Software stores the supplied Discord token in secure device storage and uses it to connect directly to Discord. The separate vgmu Privacy Policy describes these practices in detail.
+vgmu does not operate a user-account, cloud-sync, advertising, or analytics service. Core settings, library metadata, playlists, likes, queues, download history, artwork, and saved audio are managed on the device. Network requests to third-party catalog, artwork, audio, and optional Discord services can expose ordinary request and network metadata to those services. If you enable Discord Rich Presence, the Software stores a Discord sign-in or the supplied Discord token in secure device storage and uses it to connect directly to Discord. The separate vgmu Privacy Policy describes these practices in detail.
 
 ## 6. Ending use
 

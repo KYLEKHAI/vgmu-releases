@@ -344,11 +344,16 @@ Popular presets include Dracula, Nord, Tokyo Night, Catppuccin (Latte/Mocha), Gr
 
 ## Discord Rich Presence
 
-An optional feature that shows what you're listening to on your Discord profile as a "Listening to" activity, including track title, artist, album, a live progress bar, and artwork.
+An optional feature that shows what you're listening to on your Discord profile as a "Listening to" activity, including track title, artist, album, a live progress bar, and artwork. It is off by default.
 
-**Important:** this connects using your own Discord account token, entered directly in Settings, over a method Discord does not officially support for this kind of use. Using it carries a real risk of account action against your Discord account, and is entirely at your own risk. It is off by default, and you must explicitly opt in.
+Open **Settings → Discord Rich Presence** and tap **Connect Discord**. This uses Discord's official connection:
 
-Presence is only shown while a track is playing or loading. Pausing, going idle, or hitting an error clears it immediately, so it never shows a stale "frozen" card. If your token becomes invalid, vgmu detects the failure and clears it from storage automatically. See [PRIVACY.md](../PRIVACY.md) for exactly what data this feature transmits.
+- **Android:** vgmu shows your track through the Discord app on your phone. Install Discord and sign in first; you don't enter a password or token in vgmu. If the status says vgmu can't reach the Discord app, open Discord, check you're signed in, and play a track again.
+- **iPhone:** vgmu opens a Discord sign-in (in the Discord app if it's installed, otherwise a Discord web page) where you allow vgmu. vgmu keeps that sign-in in secure device storage, never your password. If the status says the sign-in expired, tap **Connect Discord** again.
+
+**Use manual token (advanced)** is the older method: you paste your own Discord account token into Settings, and vgmu connects as your account over a method Discord does not officially support for this kind of use. It carries a real risk of action against your Discord account and is entirely at your own risk. If you were already connected this way, it keeps working; tapping **Connect Discord** switches you to the official connection and removes the saved token.
+
+Presence is only shown while a track is playing or loading. Pausing, going idle, or hitting an error clears it immediately, so it never shows a stale "frozen" card. **Disconnect** stops it and removes the saved connection from your device. See [PRIVACY.md](../PRIVACY.md) for exactly what data this feature transmits.
 
 ## Offline & Error Handling
 

@@ -17,7 +17,7 @@ Depending on the features you use, vgmu stores locally:
 - Settings such as appearance, accent, preferred format, refresh, download-history, and playback preferences.
 - Catalog and library metadata, likes, playlists, folders, playback queue, download queue, and download history.
 - Cached artwork, user-selected playlist artwork, saved audio, and local-library file references or imported audio.
-- A Discord account token in secure device storage if you enable Discord Rich Presence.
+- If you enable Discord Rich Presence, in secure device storage: a Discord sign-in (iPhone, official connection), a note that the official connection is on (Android), or a Discord account token (manual-token connection).
 
 The App does not send this local library data to a vgmu account or vgmu-operated cloud service.
 
@@ -25,7 +25,7 @@ The App does not send this local library data to a vgmu account or vgmu-operated
 
 When you use online catalog features, the selected third-party source may receive the search text, filters, source identifiers, requested metadata, and ordinary network information such as an IP address, timestamp, request headers, and user agent. Artwork and audio requests are made directly from the device to the relevant third-party endpoint, which can see the request and network information needed to serve it.
 
-When Discord Rich Presence is enabled, vgmu sends the supplied token directly to Discord to connect the gateway and publish activity. The activity can include the current track title, artist, album, playback state, timing, and artwork-related information. vgmu may send a remote artwork URL to Discord’s external-asset endpoint so Discord can render the activity image. Discord’s own terms and privacy practices apply to that processing.
+When Discord Rich Presence is enabled, vgmu sends activity to Discord while music plays. The activity can include the current track title, artist, album, playback state, timing, and artwork-related information, including a remote artwork URL for Discord to display. With the official connection, vgmu uses Discord’s Social SDK: on Android it hands the activity to the Discord app on the device; on iPhone you authorize vgmu through Discord’s sign-in and vgmu connects to Discord with that authorization. With the manual-token connection, vgmu sends the supplied token directly to Discord to connect the gateway and publish activity, and may send a remote artwork URL to Discord’s external-asset endpoint so Discord can render the activity image. Discord’s own terms and privacy practices apply to that processing.
 
 vgmu does not intentionally collect device identifiers for its own analytics. That does not prevent operating systems, network providers, or third-party endpoints from processing technical request information under their own policies.
 
@@ -39,11 +39,11 @@ Local data remains on the device until you remove it through vgmu, clear the rel
 
 vgmu does not provide an account-based or cloud-synced backup service. It does offer a manual, on-device backup and restore feature (Manager → Backup; Settings → Backup & Restore before version 1.3) that exports your library metadata and settings to a file you choose where to store or share; that file stays under your control and is not sent to vgmu or a vgmu-operated service. Device operating-system backup behavior is controlled by the platform and its provider. Third-party services control their own retention of requests and content.
 
-Disconnecting Discord clears the stored Discord token from vgmu’s secure storage. Removing local audio or artwork does not remove copies or records retained by a third-party service.
+Disconnecting Discord clears the stored Discord sign-in or token from vgmu’s secure storage, and asks Discord to revoke an iPhone sign-in. Removing local audio or artwork does not remove copies or records retained by a third-party service.
 
 ## Security
 
-The Discord token is stored through the platform secure-storage facility. vgmu uses app-managed storage for local metadata and saved media. No storage or transmission method can guarantee absolute security, so keep the device and its operating system protected.
+Discord sign-ins and tokens are stored through the platform secure-storage facility. vgmu uses app-managed storage for local metadata and saved media. No storage or transmission method can guarantee absolute security, so keep the device and its operating system protected.
 
 ## Changes
 

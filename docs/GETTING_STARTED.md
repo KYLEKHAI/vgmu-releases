@@ -65,7 +65,7 @@ Tap the settings button to open **Settings**, where you can:
 - In Clean, change your **theme** — from a simple light/dark "Simple UI" with an accent color, to dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and many more)
 - Choose your **preferred download quality/format**
 - Choose whether Home can refresh over **cellular data**
-- Connect **Discord Rich Presence**, which is optional (see [Usage Guide → Discord Rich Presence](USAGE_GUIDE.md#discord-rich-presence) for what it shares and its risks before enabling it)
+- Connect **Discord Rich Presence**, which is optional (see [Usage Guide → Discord Rich Presence](USAGE_GUIDE.md#discord-rich-presence) for what it shares and how to connect)
 - Check your library's **storage usage**
 - Set your **default tab** on launch
 

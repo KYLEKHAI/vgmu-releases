@@ -73,10 +73,10 @@ vgmu is a personal project for enjoying video game music on mobile. For question
 
 ## Follow and support vgmu
 
-[![Discord: Join the server](https://img.shields.io/badge/Discord-Join_the_server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bT47dvghk6)
-[![YouTube: @vgmu-dev](https://img.shields.io/badge/YouTube-%40vgmu--dev-E60000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@vgmu-dev)
-[![GitHub: vgmu-releases](https://img.shields.io/badge/GitHub-vgmu--releases-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KYLEKHAI/vgmu-releases)
-[![Ko-fi: Support vgmu](https://img.shields.io/badge/Ko--fi-Support_vgmu-EA6CD0?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/vgmu_dev)
+[![Join the vgmu Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bT47dvghk6)
+[![vgmu on YouTube](https://img.shields.io/badge/YouTube-E60000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@vgmu-dev)
+[![vgmu on GitHub](https://img.shields.io/badge/GitHub-5852C4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KYLEKHAI/vgmu-releases)
+[![Support vgmu on Ko-fi](https://img.shields.io/badge/Ko--fi-EA6CD0?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/vgmu_dev)
 
 ## Closed source
 

@@ -37,7 +37,7 @@ A free video game music app for iOS and Android. vgmu lets you discover, organiz
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).
 - [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.4.0/vgmu-1.4.0-SHA256SUMS.txt)
 
-**Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen. The site is built from a separate private repository.
+**Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen.
 
 See the [installation guide](docs/INSTALLATION.md) for detailed setup instructions.
 
@@ -55,8 +55,6 @@ See the [installation guide](docs/INSTALLATION.md) for detailed setup instructio
   <img src="assets/screenshots/console-sound-lab.jpg" width="190">
   <img src="assets/screenshots/console-shared-playlist.jpg" width="190">
 </p>
-
-Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, reshape any track in the Sound Lab, look back on your listening with Stats, share playlists and folders with friends, move music to and from a computer over Wi-Fi, download for offline, and show what you're playing on Discord. See the full [Gallery](GALLERY.md) for every screen in all three.
 
 ## Quick links
 

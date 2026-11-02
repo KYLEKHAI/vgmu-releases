@@ -27,7 +27,7 @@
 
 **Q: How do I report a bug?**
 
-- [Open a bug report](../../issues/new?template=bug_report.md) with details
+- Use the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/), email [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com), or [open a bug report](../../issues/new?template=bug_report.md) with details
 
 **Q: My music library disappeared. Can I recover it?**
 
@@ -101,7 +101,7 @@
 
 ### Bug reports
 
-[Open a bug report](../../issues/new?template=bug_report.md) and include:
+Use the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/) or [open a bug report](../../issues/new?template=bug_report.md), and include:
 
 - Device model and OS version
 - vgmu version
@@ -129,5 +129,5 @@ You can also [open a feedback issue](../../issues/new?template=feedback.md) on G
 If your issue isn't covered above:
 
 1. Ask in the [vgmu Discord](https://discord.gg/bT47dvghk6), or search existing [Issues](../../issues) to see if others reported it
-2. [Open a new issue](../../issues/new?template=bug_report.md) with details
+2. Send details through the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/), email [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com), or [open a new issue](../../issues/new?template=bug_report.md)
 3. Responses may take time

@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+Prefer not to use GitHub? Use the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/) instead.
+
 ## Feedback or Suggestion
 
 Describe your idea or suggestion for vgmu.

@@ -13,7 +13,7 @@ Use GitHub's private vulnerability reporting feature:
 3. Describe the vulnerability, steps to reproduce, and potential impact
 4. Submit: your report will be reviewed within 7 days
 
-Alternatively, email security concerns directly to: **kylekhai04@gmail.com**
+You can also email [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com) or use the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/), which goes privately to the developer.
 
 Include:
 

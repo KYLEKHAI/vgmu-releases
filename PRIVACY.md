@@ -4,7 +4,7 @@
 **Effective date:** 2026-11-02
 **Applies to:** vgmu 1.4.0 personal-use binary releases
 
-This policy describes the current vgmu application (the “App”) in plain language. It is an owner-authored privacy notice from vgmu Developer, not legal advice. Privacy questions can be sent through [Support](SUPPORT.md) or by [opening an issue](../../issues/new?template=feedback.md).
+This policy describes the current vgmu application (the “App”) in plain language. It is an owner-authored privacy notice from vgmu Developer, not legal advice. Privacy questions can be sent to [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com), through the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/), or by [opening an issue](../../issues/new?template=feedback.md).
 
 ## Summary
 

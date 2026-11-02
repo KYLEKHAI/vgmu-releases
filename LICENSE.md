@@ -25,4 +25,4 @@
 
 ## Contact
 
-For licensing inquiries, contact: kylekhai04@gmail.com
+For licensing inquiries, email [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com) or use the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/).

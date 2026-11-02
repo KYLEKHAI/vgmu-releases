@@ -376,4 +376,4 @@ If rate limiting happens often, spacing out large downloads (rather than queuing
 
 ---
 
-For setup help, see the [installation guide](INSTALLATION.md). For problems not covered here, see [Support](../SUPPORT.md) or [open an issue](../../issues/new?template=bug_report.md).
+For setup help, see the [installation guide](INSTALLATION.md). For problems not covered here, see [Support](../SUPPORT.md), use the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/), or [open an issue](../../issues/new?template=bug_report.md).

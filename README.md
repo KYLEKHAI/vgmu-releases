@@ -65,6 +65,13 @@ See the [installation guide](docs/INSTALLATION.md) for detailed setup instructio
 - [Support and troubleshooting](SUPPORT.md): FAQ and common issues
 - [Report a bug](../../issues/new?template=bug_report.md) or [send feedback](https://vgmu.kylekhai.workers.dev/feedback/)
 
+## Follow and support vgmu
+
+[![Discord: Join the server](https://img.shields.io/badge/Discord-Join_the_server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bT47dvghk6)
+[![YouTube: @vgmu-dev](https://img.shields.io/badge/YouTube-%40vgmu--dev-E60000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@vgmu-dev)
+[![GitHub: vgmu-releases](https://img.shields.io/badge/GitHub-vgmu--releases-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KYLEKHAI/vgmu-releases)
+[![Ko-fi: Support vgmu](https://img.shields.io/badge/Ko--fi-Support_vgmu-EA6CD0?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/vgmu_dev)
+
 ## About
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).

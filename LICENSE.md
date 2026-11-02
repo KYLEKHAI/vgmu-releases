@@ -1,8 +1,8 @@
-# vgmu 1.0 — Proprietary License
+# vgmu Proprietary License
 
-**vgmu 1.0 is closed source. The source code is not available for inspection, modification, or redistribution.**
+**vgmu is closed source. The source code is not available for inspection, modification, or redistribution.**
 
-## License Terms
+## License terms
 
 1. **No Source Code License.** vgmu source code is proprietary. This repository does not grant any right to access, use, modify, or redistribute the source code.
 

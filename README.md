@@ -6,10 +6,10 @@
 
 ---
 
-# vgmu — mobile vgm music player
+# vgmu: a mobile video game music player
 
 <div align="center">
-♫ An ad-free mobile (Android/iOS) application for video game music on the go! Discover, organize, and enjoy your favourite game soundtracks locally offline or via streaming! No email, accounts or subscription is needed to use the app! ♪
+A free video game music app for iOS and Android. vgmu lets you discover, organize, and listen to your favourite game soundtracks. Stream them or save them for offline listening, with no subscription.
 
 **Live site: [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/)**
 
@@ -18,20 +18,30 @@
   <img src="assets/vgmu-logo.png" alt="vgmu Logo" width="400" style="border-radius: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-top: 24px; display: block;">
 </div>
 
+<div align="center">
+
+## Release video
+
+<a href="https://youtu.be/GJJtDR0O88g"><img src="assets/release-video.jpg" alt="Watch the vgmu v1.4.0 release video on YouTube" width="640"></a>
+
+**[Watch on YouTube](https://youtu.be/GJJtDR0O88g)**
+
+</div>
+
 ---
 
 ## Download
 
-- **Current release:** [v1.3.2 — October 26, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.3.2)
+- **Current release:** [v1.4.0, November 2, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.4.0)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).
-- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.3.2/vgmu-1.3.2-SHA256SUMS.txt)
+- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.4.0/vgmu-1.4.0-SHA256SUMS.txt)
 
 **Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen. The site is built from a separate private repository.
 
-See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructions.
+See the [installation guide](docs/INSTALLATION.md) for detailed setup instructions.
 
-## Peek Into The App
+## A look at the app
 
 <p align="center">
   <img src="assets/screenshots/console-home.jpg" width="190">
@@ -46,24 +56,24 @@ See the [Installation Guide](docs/INSTALLATION.md) for detailed setup instructio
   <img src="assets/screenshots/console-shared-playlist.jpg" width="190">
 </p>
 
-Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, reshape any track in the Sound Lab, look back on your listening with Stats, share playlists and folders with friends, move music to and from a computer over Wi-Fi, download for offline, and show off on Discord — see the full [Gallery](GALLERY.md) for every screen in all three.
+Three interfaces, one library: **Console**, a Wii/3DS-style home menu; **PictoChat**, the Nintendo DS chat app; and **Clean**, the original look. Discover soundtracks, search the catalog, build playlists, play full-screen, reshape any track in the Sound Lab, look back on your listening with Stats, share playlists and folders with friends, move music to and from a computer over Wi-Fi, download for offline, and show what you're playing on Discord. See the full [Gallery](GALLERY.md) for every screen in all three.
 
-## Quick Links
+## Quick links
 
-- [Installation Guide](docs/INSTALLATION.md) — How to install vgmu
-- [Getting Started Guide](docs/GETTING_STARTED.md) — First steps with vgmu
-- [Usage Guide](docs/USAGE_GUIDE.md) — Features and how to use them
-- [Gallery](GALLERY.md) — Full screenshot tour of every screen
-- [Support & Troubleshooting](SUPPORT.md) — FAQ and common issues
-- [Report a Bug](../../issues/new?template=bug_report.md) or [Send Feedback](../../issues/new?template=feedback.md)
+- [Installation guide](docs/INSTALLATION.md): How to install vgmu
+- [Getting started guide](docs/GETTING_STARTED.md): First steps with vgmu
+- [Usage guide](docs/USAGE_GUIDE.md): Features and how to use them
+- [Gallery](GALLERY.md): Full screenshot tour of every screen
+- [Support and troubleshooting](SUPPORT.md): FAQ and common issues
+- [Report a bug](../../issues/new?template=bug_report.md) or [send feedback](https://vgmu.kylekhai.workers.dev/feedback/)
 
 ## About
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 1.3.2
+**Version:** 1.4.0
 
-## ⚠️ Closed Source
+## Closed source
 
 **vgmu is closed source.** This repository contains release distribution material, documentation, and user guides. Neither the application source nor the website source is available here. See [LICENSE](LICENSE.md) for details.
 

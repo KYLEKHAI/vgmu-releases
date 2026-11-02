@@ -1,13 +1,13 @@
-# Support & Troubleshooting
+# Support and troubleshooting
 
-## Getting Help
+## Getting help
 
-### Frequently Asked Questions
+### Frequently asked questions
 
 **Q: Can I run vgmu on my device?**
 
 - **Android:** Verified on Google Pixel 9
-- **iOS:** Verified on iPhone 16
+- **iOS:** Verified on iPhone 16 and 17
 
 **Q: Where do I download vgmu?**
 
@@ -19,11 +19,11 @@
 
 **Q: Will vgmu be open source?**
 
-- No, vgmu 1.0 is closed source. See [LICENSE](LICENSE.md) for details
+- No, vgmu is closed source. See [LICENSE](LICENSE.md) for details
 
 **Q: Can I contribute to vgmu?**
 
-- Contributions to the source code are not accepted at the moment. Although, bug reports and feedback are welcome
+- Source code contributions are not accepted at the moment, but bug reports and feedback are welcome
 
 **Q: How do I report a bug?**
 
@@ -33,29 +33,27 @@
 
 - Your library is stored locally on your device. If deleted without a backup, it cannot be recovered
 - Use **Manager → Backup** to export a backup file (playlists, folders, liked and saved tracks, custom artwork, and settings) before uninstalling or switching devices, and **Import** it on the new install
-- vgmu does not sync libraries across devices on its own — Backup & Restore is a manual, on-demand transfer, not automatic syncing
+- vgmu does not sync libraries across devices. Backup & Restore is a manual transfer
 
-### Common Issues
+### Common issues
 
 **App crashes on startup**
 
 - Ensure you have the latest version installed
-- Try clearing the app cache (Settings > Apps > vgmu > Storage > Clear Cache)
+- On Android, try clearing the app cache (Settings > Apps > vgmu > Storage > Clear Cache)
 - Uninstall and reinstall vgmu
-- Check device storage — vgmu needs space for music and data
+- Check device storage: vgmu needs space for music and data
 
 **Music won't play**
 
-- Check that you have downloaded the track (see [USAGE_GUIDE.md](docs/USAGE_GUIDE.md))
+- Without a connection, only downloaded tracks and your Local Library play (see the [usage guide](docs/USAGE_GUIDE.md#downloads))
 - Ensure the device has sufficient storage
 - Try restarting the app
-- On Android, check audio permissions in Settings > Apps > vgmu > Permissions
 
 **Can't download music**
 
 - Check your internet connection
-- Ensure the app has permission to access storage
-- Check device storage — downloads require free space
+- Check device storage: downloads need free space
 - The music source may be temporarily unavailable; try again later
 
 **Local Library folder won't refresh**
@@ -90,7 +88,7 @@
 **App runs slowly**
 
 - Large libraries may impact performance; consider organizing or removing unused items
-- The playback queue loads in batches of 100 — very large queues no longer cause lag or crashes
+- The playback queue loads in batches of 100, so very large queues no longer cause lag or crashes
 - Close other apps to free up device memory
 - Restart your device
 
@@ -99,9 +97,9 @@
 - vgmu does not sync your library to the cloud
 - Your library exists only on your device
 
-## Reporting Issues
+## Reporting issues
 
-### Bug Reports
+### Bug reports
 
 [Open a bug report](../../issues/new?template=bug_report.md) and include:
 
@@ -111,27 +109,25 @@
 - Expected vs. actual behavior
 - Relevant screenshots or logs (if safe to share)
 
-### Feature Requests & Feedback
+### Feature requests and feedback
 
-[Submit feedback](../../issues/new?template=feedback.md) with your ideas and suggestions.
+The quickest way is the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/). It takes a message, and your email is optional.
+
+You can also [open a feedback issue](../../issues/new?template=feedback.md) on GitHub.
 
 ## Documentation
 
-- [Installation Guide](docs/INSTALLATION.md) — Install vgmu
-- [Getting Started Guide](docs/GETTING_STARTED.md) — Your first steps
-- [Usage Guide](docs/USAGE_GUIDE.md) — Features and how to use them
-- [Privacy Policy](PRIVACY.md) — Data handling
-- [Security Policy](SECURITY.md) — Reporting vulnerabilities
-- [License](LICENSE.md) — Terms of use
+- [Installation guide](docs/INSTALLATION.md): Install vgmu
+- [Getting started guide](docs/GETTING_STARTED.md): Your first steps
+- [Usage guide](docs/USAGE_GUIDE.md): Features and how to use them
+- [Privacy Policy](PRIVACY.md): Data handling
+- [Security Policy](SECURITY.md): Reporting vulnerabilities
+- [License](LICENSE.md): Terms of use
 
-## Still Need Help?
+## Still need help?
 
 If your issue isn't covered above:
 
-1. Search existing [Issues](../../issues) to see if others reported it
+1. Ask in the [vgmu Discord](https://discord.gg/bT47dvghk6), or search existing [Issues](../../issues) to see if others reported it
 2. [Open a new issue](../../issues/new?template=bug_report.md) with details
-3. Be patient — responses may take time
-
-## Feedback
-
-We appreciate your feedback and suggestions. Use [vgmu Feedback](../../issues/new?template=feedback.md) to share ideas.
+3. Responses may take time

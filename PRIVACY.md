@@ -1,8 +1,8 @@
 # vgmu Privacy Policy
 
-**Version:** 1.0.2
-**Effective date:** 2026-08-31
-**Applies to:** vgmu 1.0.2 personal-use binary releases
+**Version:** 1.4.0
+**Effective date:** 2026-11-02
+**Applies to:** vgmu 1.4.0 personal-use binary releases
 
 This policy describes the current vgmu application (the “App”) in plain language. It is an owner-authored privacy notice from vgmu Developer, not legal advice. Privacy questions can be sent through [Support](SUPPORT.md) or by [opening an issue](../../issues/new?template=feedback.md).
 
@@ -47,4 +47,4 @@ Discord sign-ins and tokens are stored through the platform secure-storage facil
 
 ## Changes
 
-vgmu may update this policy when its data practices or release behavior changes. The version and effective date identify the policy intended for a release. The policy must be reviewed against the exact binary before any broader distribution.
+vgmu may update this policy when its data practices or release behavior changes. The version and effective date identify the policy intended for a release.

@@ -29,7 +29,7 @@ What actually happened?
 
 - **Device Model:** (e.g., Samsung Galaxy S24, iPhone 15)
 - **OS Version:** (e.g., Android 14, iOS 17.3)
-- **vgmu Version:** (e.g., 1.0.0)
+- **vgmu Version:** (e.g., 1.4.0)
 - **Installation Method:** (APK download, sideload, etc.)
 
 ## Screenshots or Logs

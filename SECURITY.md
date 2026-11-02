@@ -11,7 +11,7 @@ Use GitHub's private vulnerability reporting feature:
 1. Go to the [Security tab](../../security) of this repository
 2. Click **"Report a vulnerability"**
 3. Describe the vulnerability, steps to reproduce, and potential impact
-4. Submit — your report will be reviewed within 7 days
+4. Submit: your report will be reviewed within 7 days
 
 Alternatively, email security concerns directly to: **kylekhai04@gmail.com**
 

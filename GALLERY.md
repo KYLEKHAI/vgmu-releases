@@ -2,9 +2,9 @@
 
 # vgmu Gallery
 
-A screen-by-screen tour of vgmu 1.4 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
+A screen-by-screen tour of vgmu 1.5 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15)**
 
 </div>
 
@@ -1010,7 +1010,7 @@ A screen-by-screen tour of vgmu 1.4 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/settings-storage-discord-rp.jpg" width="240"><br>
-<sub><b>Figure 164: Storage and Discord</b><br>Storage by type, and the optional Discord Rich Presence setting.</sub>
+<sub><b>Figure 164: Storage</b><br>Storage by type, a warning when online artwork is over its limit, and Maximum artwork storage on iPhone.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/discord-rp-nintendo.png" width="240"><br>
@@ -1255,6 +1255,28 @@ A screen-by-screen tour of vgmu 1.4 in all three interfaces: <b>Console</b>, <b>
 <sub><b>Figure 205: Opening a link</b><br>A share link opens a page with the playlist or folder and an Open in vgmu button, or a way to get vgmu.</sub>
 </td>
 <td align="center" width="280"></td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · New in 1.5
+
+<div align="center"><b>New in 1.5: see custom covers full size, and look inside completed downloads.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-custom-cover.jpg" width="240"><br>
+<sub><b>Figure 206: Custom covers, full size</b><br>Tap a custom cover to see it full size, then hold it to save it to Photos or Files.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-download-details.jpg" width="240"><br>
+<sub><b>Figure 207: Inside a completed download</b><br>Tap a completed batch to see its tracks, play one, or check its format and size.</sub>
+</td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>

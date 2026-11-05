@@ -22,7 +22,7 @@ A free video game music app for iOS and Android. vgmu lets you discover, organiz
 
 ## Release video
 
-<a href="https://youtu.be/GJJtDR0O88g"><img src="assets/release-video.jpg" alt="Watch the vgmu v1.4.0 release video on YouTube" width="640"></a>
+<a href="https://youtu.be/GJJtDR0O88g"><img src="assets/release-video.jpg" alt="Watch the vgmu release video on YouTube" width="640"></a>
 
 **[Watch on YouTube](https://youtu.be/GJJtDR0O88g)**
 

@@ -319,7 +319,7 @@ Reached from the settings button on any screen.
 | **Storage**               | Breakdown of space used: downloaded tracks, local imports, artwork, the online artwork cache, backups and temporary files, and total. **Clear online artwork cache** frees cached online covers, which download again when shown. On iPhone, **Maximum artwork storage** limits that cache, from 100 MB to 5 GB (500 MB by default), and the oldest covers go the next time you leave the app |
 | **Discord Rich Presence** | See [Discord Rich Presence](#discord-rich-presence) below                                                                                                                                                         |
 | **Help**                  | Quick in-app usage reference                                                                                                                                                                                      |
-| **About**                 | App version, credits, and links to the vgmu website and releases page                                                                                                                                             |
+| **About**                 | App version, credits, and links to the vgmu website, releases page, Discord, YouTube, TikTok, Instagram, and Ko-fi                                                                                                                                             |
 | **Legal & Safety**        | Links to the Privacy Policy, EULA, and License                                                                                                                                                                    |
 
 ## Interface styles

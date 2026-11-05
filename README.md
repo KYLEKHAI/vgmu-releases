@@ -32,10 +32,10 @@ A free video game music app for iOS and Android. vgmu lets you discover, organiz
 
 ## Download
 
-- **Current release:** [v1.4.0, November 2, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.4.0)
+- **Current release:** [v1.5.0, November 7, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v1.5.0)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).
-- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.4.0/vgmu-1.4.0-SHA256SUMS.txt)
+- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.5.0/vgmu-1.5.0-SHA256SUMS.txt)
 
 **Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen.
 
@@ -69,7 +69,7 @@ See the [installation guide](docs/INSTALLATION.md) for detailed setup instructio
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 1.4.0
+**Version:** 1.5.0
 
 ## Follow and support vgmu
 

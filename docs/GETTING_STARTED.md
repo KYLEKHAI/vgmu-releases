@@ -55,7 +55,7 @@ Go to **Library**, tap the **+ (Create)** button, and choose **Create Playlist**
 
 You can also create **Folders** to group playlists, saved albums, and single tracks together.
 
-To send a playlist or folder to a friend, open it and tap **Share**: they get a link or a small .vgmu file that opens in vgmu (see [Usage guide: Sharing playlists and folders](USAGE_GUIDE.md#sharing-playlists-and-folders)). To move music to or from a computer, use **Manager → Transfer Hub** (see [Usage guide: Transfer Hub](USAGE_GUIDE.md#transfer-hub)).
+To send a playlist or folder to a friend, open it and tap **Share**: they get a link or a small .txt file that opens in vgmu (see [Usage guide: Sharing playlists and folders](USAGE_GUIDE.md#sharing-playlists-and-folders)). To move music to or from a computer, use **Manager → Transfer Hub** (see [Usage guide: Transfer Hub](USAGE_GUIDE.md#transfer-hub)).
 
 ## 8. Adjust settings
 

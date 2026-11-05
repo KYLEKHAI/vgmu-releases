@@ -1,8 +1,8 @@
 # vgmu Binary End-User License Agreement
 
-**Version:** 1.4.0
-**Effective date:** 2026-11-02
-**Applies to:** vgmu 1.4.0 binary releases
+**Version:** 1.5.0
+**Effective date:** 2026-11-07
+**Applies to:** vgmu 1.5.0 binary releases
 
 This is a concise, plain-language license for the vgmu application (the “Software”). It is an owner-authored preventive notice, not legal advice, and it does not remove rights that cannot lawfully be limited.
 

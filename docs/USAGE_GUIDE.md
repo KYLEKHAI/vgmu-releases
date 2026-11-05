@@ -123,7 +123,7 @@ These three can't be deleted, since they represent live state rather than someth
 
 ### Editing playlists and folders
 
-Open a playlist or folder and tap **Edit** to change its name, description, and cover photo, or to delete it. Renaming to a name already used by another playlist or folder isn't allowed.
+Open a playlist or folder and tap **Edit** to change its name, description, and cover photo, or to delete it. Renaming to a name already used by another playlist or folder isn't allowed. Tap a custom cover on its page to see it full size, then hold it to save it to Photos or Files; this also works for Liked, Offline, and Local Library.
 
 - **Playlists**: tap **Add tracks** inside the editor to search your library and select tracks to add. To take one track out, open its menu inside the playlist and choose **Remove from playlist** (Console and PictoChat). In the playlist and folder pickers, anything that already holds the track says **Already added** and has a **Remove** button.
 - **Folders**: tap **Add items** inside the editor to open the same searchable, filterable, A-Z-sectioned picker used at creation time, and choose which albums and playlists belong to the folder.
@@ -211,7 +211,7 @@ The **Manager** tab holds the tools that look after your music, as four tiles:
 - **Sound Lab**: speed, pitch, reverb, and the equalizer (see [Sound Lab](#sound-lab))
 - **Transfer Hub**: move music to and from a computer (see [Transfer Hub](#transfer-hub))
 - **Backup**: save or restore your Library (see [Backup & Restore](#backup--restore))
-- **Downloads**: the download queue and history (see [Downloads](#downloads)). The tile says how many are in progress.
+- **Downloads**: the download queue and history (see [Downloads](#downloads)). The tile shows a count while downloads are in progress.
 
 Manager's tab icon shows a live badge count of active, pending, and in-progress downloads.
 
@@ -242,17 +242,17 @@ You can pause and resume the active download, or cancel just the current track v
 
 ### Completion and history
 
-Finished downloads appear in a "Completed" section. Tap **Done** to acknowledge them, after which they move into a **Download History** you can review later. You control how long history entries stick around in **Settings → Download History**. Every file is checksum-verified before it's counted as successfully saved.
+Finished downloads appear in a "Completed" section. Tap a batch to see its tracks, then play one or check its format, size, and when it finished. Tap **Done** to acknowledge them, after which they move into a **Download History** you can review later. You control how long history entries stick around in **Settings → Download History**. Every file is checksum-verified before it's counted as successfully saved.
 
 ## Sharing playlists and folders
 
 Send a playlist or a whole folder to a friend. Only the list of tracks travels, never audio: whoever opens it streams the tracks from the catalog, or downloads them as usual.
 
-- **Share**: open one of your playlists or folders and tap the **Share** button. Add your name if you like, then pick **Share link** to send a link by Messages, email, or anything else, or **Share file** to send a small **.vgmu** file. **Include the cover** adds the playlist's or folder's custom cover to the file (links can't carry it). A link is sent with a line naming what it is, like *Check out my vgmu playlist "Road Trip"*.
+- **Share**: open one of your playlists or folders and tap the **Share** button. Add your name if you like, then pick **Share link** to send a link by Messages, email, or anything else, or **Share file** to send a small **.txt** file, which Discord and other chat apps can preview. **Include the cover** adds the playlist's or folder's custom cover to the file (links can't carry it). A link is sent with a line naming what it is, like *Check out my vgmu playlist "Road Trip"*.
 - **Tracks from your own files** can't be shared and are left out; the sheet says how many. A playlist made only of your own files points you to **Transfer Hub** to send the music itself.
 - **Opening a link** shows a page with the playlist or folder and an **Open in vgmu** button. Without vgmu, that page offers the download instead.
-- **Opening a file**: tap a .vgmu file in Files, or in Messages tap it and then vgmu. A .vgmu file is plain text, so without vgmu it still shows the track list.
-- **Shared with You**: everything sent to you lands here as a card, kept apart from your own playlists until you add it. Open it from the **people** button in Library; its badge counts what you haven't added yet. **Open a shared file…** reads a .vgmu file saved in Files.
+- **Opening a file**: open a shared .txt file from Files, Messages, or a chat app and choose vgmu, or use **Open a shared file…** in Shared with You. It's plain text, so without vgmu it still shows the track list. Older .vgmu and .vgmu.txt files still open, and a .vgmu file opens straight away when you tap it in Files. vgmu now appears under Open with for text files; any other text file just gets a message saying it isn't a shared collection.
+- **Shared with You**: everything sent to you lands here as a card, kept apart from your own playlists until you add it. Open it from the **people** button in Library; its badge counts what you haven't added yet. **Open a shared file…** reads a shared file saved in Files.
 - **Adding it**: a shared playlist page shows who sent it, its tracks, and how many are already in your Library. **Play** streams it straight away, **Add as a new playlist** keeps it, and **Add tracks…** merges it into one of your playlists without repeating tracks. A shared folder offers **Add as a new folder**, which makes the folder and its playlists and saves its albums. If every track is already in your Library, vgmu asks before adding it.
 - **Deleting**: the trash button on a card, or **Delete** on its page, removes it along with the playlist or folder you made from it. Saved albums, likes, and downloads stay, and a playlist you merged it into is never deleted.
 
@@ -293,7 +293,8 @@ Use **Refresh** on an imported path to pick up new files. Refresh keeps working 
 - **Import** restores a backup file onto the current install. This **replaces** everything currently in your library and settings with the backup's contents, so it asks for confirmation before proceeding.
 - **Auto Backup** saves a backup inside vgmu on a schedule you choose, from every time you open vgmu to monthly. The last five are kept, and a scheduled backup that matches the newest one isn't saved again. Use **Restore from auto-backup** to bring one back.
 - **Older versions**: backups made with vgmu 1.2 or later can't be imported into older versions.
-- **What isn't included**: downloaded audio files and folders imported from your device aren't part of the backup, since they stay tied to the install that made them. After importing, saved tracks re-download when opened and album covers refresh automatically; local-import tracks reappear in playlists but need to be re-imported to play.
+- **What isn't included**: downloaded audio files and folders imported from your device aren't part of the backup, since they stay tied to the install that made them. After importing, saved tracks re-download when opened and album covers refresh automatically; local-import tracks reappear in playlists but need to be re-imported to play. Music already downloaded on the phone you restore onto stays available.
+- **Device backups**: downloaded music stays out of iCloud backups, because it can be downloaded again. After restoring an iPhone from iCloud, those tracks stream until you download them again, while Local Library imports come back with it. Android device backups don't include vgmu at all, so keep your own backup file.
 
 ## Settings
 
@@ -315,7 +316,7 @@ Reached from the settings button on any screen.
 | **Local Library**         | Scan nested folders when importing                                                                                                                                                                                |
 | **Network**               | Allow Home to auto-refresh over cellular (off = Wi-Fi only)                                                                                                                                                       |
 | **Download History**      | How long completed-download history is kept                                                                                                                                                                       |
-| **Storage**               | Breakdown of space used: downloaded tracks, local imports, artwork, the online artwork cache, and total. **Clear online artwork cache** frees cached online covers, which download again when shown               |
+| **Storage**               | Breakdown of space used: downloaded tracks, local imports, artwork, the online artwork cache, backups and temporary files, and total. **Clear online artwork cache** frees cached online covers, which download again when shown. On iPhone, **Maximum artwork storage** limits that cache, from 100 MB to 5 GB (500 MB by default), and the oldest covers go the next time you leave the app |
 | **Discord Rich Presence** | See [Discord Rich Presence](#discord-rich-presence) below                                                                                                                                                         |
 | **Help**                  | Quick in-app usage reference                                                                                                                                                                                      |
 | **About**                 | App version, credits, and links to the vgmu website and releases page                                                                                                                                             |
@@ -326,7 +327,7 @@ Reached from the settings button on any screen.
 vgmu has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean. See the [Gallery](../GALLERY.md) for every screen in all three.
 
 - **Console**: a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (pink by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, or nothing. Track rows keep the heart inline and put Add to playlist, Add to folder, Add to queue, and Download in a ⋯ sheet. Inside your own playlist, that sheet also has Remove from playlist.
-- **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
+- **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (Console's pink by default, fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
 - **Clean**: the original, restrained vgmu look, with the color themes below and nothing animating.
 
 In every style, **Haptics** turns tap feedback on or off and **Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.
@@ -350,6 +351,8 @@ Open **Settings → Discord Rich Presence** and tap **Connect Discord**. This us
 
 - **Android:** vgmu shows your track through the Discord app on your phone. Install Discord and sign in first; you don't enter a password or token in vgmu. If the status says vgmu can't reach the Discord app, open Discord, check you're signed in, and play a track again.
 - **iPhone:** vgmu opens a Discord sign-in (in the Discord app if it's installed, otherwise a Discord web page) where you allow vgmu. vgmu keeps that sign-in in secure device storage, never your password. If the status says the sign-in expired, tap **Connect Discord** again.
+
+A short Discord outage or lost connection doesn't sign you out: vgmu retries by itself. If Discord really does need a new sign-in, a small banner above the player says so, with **Reconnect** and a way to dismiss it.
 
 **Use manual token (advanced)** is the older method: you paste your own Discord account token into Settings, and vgmu connects as your account over a method Discord does not officially support for this kind of use. It carries a real risk of action against your Discord account and is entirely at your own risk. If you were already connected this way, it keeps working; tapping **Connect Discord** switches you to the official connection and removes the saved token.
 

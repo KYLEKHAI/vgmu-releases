@@ -1204,21 +1204,21 @@ A screen-by-screen tour of vgmu 1.4 in all three interfaces: <b>Console</b>, <b>
 
 ## Everywhere · Sharing
 
-<div align="center"><b>New in 1.3: send a playlist or a whole folder to a friend as a link or a .vgmu file. They open it in vgmu and stream it from the catalog.</b></div>
+<div align="center"><b>New in 1.3: send a playlist or a whole folder to a friend as a link or a small file. They open it in vgmu and stream it from the catalog.</b></div>
 
 <div align="center">
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-share-playlist.jpg" width="240"><br>
-<sub><b>Figure 196: Share a playlist</b><br>Send a link or a small .vgmu file. Only the track list travels: whoever opens it streams the tracks from the catalog.</sub>
+<sub><b>Figure 196: Share a playlist</b><br>Send a link or a small text file. Only the track list travels: whoever opens it streams the tracks from the catalog.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-share-file.jpg" width="240"><br>
-<sub><b>Figure 197: Share as a file</b><br>Send the .vgmu file through Messages, AirDrop, or anywhere else. It can carry the playlist's cover too.</sub>
+<sub><b>Figure 197: Share as a file</b><br>Send the file through Messages, AirDrop, Discord, or anywhere else. It can carry the playlist's cover too.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/share-file-preview.jpg" width="240"><br>
-<sub><b>Figure 198: Readable without vgmu</b><br>A .vgmu file opens as plain text anywhere, so the track list shows even on a phone without vgmu.</sub>
+<sub><b>Figure 198: Readable without vgmu</b><br>A shared file opens as plain text anywhere, so the track list shows even on a phone without vgmu.</sub>
 </td>
 </tr></table>
 <table><tr>

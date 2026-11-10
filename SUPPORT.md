@@ -129,6 +129,6 @@ You can also [open a feedback issue](../../issues/new?template=feedback.md) on G
 
 If your issue isn't covered above:
 
-1. Ask in the [vgmu Discord](https://discord.gg/bFubZaxEBV), or search existing [Issues](../../issues) to see if others reported it
+1. Ask in the [vgmu Discord](https://discord.gg/U2jhnUgMte), or search existing [Issues](../../issues) to see if others reported it
 2. Send details through the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/), email [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com), or [open a new issue](../../issues/new?template=bug_report.md)
 3. Responses may take time

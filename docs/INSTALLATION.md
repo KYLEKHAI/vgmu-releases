@@ -96,4 +96,4 @@ Uninstalling removes the app's local data. There is no vgmu account-based cloud 
 
 [Support](../SUPPORT.md) · [Privacy](../PRIVACY.md) · [Security](../SECURITY.md) · [License](../LICENSE.md)
 
-For help, use the [vgmu Discord](https://discord.gg/bFubZaxEBV), GitHub Issues, or the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/).
+For help, use the [vgmu Discord](https://discord.gg/U2jhnUgMte), GitHub Issues, or the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/).

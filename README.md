@@ -73,7 +73,7 @@ vgmu is a personal project for enjoying video game music on mobile. For question
 
 ## Follow and support vgmu
 
-[![Join the vgmu Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/bFubZaxEBV)
+[![Join the vgmu Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/U2jhnUgMte)
 [![vgmu on YouTube](https://img.shields.io/badge/YouTube-E60000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@vgmu-dev)
 [![vgmu on GitHub](https://img.shields.io/badge/GitHub-5852C4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KYLEKHAI/vgmu-releases)
 [![Support vgmu on Ko-fi](https://img.shields.io/badge/Ko--fi-EA6CD0?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/vgmu_dev)

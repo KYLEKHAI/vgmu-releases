@@ -1,6 +1,6 @@
 <div align="center">
 
-**[Website](https://vgmu.kylekhai.workers.dev/) · [README](README.md) · [Installation](docs/INSTALLATION.md) · [Getting Started](docs/GETTING_STARTED.md) · [Usage](docs/USAGE_GUIDE.md) · [Gallery](GALLERY.md) · [Support](SUPPORT.md) · [Security](SECURITY.md) · [Privacy](PRIVACY.md) · [EULA](EULA.md) · [License](LICENSE.md)**
+**[Website](https://vgmu.app/) · [README](README.md) · [Installation](docs/INSTALLATION.md) · [Getting Started](docs/GETTING_STARTED.md) · [Usage](docs/USAGE_GUIDE.md) · [Gallery](GALLERY.md) · [Support](SUPPORT.md) · [Security](SECURITY.md) · [Privacy](PRIVACY.md) · [EULA](EULA.md) · [License](LICENSE.md)**
 
 </div>
 
@@ -37,7 +37,7 @@ A free video game music app for iOS and Android. vgmu lets you discover, organiz
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).
 - [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v1.5.0/vgmu-1.5.0-SHA256SUMS.txt)
 
-**Website:** [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/), with the install guides, FAQ and a tour of every screen.
+**Website:** [vgmu.app](https://vgmu.app/), with the install guides, FAQ and a tour of every screen.
 
 See the [installation guide](docs/INSTALLATION.md) for detailed setup instructions.
 
@@ -63,7 +63,7 @@ See the [installation guide](docs/INSTALLATION.md) for detailed setup instructio
 - [Usage guide](docs/USAGE_GUIDE.md): Features and how to use them
 - [Gallery](GALLERY.md): Full screenshot tour of every screen
 - [Support and troubleshooting](SUPPORT.md): FAQ and common issues
-- [Report a bug](../../issues/new?template=bug_report.md) or [send feedback](https://vgmu.kylekhai.workers.dev/feedback/)
+- [Report a bug](../../issues/new?template=bug_report.md) or [send feedback](https://vgmu.app/feedback/)
 
 ## About
 

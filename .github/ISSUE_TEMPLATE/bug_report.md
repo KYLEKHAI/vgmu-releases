@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Prefer not to use GitHub? Use the [feedback form](https://vgmu.kylekhai.workers.dev/feedback/) instead.
+Prefer not to use GitHub? Use the [feedback form](https://vgmu.app/feedback/) instead.
 
 ## Describe the Bug
 

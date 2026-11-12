@@ -13,6 +13,14 @@
 
 - Yes. **Settings → Screen Layout** turns the app sideways and zooms it out to fit, and on Android handhelds the D-pad, stick, and buttons work. See [Usage guide: Landscape, zoom, and controllers](docs/USAGE_GUIDE.md#landscape-zoom-and-controllers)
 
+**Q: Why don't I see lyrics for a song?**
+
+- Most game music is instrumental, so many tracks have none. vgmu only shows lyrics it's confident belong to the track, from the free LRCLIB community database. Check that **Settings → Lyrics → Find lyrics** is on and you're online, and turn on **Unsynced lyrics** to also see lyrics without timing. See [Usage guide: Lyrics](docs/USAGE_GUIDE.md#lyrics)
+
+**Q: Can I type with a controller?**
+
+- Yes, on Android. Press **A** on a text field such as Search to open vgmu's controller keyboard, since Android's own keyboards can't be used with a controller. See [Usage guide: Landscape, zoom, and controllers](docs/USAGE_GUIDE.md#landscape-zoom-and-controllers)
+
 **Q: Is vgmu available in my language?**
 
 - vgmu's interface is in beta in Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, and Korean, besides English. It follows your phone by default; change it under **Settings → Language · BETA**. Translations are machine-made, so some wording may look off

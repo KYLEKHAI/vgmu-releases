@@ -14,6 +14,7 @@ A complete reference for everything vgmu can do.
 - [Library](#library)
 - [Album pages](#album-pages)
 - [Playback](#playback)
+- [Lyrics](#lyrics)
 - [Sound Lab](#sound-lab)
 - [Listening stats](#listening-stats)
 - [Likes](#likes)
@@ -39,14 +40,18 @@ A **mini-player** appears above the tab bar whenever a track is loaded, showing 
 
 Tap the tab you're already on to return to its first page.
 
-Settings is a long page, so a **Sections** button sits in its bottom-right corner: tap it for a list of every section and jump straight to one.
+Settings and Help are long pages. In portrait, a chip at the bottom names the section you're in; tap it for a list of every section and jump straight to one. In landscape, every section is listed down the left side with the current one lit.
 
 ## Landscape, zoom, and controllers
 
 - **Orientation**: **Settings → Screen Layout → Orientation** chooses **Portrait**, **Rotate** (follow how the device is held, the default), or **Landscape** (always sideways, for handhelds).
 - **The landscape dock**: in landscape, the four tabs and what's playing share one floating dock at the bottom. The current tab widens into a pill with its name, and the dock holds the cover, title, and Previous, Play, and Next. Now Playing lays out side by side, and the album gallery fits the shorter screen.
-- **Zoom**: choose **70%, 80%, 90%, or 100%** to fit more on screen. Portrait and landscape each keep their own zoom, landscape starts at 70%, and turning the device switches to that side's zoom.
-- **Game controllers (Android)**: on Android handhelds or with a connected controller, the D-pad or stick moves a highlight ring between controls and **A** presses the one selected. **LB** and **RB** switch tabs, and the dock shows their hints while a controller is around. **Settings → Controls** binds Previous tab, Next tab, Play or pause, Previous track, Next track, and Open Now Playing: select an action, then press the button you want. A or B cancels, a button can only do one thing, and **Reset to defaults** restores the original bindings.
+- **Zoom**: choose **70%, 80%, 90%, or 100%** to fit more on screen. The zoom you pick stays the same when you turn the device.
+- **Cover size**: **Settings → Screen Layout → Cover size** fits more or fewer album covers across Home, Search, Browse, and your Library: **Large covers** (the default, 3 across on a phone), **Medium covers** (4 across), or **Small covers** (5 across). Headers, the mini-player, and the tabs keep their size, and zooming out adds more columns on top.
+- **Player cards in landscape** (on by default): sideways, Now Playing puts the title and the controls into cards so they stay readable over any background: frosted glass in Console, plain panels in Clean, and messages in PictoChat. **Title and controls in one card** (on by default) keeps them together; turn it off for two cards. Open lyrics get a card of their own.
+- **Game controllers (Android)**: on Android handhelds or with a connected controller, the D-pad or stick moves a highlight ring between controls and **A** presses the one selected. **LB** and **RB** switch tabs, and the dock shows their hints while a controller is around. **Settings → Controls** binds Previous tab, Next tab, Play or pause, Previous track, Next track, Open Now Playing, Open Settings, and Open playback queue (the last two start unassigned) to the other buttons, including Start, Select, the stick clicks (**L3** and **R3**), and **Home** where the controller hands it to apps: select an action, then press the button you want. A or B cancels, a button can only do one thing, and **Reset to defaults** restores the original bindings. Pressing Open Now Playing, Open Settings, or Open playback queue again closes it, and Open Now Playing never opens a second player.
+- **Moving around with a controller**: the highlight lands only on things you can press (never titles, dates, loading spinners, empty lists, or scrolling track names), works in sheets such as the playback queue, a track's menu, and the collection editor, and is thicker on accent-colored buttons. Left and right stop at the ends of a sideways row, the right stick scrolls the page like a mouse wheel, and left and right on Now Playing's seek bar skip 5 seconds (hold to sweep). In landscape, press a queue track's reorder button to pick it up and another track's to move it there. **B** goes back and returns the highlight to the item you opened; on a tab's first page it stays in vgmu instead of closing it.
+- **Controller keyboard (Android)**: Android's own keyboards can't be used with a controller, so pressing **A** on a text field such as Search opens vgmu's on-screen keyboard. Move across the keys and press A to type; **⇧** capitalizes the next letter, **Space** adds a space, **⌫** deletes, and **Done** closes it. What you type shows above the keys. Tapping a text field with your finger still opens the phone's keyboard.
 
 ## Home
 
@@ -167,6 +172,7 @@ The mini-player (bottom of screen) gives you play/pause, previous/next, and a co
 - **Repeat**, which cycles Off → Repeat All → Repeat One (a small "1" badge shows when repeat-one is active)
 - **Queue** button, opening the full queue view
 - **Sliders** button, opening the [Sound Lab](#sound-lab)
+- **Lyrics** button (a speech bubble), shown when vgmu finds lyrics for the track. See [Lyrics](#lyrics)
 - Swipe the screen down to dismiss it back to the mini-player
 - Tapping the title/artist jumps you to the album, playlist, or folder the current track is playing from, scrolling straight to that track and highlighting it. When you're playing a whole folder, it opens the album that holds the track inside that folder.
 
@@ -185,15 +191,33 @@ From the queue view you can reorder tracks, remove them, clear the queue, or pro
 
 ### Background and lock-screen playback
 
-Playback continues when you close or minimize vgmu, and when your device is locked. Your device's lock screen and notification shade show the current track's title, artist, album, and artwork, with working play/pause and next/previous controls. (Seek-forward/seek-backward buttons are intentionally not shown on the lock screen.) Bluetooth and wired headset media buttons work the same way, including while vgmu is in the background. On Android, double-press a wired headset's button to skip to the next track; a single press pauses and resumes. The Android media notification shows vgmu's track title and artist.
+Playback continues when you close or minimize vgmu, and when your device is locked. Your device's lock screen and notification shade show the current track's title, artist, album, and artwork, with working play/pause and next/previous controls. (Seek-forward/seek-backward buttons are intentionally not shown on the lock screen.) Bluetooth and wired headset media buttons work the same way, including while vgmu is in the background. On Android, double-press a wired headset's button to skip to the next track or triple-press it to go back; a single press pauses and resumes. The Android media notification shows vgmu's track title and artist.
 
 Your queue, current track, and playback position are saved automatically and restored the next time you open the app.
+
+## Lyrics
+
+As each song starts, vgmu looks for its lyrics. When it finds them, Now Playing shows a **lyrics** button (a speech bubble) in its bottom row: tap it to swap the cover for the lyrics, and again to bring the cover back. Lyrics stay open for the rest of the session, even if you close and reopen Now Playing.
+
+- **Synced lyrics** follow the song. The line being sung is bright and held a third of the way down, the rest are dim, and opening lyrics mid-song jumps straight to the current line.
+- **Unsynced lyrics** have no timing, so every line is equally bright and none is highlighted. You scroll them yourself by default (swipe down from the top of the lyrics, or anywhere else, to close Now Playing), or choose to have them move evenly through the song. That's only an estimate, so it can run ahead or behind.
+- A **Synced** or **Unsynced** badge above the lyrics tells you which you're looking at.
+
+Lyrics come from [LRCLIB](https://lrclib.net), a free community lyrics database, and always show in the song's own language. Most game music is instrumental, so many tracks have no lyrics: vgmu only shows lyrics it's confident belong to the track, and never looks up titles marked instrumental, karaoke, or off vocal. If the lyrics service is busy, vgmu tries again the next time the track plays.
+
+**Settings → Lyrics** has:
+
+- **Find lyrics** (on by default): looks up lyrics as each song starts. Off, vgmu never contacts LRCLIB and the lyrics button doesn't appear.
+- **Unsynced lyrics** (on by default): also shows lyrics without timing.
+- **Scroll unsynced lyrics myself** (the default) or **Scroll unsynced lyrics automatically**.
+
+With the [Theater](#theater) background, lyrics can also fill the whole screen, play like a lyric video, or fly around the screen while the controls are faded.
 
 ## Sound Lab
 
 The Sound Lab changes how every track sounds. Open it from the **sliders** button in Now Playing, or from the **Sound Lab** tile in **Manager**, and turn it on.
 
-- **Presets**: **Slowed + Reverb** (0.8× speed with reverb) or **Nightcore** (1.25× speed), one tap each. **Off** resets speed, pitch, and reverb.
+- **Presets**: **Slowed + Reverb** (0.8× speed with a 30% reverb mix) or **Nightcore** (1.25× speed), one tap each. **Off** resets speed, pitch, and reverb.
 - **Speed**: from 0.5× to 1.5×.
 - **Pitch**: **Linked** pitch follows speed like a record player; **Independent** sets pitch on its own, up to 12 semitones up or down.
 - **Reverb**: a Mix slider that adds space to the sound.
@@ -330,8 +354,9 @@ Reached from the settings button on any screen.
 | **Interface style**       | Clean, Console, or PictoChat, plus Haptics, Reduce motion, Crop artwork to fill, the Now Playing background, and the Home rows. See [Interface styles](#interface-styles) below |
 | **Colors / Look / Themes** | Each style's color settings: Console's Colors, PictoChat's Look, or Clean's Themes |
 | **Themes (Clean)**        | See [Themes](#themes) below                                                                                                                                                                                       |
-| **Screen Layout**         | Orientation (Portrait, Rotate, or Landscape) and zoom (70% to 100%), kept separately for portrait and landscape. See [Landscape, zoom, and controllers](#landscape-zoom-and-controllers) |
-| **Controls (Android)**    | Bind controller buttons to tab switching, playback, and Open Now Playing |
+| **Screen Layout**         | Orientation (Portrait, Rotate, or Landscape), zoom (70% to 100%, the same in both orientations), Cover size (Large, Medium, or Small covers), and Player cards in landscape. See [Landscape, zoom, and controllers](#landscape-zoom-and-controllers) |
+| **Controls (Android)**    | Bind controller buttons, including L3, R3, and Home, to tab switching, playback, Open Now Playing, Open Settings, and Open playback queue |
+| **Lyrics**                | Find lyrics, Unsynced lyrics, and how unsynced lyrics scroll. See [Lyrics](#lyrics) |
 | **Marquee Scroll Speed**  | How fast long titles scroll                                                                                                                                                                                       |
 | **Playlist Artwork**      | Use playlist art for tracks missing their own artwork, and optionally override track art with playlist art                                                                                                        |
 | **Track Metadata**        | Apply playlist-level track edits globally                                                                                                                                                                         |
@@ -348,11 +373,36 @@ Reached from the settings button on any screen.
 
 vgmu has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean. See the [Gallery](../GALLERY.md) for every screen in all three.
 
-- **Console**: a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (pink by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, or nothing. Track rows keep the heart inline and put Add to playlist, Add to folder, Add to queue, and Download in a ⋯ sheet. Inside your own playlist, that sheet also has Remove from playlist.
-- **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (Console's pink by default, fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
+- **Console**: a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (pink by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, [Theater](#theater) (the album's art gallery, in landscape), or nothing. Track rows keep the heart inline and put Add to playlist, Add to folder, Add to queue, and Download in a ⋯ sheet. Inside your own playlist, that sheet also has Remove from playlist.
+- **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (Console's pink by default, fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, [Theater](#theater), or nothing.
 - **Clean**: the original, restrained vgmu look, with the color themes below and nothing animating.
 
 In every style, **Haptics** turns tap feedback on or off, **Reduce motion** turns off animations, page transitions, moving backgrounds, and the launch animation (it's also on whenever your device's own reduce-motion setting is), and **Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.
+
+### Theater
+
+Theater is a Now Playing background for Console and PictoChat. Turn the phone sideways and the album's art gallery fills the screen behind the player, fading from one image to the next; an album without a gallery shows its cover. Upright, Now Playing shows the style's default background instead (music notes, or PictoChat's squares). With Theater chosen, its options appear under the background picker:
+
+- **Change image every**: 5, 10, 15 (default), or 30 seconds, or 1 minute
+- **Order**: Gallery order, or **Shuffle**, which shows every image once before any repeats
+- **Motion**: **Still** (default), or **Zoom in** / **Zoom out**, each image slowly zooming one way while it shows
+- **Image fill**: **Fill the screen** (default, cropping the edges) or **Whole image**
+- **Image opacity**: how strongly the art shows behind the player, 20% to 80%
+- **Cover and controls**: **Always show** (default), or **Fade away**, which fades the cover and controls out a few seconds after your last touch so only the art is left; a tap brings them back
+
+With **Fade away**, two more options appear:
+
+- **Image while faded**: **Keep opacity** (default), or **Full opacity** once the player has faded
+- **Lyrics when the controls fade**, for when [lyrics](#lyrics) are open:
+  - **Fade too**: the lyrics fade with the controls
+  - **Keep showing**: the lyrics stay where they are
+  - **Full screen** (default): the lyrics fade in across the whole screen and scroll on their own, unsynced ones included. **Full-screen lyrics** can float over the art (**No card**, default) or sit **In a card** in the middle of the screen, with the gallery showing on both sides
+  - **Cinematic**: synced lyrics play a line at a time like a lyric video, rising in, drifting, and lifting away, with the next line faint below
+  - **Freestyle**: every synced line makes its own entrance, picked from 21 moves (the whole line sliding, whipping, spiraling, slamming, dropping, swinging, glitching, or unfolding in; words flying, rising, flipping like cards, or stomping in; or letters popping, scattering, typing out, scrambling, flipping, stretching, raining, converging, or spinning in), in its own spot, size, and tilt, arriving in its own order and speed. Some lines sway, float, pulse, or ripple while they're sung, and each leaves its own way. Colors never change, and no two lines in a row use the same entrance
+
+  Cinematic and Freestyle show unsynced lyrics full screen instead. With Reduce motion, they change lines in place without moving.
+
+Each image loads just before it shows, and the next fade waits until it has, so a slow connection holds the current image longer instead of fading to a blank one. Reduce motion holds Theater on one image.
 
 ## Themes
 

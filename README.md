@@ -86,7 +86,7 @@ vgmu is a personal project for enjoying video game music on mobile. For question
 
 ## Made possible with
 
-Expo, and online video game music archives
+Expo, [LRCLIB](https://lrclib.net) for lyrics, and online video game music archives
 
 <p align="center">
   <img src="assets/expo.png" width="150" style="margin: 0 20px;">

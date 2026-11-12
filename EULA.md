@@ -16,7 +16,7 @@ You may not sell, rent, sublicense, redistribute, repackage, modify, or reverse 
 
 vgmu is a fan-made media player. The Developer does not operate or host a third-party music catalog, does not own third-party audio, artwork, or metadata, and is not affiliated with or endorsed by any third-party source, game publisher, composer, label, or platform.
 
-The Software may request catalog metadata, artwork, and audio directly from third-party endpoints. It may also save user-selected audio and artwork in app-managed local storage for offline use. You are responsible for ensuring that your access to and use of third-party content is lawful and complies with the applicable third-party terms. The Developer does not grant rights to third-party content.
+The Software may request catalog metadata, artwork, audio, and lyrics directly from third-party endpoints. It may also save user-selected audio and artwork in app-managed local storage for offline use. You are responsible for ensuring that your access to and use of third-party content is lawful and complies with the applicable third-party terms. The Developer does not grant rights to third-party content.
 
 Third-party services may be unavailable, change their behavior, restrict access, or apply their own terms and privacy practices. The Developer does not control those services.
 
@@ -32,7 +32,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE DEVELOPER WILL NOT BE LIABLE FOR IND
 
 ## 5. Privacy summary
 
-vgmu does not operate a user-account, cloud-sync, advertising, or analytics service. Core settings, library metadata, playlists, likes, queues, download history, artwork, and saved audio are managed on the device. Network requests to third-party catalog, artwork, audio, and optional Discord services can expose ordinary request and network metadata to those services. If you enable Discord Rich Presence, the Software stores a Discord sign-in or the supplied Discord token in secure device storage and uses it to connect directly to Discord. The separate vgmu Privacy Policy describes these practices in detail.
+vgmu does not operate a user-account, cloud-sync, advertising, or analytics service. Core settings, library metadata, playlists, likes, queues, download history, artwork, and saved audio are managed on the device. Network requests to third-party catalog, artwork, audio, lyrics, and optional Discord services can expose ordinary request and network metadata to those services. If you enable Discord Rich Presence, the Software stores a Discord sign-in or the supplied Discord token in secure device storage and uses it to connect directly to Discord. The separate vgmu Privacy Policy describes these practices in detail.
 
 ## 6. Ending use
 

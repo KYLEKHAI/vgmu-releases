@@ -37,7 +37,7 @@ Tap any album card to open its album page.
 
 On an album page, tap any track to start playing it instantly. No download required. A **mini-player** appears at the bottom of the screen showing the artwork, title, and playback controls. Tap the mini-player to open the **full player** with larger artwork, a seek bar, shuffle, repeat, and queue controls. Its **sliders** button opens the **Sound Lab**, where you can change speed, pitch, and reverb, or shape the sound with an equalizer (see [Usage guide: Sound Lab](USAGE_GUIDE.md#sound-lab)).
 
-You'll need an internet connection to play a track this way. Playback continues if you lock your device or switch apps, and you can control it from your lock screen or notification shade.
+You'll need an internet connection to play a track this way. Playback continues if you lock your device or switch apps, and you can control it from your lock screen or notification shade. If the song has lyrics, a speech-bubble button in the full player shows them.
 
 ## 5. Like a track
 
@@ -64,14 +64,15 @@ Tap the settings button to open **Settings**, where you can:
 - Pick an **interface style**: Console (a home-menu look), PictoChat (the Nintendo DS chat app), or Clean (the original look). See [Usage guide: Interface styles](USAGE_GUIDE.md#interface-styles)
 - In Clean, change your **theme**: from a simple light/dark "Simple UI" with an accent color, to dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and many more)
 - Change the **language** (beta): Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, or Korean
-- Turn vgmu **sideways** and set the **zoom** under Screen Layout, or bind **controller buttons** under Controls on Android (see [Usage guide: Landscape, zoom, and controllers](USAGE_GUIDE.md#landscape-zoom-and-controllers))
+- Turn vgmu **sideways**, set the **zoom**, and choose a **cover size** under Screen Layout, or bind **controller buttons** under Controls on Android (see [Usage guide: Landscape, zoom, and controllers](USAGE_GUIDE.md#landscape-zoom-and-controllers))
+- Turn **lyrics** on or off and choose how unsynced lyrics scroll (see [Usage guide: Lyrics](USAGE_GUIDE.md#lyrics))
 - Choose your **preferred download quality/format**
 - Choose whether Home can refresh over **cellular data**
 - Connect **Discord Rich Presence**, which is optional (see [Usage guide: Discord Rich Presence](USAGE_GUIDE.md#discord-rich-presence) for what it shares and how to connect)
 - Check your library's **storage usage**
 - Set your **default tab** on launch
 
-Tap **Sections** in the bottom-right corner of Settings to jump to any section.
+In portrait, tap the chip at the bottom of Settings to jump to any section; in landscape, every section is listed down the left side.
 
 Back up your Library, or turn on **Auto Backup**, under **Manager → Backup**.
 

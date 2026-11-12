@@ -8,7 +8,7 @@ This policy describes the current vgmu application (the “App”) in plain lang
 
 ## Summary
 
-vgmu is local-first. It does not operate a user-account service, cloud synchronization, advertising service, or analytics service. The App stores its library and preferences on the device. When online features are used, the App makes direct requests to third-party catalog, artwork, audio, and optional Discord services from the device.
+vgmu is local-first. It does not operate a user-account service, cloud synchronization, advertising service, or analytics service. The App stores its library and preferences on the device. When online features are used, the App makes direct requests to third-party catalog, artwork, audio, lyrics, and optional Discord services from the device.
 
 ## Information stored on the device
 
@@ -25,6 +25,8 @@ The App does not send this local library data to a vgmu account or vgmu-operated
 ## Information sent to third-party services
 
 When you use online catalog features, the selected third-party source may receive the search text, filters, source identifiers, requested metadata, and ordinary network information such as an IP address, timestamp, request headers, and user agent. Artwork and audio requests are made directly from the device to the relevant third-party endpoint, which can see the request and network information needed to serve it.
+
+When Find lyrics is on (Settings → Lyrics; on by default), vgmu looks up lyrics for each track as it starts playing by sending a search to LRCLIB (lrclib.net), a free community lyrics database. The search includes the track title and, when known, its album and artist, and the response is matched against the track length. This applies to every track you play, including tracks imported from your own files. Requests carry a vgmu user agent and ordinary network information such as an IP address and timestamp. Lyrics found are kept in memory only while vgmu is open and are not saved. Turning Find lyrics off stops every request to LRCLIB. LRCLIB’s own terms and privacy practices apply to that processing.
 
 When Discord Rich Presence is enabled, vgmu sends activity to Discord while music plays. The activity can include the current track title, artist, album, playback state, timing, and artwork-related information, including a remote artwork URL for Discord to display. With the official connection, vgmu uses Discord’s Social SDK: on Android it hands the activity to the Discord app on the device; on iPhone you authorize vgmu through Discord’s sign-in and vgmu connects to Discord with that authorization. With the manual-token connection, vgmu sends the supplied token directly to Discord to connect the gateway and publish activity, and may send a remote artwork URL to Discord’s external-asset endpoint so Discord can render the activity image. Discord’s own terms and privacy practices apply to that processing.
 

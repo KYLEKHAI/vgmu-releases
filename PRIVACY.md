@@ -1,8 +1,8 @@
 # vgmu Privacy Policy
 
-**Version:** 1.5.0
-**Effective date:** 2026-11-07
-**Applies to:** vgmu 1.5.0 personal-use binary releases
+**Version:** 1.6.0
+**Effective date:** TBD
+**Applies to:** vgmu 1.6.0 personal-use binary releases
 
 This policy describes the current vgmu application (the “App”) in plain language. It is an owner-authored privacy notice from vgmu Developer, not legal advice. Privacy questions can be sent to [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com), through the [feedback form](https://vgmu.app/feedback/), or by [opening an issue](../../issues/new?template=feedback.md).
 
@@ -14,7 +14,7 @@ vgmu is local-first. It does not operate a user-account service, cloud synchroni
 
 Depending on the features you use, vgmu stores locally:
 
-- Settings such as appearance, accent, preferred format, refresh, download-history, and playback preferences.
+- Settings such as appearance, accent, language, screen orientation and zoom, controller button bindings, preferred format, refresh, download-history, and playback preferences.
 - Catalog and library metadata, likes, playlists, folders, playback queue, download queue, and download history.
 - Cached artwork, user-selected playlist artwork, saved audio, and local-library file references or imported audio.
 - A small diagnostic log of app sessions, errors, and connection failures, which never contains passwords or tokens. vgmu does not send it anywhere; it stays on the device until the App is removed.
@@ -32,7 +32,7 @@ vgmu does not intentionally collect device identifiers for its own analytics. Th
 
 ## Permissions and local files
 
-vgmu may ask for access needed for actions you choose, including selecting or saving artwork, importing local audio or folders, sharing files, and playing audio in the background. vgmu does not record or transmit microphone audio. Files selected for import or saving remain under the device’s and operating system’s storage controls.
+vgmu may ask for access needed for actions you choose, including selecting or saving artwork, importing local audio or folders, sharing files, playing audio in the background, and, on Android, continuing downloads in the background with a Downloading tracks notification while the download queue has work. vgmu does not record or transmit microphone audio. On Android, vgmu reads game-controller button presses on the device to move between controls and run the actions you bind; it does not store or send them. Files selected for import or saving remain under the device’s and operating system’s storage controls.
 
 ## Retention and deletion
 

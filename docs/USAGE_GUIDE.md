@@ -7,6 +7,7 @@ A complete reference for everything vgmu can do.
 ## Contents
 
 - [Navigation](#navigation)
+- [Landscape, zoom, and controllers](#landscape-zoom-and-controllers)
 - [Home](#home)
 - [Browse](#browse)
 - [Search](#search)
@@ -37,6 +38,15 @@ vgmu has four tabs (**Home**, **Search**, **Library**, and **Manager**) plus a *
 A **mini-player** appears above the tab bar whenever a track is loaded, showing artwork, title/artist, transport controls, and a compact progress bar. Tap it to open the full-screen **Now Playing** player.
 
 Tap the tab you're already on to return to its first page.
+
+Settings is a long page, so a **Sections** button sits in its bottom-right corner: tap it for a list of every section and jump straight to one.
+
+## Landscape, zoom, and controllers
+
+- **Orientation**: **Settings → Screen Layout → Orientation** chooses **Portrait**, **Rotate** (follow how the device is held, the default), or **Landscape** (always sideways, for handhelds).
+- **The landscape dock**: in landscape, the four tabs and what's playing share one floating dock at the bottom. The current tab widens into a pill with its name, and the dock holds the cover, title, and Previous, Play, and Next. Now Playing lays out side by side, and the album gallery fits the shorter screen.
+- **Zoom**: choose **70%, 80%, 90%, or 100%** to fit more on screen. Portrait and landscape each keep their own zoom, landscape starts at 70%, and turning the device switches to that side's zoom.
+- **Game controllers (Android)**: on Android handhelds or with a connected controller, the D-pad or stick moves a highlight ring between controls and **A** presses the one selected. **LB** and **RB** switch tabs, and the dock shows their hints while a controller is around. **Settings → Controls** binds Previous tab, Next tab, Play or pause, Previous track, Next track, and Open Now Playing: select an action, then press the button you want. A or B cancels, a button can only do one thing, and **Reset to defaults** restores the original bindings.
 
 ## Home
 
@@ -119,6 +129,7 @@ These three can't be deleted, since they represent live state rather than someth
 - **Pin**: long-press a collection → **Collection options → Pin**, to keep up to 8 favorites at the top of the tab
 - **Delete/Unsave**: long-press → Delete (for playlists/folders) or Unsave (for albums). Deleting a playlist or folder removes only the organizational grouping, never the underlying tracks, your likes, or any downloaded files.
 - **Shared with You**: the **people** button beside the list and grid toggle opens what friends have sent you (see [Sharing playlists and folders](#sharing-playlists-and-folders)). The **Shared** filter chip lists the playlists you've added from them.
+- **Album headers in playlists**: off by default (**Settings → Library**), it groups the tracks in your playlists, Liked Tracks, and Offline Library under a header for each album, with Other Tracks last. Chips choose which details the headers show (Artist, Publisher, Year, and Platforms; the album title always shows). Under Title sort the albums run A to Z, and playing keeps that grouped order.
 - **Hide items already in a folder**: on by default (**Settings → Library**), it removes albums and playlists from the main Library list once they belong to a folder, so they only show up inside that folder.
 
 ### Editing playlists and folders
@@ -174,7 +185,7 @@ From the queue view you can reorder tracks, remove them, clear the queue, or pro
 
 ### Background and lock-screen playback
 
-Playback continues when you close or minimize vgmu, and when your device is locked. Your device's lock screen and notification shade show the current track's title, artist, album, and artwork, with working play/pause and next/previous controls. (Seek-forward/seek-backward buttons are intentionally not shown on the lock screen.) Bluetooth and wired headset media buttons work the same way.
+Playback continues when you close or minimize vgmu, and when your device is locked. Your device's lock screen and notification shade show the current track's title, artist, album, and artwork, with working play/pause and next/previous controls. (Seek-forward/seek-backward buttons are intentionally not shown on the lock screen.) Bluetooth and wired headset media buttons work the same way, including while vgmu is in the background. On Android, double-press a wired headset's button to skip to the next track; a single press pauses and resumes. The Android media notification shows vgmu's track title and artist.
 
 Your queue, current track, and playback position are saved automatically and restored the next time you open the app.
 
@@ -232,9 +243,13 @@ vgmu supports whatever formats the catalog offers per track: **FLAC, M4A, MP3, a
 
 ### Failures, retries, and rate limits
 
-Recoverable errors (network hiccups, temporary source unavailability, timeouts, and rate limits) are retried automatically up to 3 times. If the source specifically rate-limits a request, vgmu shows a **live countdown** next to the job ("Waiting to retry · Ns") and retries exactly when the countdown reaches zero, rather than guessing.
+Recoverable errors (network hiccups, temporary source unavailability, timeouts, and rate limits) are retried automatically up to 3 times. If the source specifically rate-limits a request, vgmu shows a **live countdown** next to the job ("Waiting to retry · Ns") and holds the whole queue until the countdown reaches zero, so waiting tracks don't use up their retries and even very long albums finish.
 
 Downloads that fail for other reasons (like a chosen format no longer being available) can be retried manually, with a prompt to pick a different format if needed. Failed jobs can be cleared individually or all at once.
+
+### Downloading in the background
+
+On Android, downloads keep going when you lock the phone or switch apps. A quiet **Downloading tracks** notification shows while the queue has work and goes away when it's done.
 
 ### Pausing and cancelling
 
@@ -243,6 +258,10 @@ You can pause and resume the active download, or cancel just the current track v
 ### Completion and history
 
 Finished downloads appear in a "Completed" section. Tap a batch to see its tracks, then play one or check its format, size, and when it finished. Tap **Done** to acknowledge them, after which they move into a **Download History** you can review later. You control how long history entries stick around in **Settings → Download History**. Every file is checksum-verified before it's counted as successfully saved.
+
+### Removing downloads
+
+In **Offline Library**, the trash button in the action row removes every downloaded file at once. vgmu asks first, telling you how many tracks and how much space it frees. The tracks stay in your Library, playlists, and likes; they just stream again instead of playing offline. To remove one track, use its delete action in Offline Library.
 
 ## Sharing playlists and folders
 
@@ -306,10 +325,13 @@ Reached from the settings button on any screen.
 | **Download Quality**      | Choose Best Available, FLAC Only, M4A/AAC, MP3, or OGG                                                                                                                                                            |
 | **Confirmations**         | "Always ask before downloading" and "Always ask before saving" toggles                                                                                                                                            |
 | **Default App View**      | Which tab opens on launch: Library, Home, Search, or Manager                                                                                                                                                     |
-| **Library**               | "Hide items already in a folder": remove albums and playlists from the main Library list once they belong to a folder; "Rounded artwork": display track and album artwork as circles instead of rounded squares |
-| **Interface style**       | Clean, Console, or PictoChat, plus Haptics, Crop artwork to fill, the Now Playing background, and the Home rows. See [Interface styles](#interface-styles) below |
+| **Language · BETA**       | System default, English, Español, Français, Deutsch, Português, Русский, 日本語, 简体中文, or 한국어. Translations are machine-made; Help and Legal stay in English |
+| **Library**               | "Hide items already in a folder": remove albums and playlists from the main Library list once they belong to a folder; "Album headers in playlists": group playlist tracks by album, with chips for the details shown; "Rounded artwork": display track and album artwork as circles instead of rounded squares |
+| **Interface style**       | Clean, Console, or PictoChat, plus Haptics, Reduce motion, Crop artwork to fill, the Now Playing background, and the Home rows. See [Interface styles](#interface-styles) below |
 | **Colors / Look / Themes** | Each style's color settings: Console's Colors, PictoChat's Look, or Clean's Themes |
 | **Themes (Clean)**        | See [Themes](#themes) below                                                                                                                                                                                       |
+| **Screen Layout**         | Orientation (Portrait, Rotate, or Landscape) and zoom (70% to 100%), kept separately for portrait and landscape. See [Landscape, zoom, and controllers](#landscape-zoom-and-controllers) |
+| **Controls (Android)**    | Bind controller buttons to tab switching, playback, and Open Now Playing |
 | **Marquee Scroll Speed**  | How fast long titles scroll                                                                                                                                                                                       |
 | **Playlist Artwork**      | Use playlist art for tracks missing their own artwork, and optionally override track art with playlist art                                                                                                        |
 | **Track Metadata**        | Apply playlist-level track edits globally                                                                                                                                                                         |
@@ -330,7 +352,7 @@ vgmu has three interface styles. They share one Library, one set of downloads, a
 - **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (Console's pink by default, fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, or nothing.
 - **Clean**: the original, restrained vgmu look, with the color themes below and nothing animating.
 
-In every style, **Haptics** turns tap feedback on or off and **Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.
+In every style, **Haptics** turns tap feedback on or off, **Reduce motion** turns off animations, page transitions, moving backgrounds, and the launch animation (it's also on whenever your device's own reduce-motion setting is), and **Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.
 
 ## Themes
 

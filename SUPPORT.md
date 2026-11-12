@@ -9,6 +9,14 @@
 - **Android:** Verified on Google Pixel 9
 - **iOS:** Verified on iPhone 16 and 17
 
+**Q: Does vgmu work on handhelds or in landscape?**
+
+- Yes. **Settings → Screen Layout** turns the app sideways and zooms it out to fit, and on Android handhelds the D-pad, stick, and buttons work. See [Usage guide: Landscape, zoom, and controllers](docs/USAGE_GUIDE.md#landscape-zoom-and-controllers)
+
+**Q: Is vgmu available in my language?**
+
+- vgmu's interface is in beta in Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, and Korean, besides English. It follows your phone by default; change it under **Settings → Language · BETA**. Translations are machine-made, so some wording may look off
+
 **Q: Where do I download vgmu?**
 
 - See [README.md](README.md) and the [Releases](../../releases) page for download links

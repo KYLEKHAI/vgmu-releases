@@ -2,9 +2,9 @@
 
 # vgmu Gallery
 
-A screen-by-screen tour of vgmu 1.5 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
+A screen-by-screen tour of vgmu 1.6 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 1.6](#everywhere--new-in-16)**
 
 </div>
 
@@ -1277,6 +1277,81 @@ A screen-by-screen tour of vgmu 1.5 in all three interfaces: <b>Console</b>, <b>
 <img src="assets/screenshots/console-download-details.jpg" width="240"><br>
 <sub><b>Figure 207: Inside a completed download</b><br>Tap a completed batch to see its tracks, play one, or check its format and size.</sub>
 </td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · New in 1.6
+
+<div align="center"><b>New in 1.6: landscape mode with a floating dock, interface zoom, controller buttons on Android, nine languages, album headers in playlists, and quicker ways around Settings.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-landscape-home.jpg" width="400"><br>
+<sub><b>Figure 208: Landscape Home</b><br>Turned sideways, the four tabs and what's playing share one floating dock; the current tab widens to show its name. Shown on an Android handheld.</sub>
+</td>
+<td align="center" width="420">
+<img src="assets/screenshots/console-landscape-now-playing.jpg" width="400"><br>
+<sub><b>Figure 209: Landscape Now Playing</b><br>Now Playing lays out side by side, with the cover on the left and the controls on the right.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-controls.jpg" width="400"><br>
+<sub><b>Figure 210: Controller buttons</b><br>On Android, Settings → Controls binds controller buttons to switching tabs, playback, and Open Now Playing. Select an action, then press a button.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-screen-layout.jpg" width="240"><br>
+<sub><b>Figure 211: Screen Layout</b><br>Choose Portrait, Rotate, or Landscape, and zoom from 70% to 100%. Portrait and landscape each keep their own zoom.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-language.jpg" width="240"><br>
+<sub><b>Figure 212: Language · BETA</b><br>Pick one of nine languages or follow the phone. Translations are machine-made; Help and Legal stay in English.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-japanese-home.jpg" width="240"><br>
+<sub><b>Figure 213: Home in Japanese</b><br>The whole interface follows the chosen language, here 日本語.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-album-headers.jpg" width="240"><br>
+<sub><b>Figure 214: Album headers in playlists</b><br>Playlists, Liked Tracks, and Offline Library can group their tracks under each album, with the details you choose.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-remove-all-downloads.jpg" width="240"><br>
+<sub><b>Figure 215: Remove all downloads</b><br>Offline Library's trash button removes every download at once, after saying how much space it frees.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-settings-sections.jpg" width="240"><br>
+<sub><b>Figure 216: Jump to a section</b><br>Tap Sections in the corner of Settings for a list of every section, and jump straight to one.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-settings-reduce-motion.jpg" width="240"><br>
+<sub><b>Figure 217: Reduce motion</b><br>A switch under Interface style turns off animations, page transitions, and moving backgrounds.</sub>
+</td>
+<td align="center" width="280"></td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>

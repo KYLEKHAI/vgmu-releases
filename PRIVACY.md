@@ -1,8 +1,8 @@
 # vgmu Privacy Policy
 
-**Version:** 1.6.0
+**Version:** 2.0.0
 **Effective date:** TBD
-**Applies to:** vgmu 1.6.0 personal-use binary releases
+**Applies to:** vgmu 2.0.0 personal-use binary releases
 
 This policy describes the current vgmu application (the “App”) in plain language. It is an owner-authored privacy notice from vgmu Developer, not legal advice. Privacy questions can be sent to [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com), through the [feedback form](https://vgmu.app/feedback/), or by [opening an issue](../../issues/new?template=feedback.md).
 
@@ -27,6 +27,8 @@ The App does not send this local library data to a vgmu account or vgmu-operated
 ## Information sent to third-party services
 
 When you use online catalog features, the selected third-party source may receive the search text, filters, source identifiers, requested metadata, and ordinary network information such as an IP address, timestamp, request headers, and user agent. Artwork and audio requests are made directly from the device to the relevant third-party endpoint, which can see the request and network information needed to serve it.
+
+When you choose Internet Archive in Search, the search text and filters, and the items you open, play, or download, are requested directly from the Internet Archive (archive.org), along with their artwork and audio files. The Internet Archive handles those requests under its own privacy policy.
 
 When Find lyrics is on (Settings → Lyrics; on by default), vgmu looks up lyrics for each track as it starts playing by sending a search to LRCLIB (lrclib.net), a free community lyrics database. The search includes the track title and, when known, its album and artist, and the response is matched against the track length. This applies to every track you play, including tracks imported from your own files. Requests carry a vgmu user agent and ordinary network information such as an IP address and timestamp. Lyrics found are kept in memory only while vgmu is open and are not saved. Turning Find lyrics off stops every request to LRCLIB. LRCLIB’s own terms and privacy practices apply to that processing.
 

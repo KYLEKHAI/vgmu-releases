@@ -2,9 +2,9 @@
 
 # vgmu Gallery
 
-A screen-by-screen tour of vgmu 1.6 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
+A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 1.6](#everywhere--new-in-16)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 2.0](#everywhere--new-in-20)**
 
 </div>
 
@@ -1285,9 +1285,9 @@ A screen-by-screen tour of vgmu 1.6 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · New in 1.6
+## Everywhere · New in 2.0
 
-<div align="center"><b>New in 1.6: landscape mode with a floating dock, interface zoom, controller buttons on Android, nine languages, album headers in playlists, and quicker ways around Settings.</b></div>
+<div align="center"><b>New in 2.0: landscape mode with a floating dock, interface zoom, controller buttons on Android, nine languages, album headers in playlists, and quicker ways around Settings.</b></div>
 
 <div align="center">
 <table><tr>

@@ -107,6 +107,8 @@ Search looks up **albums and soundtracks**, not individual track titles, because
 
 Filter options are populated from whatever the catalog actually offers for your current search, so they may vary. Use the **Reset filters** chip to clear them all. Results load more as you scroll (with a manual "Load more" button as a fallback), and a result count is always shown.
 
+**Internet Archive**: the **Main catalog** and **Internet Archive** chips under the search box switch which catalog you search, and **Can't find it? Try the Internet Archive.** below your results does the same. The Internet Archive holds soundtrack uploads from its community, often in lossless FLAC. Its filters are **Sort** (Most downloaded, Recently added, Newest or Oldest releases, Title A–Z), **Year** (by decade), and **Quality** (Any or Lossless FLAC). Archive albums play, save to your Library, download, and share like any other album; each upload is one album, its images fill the gallery, and folders inside it show as discs. Home and Browse stay on the main catalog.
+
 ## Library
 
 Library is your personal collection. It's organized into a few kinds of entries:
@@ -135,6 +137,7 @@ These three can't be deleted, since they represent live state rather than someth
 - **Delete/Unsave**: long-press → Delete (for playlists/folders) or Unsave (for albums). Deleting a playlist or folder removes only the organizational grouping, never the underlying tracks, your likes, or any downloaded files.
 - **Shared with You**: the **people** button beside the list and grid toggle opens what friends have sent you (see [Sharing playlists and folders](#sharing-playlists-and-folders)). The **Shared** filter chip lists the playlists you've added from them.
 - **Album headers in playlists**: off by default (**Settings → Library**), it groups the tracks in your playlists, Liked Tracks, and Offline Library under a header for each album, with Other Tracks last. Chips choose which details the headers show (Artist, Publisher, Year, and Platforms; the album title always shows). Under Title sort the albums run A to Z, and playing keeps that grouped order.
+- **Go to album**: in a playlist, Liked Tracks, Offline Library, or another Library collection, a track from the online catalog can open its album with that track highlighted: **Go to album** in its ⋯ menu (Console and PictoChat) or its disc icon (Clean).
 - **Hide items already in a folder**: on by default (**Settings → Library**), it removes albums and playlists from the main Library list once they belong to a folder, so they only show up inside that folder.
 
 ### Editing playlists and folders
@@ -142,7 +145,7 @@ These three can't be deleted, since they represent live state rather than someth
 Open a playlist or folder and tap **Edit** to change its name, description, and cover photo, or to delete it. Renaming to a name already used by another playlist or folder isn't allowed. Tap a custom cover on its page to see it full size, then hold it to save it to Photos or Files; this also works for Liked, Offline, and Local Library.
 
 - **Playlists**: tap **Add tracks** inside the editor to search your library and select tracks to add. To take one track out, open its menu inside the playlist and choose **Remove from playlist** (Console and PictoChat). In the playlist and folder pickers, anything that already holds the track says **Already added** and has a **Remove** button.
-- **Folders**: tap **Add items** inside the editor to open the same searchable, filterable, A-Z-sectioned picker used at creation time, and choose which albums and playlists belong to the folder.
+- **Folders**: tap **Add items** inside the editor to open the same searchable, filterable, A-Z-sectioned picker used at creation time, and choose which albums and playlists belong to the folder. A track kept directly in a folder has **Remove from folder** in its menu.
 
 Closing an editor with unsaved changes asks whether to keep editing or discard them. Nothing is saved until you tap **Save**.
 
@@ -155,7 +158,7 @@ Every album page offers:
 - **Download album**: queues every track for offline saving
 - Per-track rows, each with its own **play**, **like**, **add to queue**, **add to playlist**, **add to folder**, and **download** actions
 - A **track search** that filters the list. While a search is active, playback follows it: tapping a track, or **Play album**, plays just the matching tracks, and Next Up holds those results instead of the whole album. The same applies to playlist and folder pages.
-- A gallery of alternate cover art, when the catalog provides more than one image
+- A gallery of alternate cover art, when the catalog provides more than one image. With your own free iiDB key saved in **Settings → Game Artwork**, the gallery can also **Find game artwork**: the game's box art, icons, and banners from iiDB, a community game database, ready to save or set as the album artwork. **Rescan album** runs the match again, and artwork found this way joins the [Theater](#theater) slideshow until you close vgmu.
 - An "album information" panel with additional metadata
 - The album's description. In Console and PictoChat it shows right on the page; in Clean, tap the album's title area to reveal it
 
@@ -263,6 +266,8 @@ The **Manager** tab holds the tools that look after your music, as four tiles:
 - **Downloads**: the download queue and history (see [Downloads](#downloads)). The tile shows a count while downloads are in progress.
 
 Manager's tab icon shows a live badge count of active, pending, and in-progress downloads.
+
+The **bell** in Manager's header opens the **Inbox**: an available update with its release notes, announcements about vgmu, and failed downloads. A dot on the bell means something there is new.
 
 ## Downloads
 

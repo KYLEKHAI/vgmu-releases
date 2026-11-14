@@ -13,6 +13,10 @@
 
 - Yes. **Settings → Display** turns the app sideways and zooms it out to fit, and on Android handhelds the D-pad, stick, and buttons work. See [Usage guide: Landscape, zoom, and controllers](docs/USAGE_GUIDE.md#landscape-zoom-and-controllers)
 
+**Q: I can't find a soundtrack. What else can I try?**
+
+- Tap **Internet Archive** under the search box (or **Can't find it? Try the Internet Archive.** below your results) to search soundtrack uploads on the Internet Archive, many of them in lossless FLAC. See [Usage guide: Search](docs/USAGE_GUIDE.md#search).
+
 **Q: Why don't I see lyrics for a song?**
 
 - Most game music is instrumental, so many tracks have none. vgmu only shows lyrics it's confident belong to the track, from the free LRCLIB community database. Check that **Settings → Lyrics → Find lyrics** is on and you're online, and turn on **Unsynced lyrics** to also see lyrics without timing. See [Usage guide: Lyrics](docs/USAGE_GUIDE.md#lyrics)

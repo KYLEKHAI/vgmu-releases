@@ -19,6 +19,8 @@ Depending on the features you use, vgmu stores locally:
 - Cached artwork, user-selected playlist artwork, saved audio, and local-library file references or imported audio.
 - A small diagnostic log of app sessions, errors, and connection failures, which never contains passwords or tokens. vgmu does not send it anywhere; it stays on the device until the App is removed.
 - If you enable Discord Rich Presence, in secure device storage: a Discord sign-in (iPhone, official connection), a note that the official connection is on (Android), or a Discord account token (manual-token connection).
+- If you save an iiDB API key for game artwork, that key, in secure device storage.
+- The latest release notes and vgmu announcements from the daily update check, and which Inbox notices you have already seen.
 
 The App does not send this local library data to a vgmu account or vgmu-operated cloud service.
 
@@ -27,6 +29,10 @@ The App does not send this local library data to a vgmu account or vgmu-operated
 When you use online catalog features, the selected third-party source may receive the search text, filters, source identifiers, requested metadata, and ordinary network information such as an IP address, timestamp, request headers, and user agent. Artwork and audio requests are made directly from the device to the relevant third-party endpoint, which can see the request and network information needed to serve it.
 
 When Find lyrics is on (Settings → Lyrics; on by default), vgmu looks up lyrics for each track as it starts playing by sending a search to LRCLIB (lrclib.net), a free community lyrics database. The search includes the track title and, when known, its album and artist, and the response is matched against the track length. This applies to every track you play, including tracks imported from your own files. Requests carry a vgmu user agent and ordinary network information such as an IP address and timestamp. Lyrics found are kept in memory only while vgmu is open and are not saved. Turning Find lyrics off stops every request to LRCLIB. LRCLIB’s own terms and privacy practices apply to that processing.
+
+If you save your own iiDB API key (Settings → Game Artwork; off until you do), tapping Find game artwork in an album's gallery sends the album's title and, when known, its platform and year, or a game name you type, to iiDB (iidb.iisu.network), a community game database, together with your key. The covers it returns are loaded from iiDB's asset host (assets.iisu.network). Nothing is sent to iiDB until you tap, the key is sent only to iiDB, and Remove key deletes it from the device. iiDB's own terms and privacy practices apply to that processing.
+
+Once a day, vgmu checks its public releases page on GitHub for a newer version and reads a short announcements file for Manager → Inbox. These requests go to GitHub (api.github.com and raw.githubusercontent.com), include nothing from your library, and carry ordinary network information such as an IP address and timestamp.
 
 When Discord Rich Presence is enabled, vgmu sends activity to Discord while music plays. The activity can include the current track title, artist, album, playback state, timing, and artwork-related information, including a remote artwork URL for Discord to display. With the official connection, vgmu uses Discord’s Social SDK: on Android it hands the activity to the Discord app on the device; on iPhone you authorize vgmu through Discord’s sign-in and vgmu connects to Discord with that authorization. With the manual-token connection, vgmu sends the supplied token directly to Discord to connect the gateway and publish activity, and may send a remote artwork URL to Discord’s external-asset endpoint so Discord can render the activity image. Discord’s own terms and privacy practices apply to that processing.
 

@@ -1315,11 +1315,11 @@ A screen-by-screen tour of vgmu 1.6 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-screen-layout.jpg" width="240"><br>
-<sub><b>Figure 211: Screen Layout</b><br>Choose Portrait, Rotate, or Landscape, and zoom from 70% to 100%. Portrait and landscape each keep their own zoom.</sub>
+<sub><b>Figure 211: Orientation and zoom</b><br>Under Display, choose Portrait, Rotate, or Landscape, and zoom from 70% to 100%. The zoom stays the same in both orientations.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-language.jpg" width="240"><br>
-<sub><b>Figure 212: Language · BETA</b><br>Pick one of nine languages or follow the phone. Translations are machine-made; Help and Legal stay in English.</sub>
+<sub><b>Figure 212: Language · BETA</b><br>Under General, pick one of nine languages or follow the phone. Translations are machine-made; Help and Legal stay in English.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-japanese-home.jpg" width="240"><br>
@@ -1349,7 +1349,7 @@ A screen-by-screen tour of vgmu 1.6 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-settings-reduce-motion.jpg" width="240"><br>
-<sub><b>Figure 217: Reduce motion</b><br>A switch under Interface style turns off animations, page transitions, and moving backgrounds.</sub>
+<sub><b>Figure 217: Reduce motion</b><br>A switch under General turns off animations, page transitions, and moving backgrounds.</sub>
 </td>
 <td align="center" width="280"></td>
 <td align="center" width="280"></td>

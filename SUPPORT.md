@@ -11,7 +11,7 @@
 
 **Q: Does vgmu work on handhelds or in landscape?**
 
-- Yes. **Settings → Screen Layout** turns the app sideways and zooms it out to fit, and on Android handhelds the D-pad, stick, and buttons work. See [Usage guide: Landscape, zoom, and controllers](docs/USAGE_GUIDE.md#landscape-zoom-and-controllers)
+- Yes. **Settings → Display** turns the app sideways and zooms it out to fit, and on Android handhelds the D-pad, stick, and buttons work. See [Usage guide: Landscape, zoom, and controllers](docs/USAGE_GUIDE.md#landscape-zoom-and-controllers)
 
 **Q: Why don't I see lyrics for a song?**
 
@@ -23,7 +23,7 @@
 
 **Q: Is vgmu available in my language?**
 
-- vgmu's interface is in beta in Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, and Korean, besides English. It follows your phone by default; change it under **Settings → Language · BETA**. Translations are machine-made, so some wording may look off
+- vgmu's interface is in beta in Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, and Korean, besides English. It follows your phone by default; change it under **Settings → General → App language**. Translations are machine-made, so some wording may look off
 
 **Q: Where do I download vgmu?**
 

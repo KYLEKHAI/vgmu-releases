@@ -64,8 +64,8 @@ Tap the settings button to open **Settings**, where you can:
 - Pick an **interface style**: Console (a home-menu look), PictoChat (the Nintendo DS chat app), or Clean (the original look). See [Usage guide: Interface styles](USAGE_GUIDE.md#interface-styles)
 - In Clean, change your **theme**: from a simple light/dark "Simple UI" with an accent color, to dozens of full fixed-palette presets (Dracula, Nord, Tokyo Night, Catppuccin, Gruvbox, and many more)
 - Change the **language** (beta): Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, or Korean
-- Turn vgmu **sideways**, set the **zoom**, and choose a **cover size** under Screen Layout, or bind **controller buttons** under Controls on Android (see [Usage guide: Landscape, zoom, and controllers](USAGE_GUIDE.md#landscape-zoom-and-controllers))
-- Turn **lyrics** on or off and choose how unsynced lyrics scroll (see [Usage guide: Lyrics](USAGE_GUIDE.md#lyrics))
+- Turn vgmu **sideways**, set the **zoom**, and choose a **cover size** under Display, or bind **controller buttons** under Controls on Android (see [Usage guide: Landscape, zoom, and controllers](USAGE_GUIDE.md#landscape-zoom-and-controllers))
+- Turn **lyrics** on or off, choose how unsynced lyrics scroll, and, with the controls set to fade in landscape, play them **Cinematic** or **Freestyle** over any Now Playing background (see [Usage guide: Lyrics](USAGE_GUIDE.md#lyrics))
 - Choose your **preferred download quality/format**
 - Choose whether Home can refresh over **cellular data**
 - Connect **Discord Rich Presence**, which is optional (see [Usage guide: Discord Rich Presence](USAGE_GUIDE.md#discord-rich-presence) for what it shares and how to connect)

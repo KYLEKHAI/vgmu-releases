@@ -44,11 +44,11 @@ Settings and Help are long pages. In portrait, a chip at the bottom names the se
 
 ## Landscape, zoom, and controllers
 
-- **Orientation**: **Settings → Screen Layout → Orientation** chooses **Portrait**, **Rotate** (follow how the device is held, the default), or **Landscape** (always sideways, for handhelds).
+- **Orientation**: **Settings → Display → Orientation** chooses **Portrait**, **Rotate** (follow how the device is held, the default), or **Landscape** (always sideways, for handhelds).
 - **The landscape dock**: in landscape, the four tabs and what's playing share one floating dock at the bottom. The current tab widens into a pill with its name, and the dock holds the cover, title, and Previous, Play, and Next. Now Playing lays out side by side, and the album gallery fits the shorter screen.
 - **Zoom**: choose **70%, 80%, 90%, or 100%** to fit more on screen. The zoom you pick stays the same when you turn the device.
-- **Cover size**: **Settings → Screen Layout → Cover size** fits more or fewer album covers across Home, Search, Browse, and your Library: **Large covers** (the default, 3 across on a phone), **Medium covers** (4 across), or **Small covers** (5 across). Headers, the mini-player, and the tabs keep their size, and zooming out adds more columns on top.
-- **Player cards in landscape** (on by default): sideways, Now Playing puts the title and the controls into cards so they stay readable over any background: frosted glass in Console, plain panels in Clean, and messages in PictoChat. **Title and controls in one card** (on by default) keeps them together; turn it off for two cards. Open lyrics get a card of their own.
+- **Cover size**: **Settings → Display → Cover size** fits more or fewer album covers across Home, Search, Browse, and your Library: **Large covers** (the default, 3 across on a phone), **Medium covers** (4 across), or **Small covers** (5 across). Headers, the mini-player, and the tabs keep their size, and zooming out adds more columns on top.
+- **Player cards in landscape** (on by default, under **Settings → Now Playing**): sideways, Now Playing puts the title and the controls into cards so they stay readable over any background: frosted glass in Console, plain panels in Clean, and messages in PictoChat. **Title and controls in one card** (on by default) keeps them together; turn it off for two cards. Open lyrics get a card of their own.
 - **Game controllers (Android)**: on Android handhelds or with a connected controller, the D-pad or stick moves a highlight ring between controls and **A** presses the one selected. **LB** and **RB** switch tabs, and the dock shows their hints while a controller is around. **Settings → Controls** binds Previous tab, Next tab, Play or pause, Previous track, Next track, Open Now Playing, Open Settings, and Open playback queue (the last two start unassigned) to the other buttons, including Start, Select, the stick clicks (**L3** and **R3**), and **Home** where the controller hands it to apps: select an action, then press the button you want. A or B cancels, a button can only do one thing, and **Reset to defaults** restores the original bindings. Pressing Open Now Playing, Open Settings, or Open playback queue again closes it, and Open Now Playing never opens a second player.
 - **Moving around with a controller**: the highlight lands only on things you can press (never titles, dates, loading spinners, empty lists, or scrolling track names), works in sheets such as the playback queue, a track's menu, and the collection editor, and is thicker on accent-colored buttons. Left and right stop at the ends of a sideways row, the right stick scrolls the page like a mouse wheel, and left and right on Now Playing's seek bar skip 5 seconds (hold to sweep). In landscape, press a queue track's reorder button to pick it up and another track's to move it there. **B** goes back and returns the highlight to the item you opened; on a tab's first page it stays in vgmu instead of closing it.
 - **Controller keyboard (Android)**: Android's own keyboards can't be used with a controller, so pressing **A** on a text field such as Search opens vgmu's on-screen keyboard. Move across the keys and press A to type; **⇧** capitalizes the next letter, **Space** adds a space, **⌫** deletes, and **Done** closes it. What you type shows above the keys. Tapping a text field with your finger still opens the phone's keyboard.
@@ -74,7 +74,7 @@ Below those, Home shows three sections pulled live from the online catalog, whic
 
 Each card shows the album title and a subtitle (type and year, when known). Pull down to refresh manually at any time.
 
-**Automatic refresh** is Wi-Fi-first by default. Home only refreshes itself over cellular data if you enable **Settings → Network → Refresh Home on cellular**. If a refresh fails, Home keeps showing your last successful data along with an "Updated {time}" note so you're never left with a blank screen.
+**Automatic refresh** is Wi-Fi-first by default. Home only refreshes itself over cellular data if you enable **Settings → Catalog Source → Refresh Home on cellular**. If a refresh fails, Home keeps showing your last successful data along with an "Updated {time}" note so you're never left with a blank screen.
 
 Tap **Browse** in the header to jump to more discovery options, or the **chart** button to see your [Listening stats](#listening-stats).
 
@@ -211,7 +211,21 @@ Lyrics come from [LRCLIB](https://lrclib.net), a free community lyrics database,
 - **Unsynced lyrics** (on by default): also shows lyrics without timing.
 - **Scroll unsynced lyrics myself** (the default) or **Scroll unsynced lyrics automatically**.
 
-With the [Theater](#theater) background, lyrics can also fill the whole screen, play like a lyric video, or fly around the screen while the controls are faded.
+### Full-screen lyric styles
+
+Cinematic and Freestyle work with **every Now Playing background** in landscape: Console's Notes, Rings, XMB, Theater, and None; PictoChat's Squares, Chat, Theater, and None; and Clean.
+
+In **Settings → Now Playing**, set **Cover and controls** to **Fade away**; **Settings → Lyrics** then shows **Lyrics when the controls fade**. Open lyrics using the speech-bubble button in Now Playing. In landscape, after about four seconds without a touch, the controls fade and your selected presentation appears. Tap anywhere to bring the player back; that first tap does not press a hidden playback button.
+
+- **Fade too**: lyrics fade with the controls.
+- **Keep showing**: lyrics stay where they are while the controls fade.
+- **Full screen**: lyrics fill the screen and scroll automatically, including unsynced lyrics.
+- **Cinematic** (the default choice when fading is enabled): synced lyrics play a line at a time, rising in, drifting, and lifting away, with the next line faint below. **Cinematic card** chooses whether the sung line sits **In a card** (default) or has **No card**.
+- **Freestyle**: synced lines use varied entrances for whole lines, words, or letters, with no repeated entrance on consecutive lines. Some lines sway, float, pulse, or ripple while sung; the exit changes too. The lyrics color stays the same. **Freestyle card** works the same way, with the words centered in the card.
+
+Cinematic and Freestyle fall back to automatically scrolling full-screen lyrics when a song has no lyric timing. **Full-screen lyrics** chooses **In a card** (default) or **No card** for that view. Reduce motion changes Cinematic and Freestyle lines in place without animation.
+
+**Always show** is the default for Cover and controls: lyrics keep their ordinary scrolling view and playback controls stay visible. Fade and lyric-style choices are shared across backgrounds and interface styles. Existing saved choices carry over.
 
 ## Sound Lab
 
@@ -260,7 +274,7 @@ Only **one download runs at a time**, even if you've queued an entire album or p
 
 ### Formats and quality
 
-vgmu supports whatever formats the catalog offers per track: **FLAC, M4A, MP3, and OGG**. Set your preference in **Settings → Download Quality**:
+vgmu supports whatever formats the catalog offers per track: **FLAC, M4A, MP3, and OGG**. Set your preference in **Settings → Downloads → Download Quality**:
 
 - **Best Available**: automatically picks the highest-quality option actually offered for each track (FLAC → M4A → MP3 → OGG)
 - **FLAC Only**, **M4A/AAC**, **MP3**, or **OGG**: force a specific format
@@ -281,7 +295,7 @@ You can pause and resume the active download, or cancel just the current track v
 
 ### Completion and history
 
-Finished downloads appear in a "Completed" section. Tap a batch to see its tracks, then play one or check its format, size, and when it finished. Tap **Done** to acknowledge them, after which they move into a **Download History** you can review later. You control how long history entries stick around in **Settings → Download History**. Every file is checksum-verified before it's counted as successfully saved.
+Finished downloads appear in a "Completed" section. Tap a batch to see its tracks, then play one or check its format, size, and when it finished. Tap **Done** to acknowledge them, after which they move into a **Download History** you can review later. You control how long history entries stick around in **Settings → Downloads → History retention**. Every file is checksum-verified before it's counted as successfully saved.
 
 ### Removing downloads
 
@@ -324,7 +338,7 @@ You can keep using vgmu while Wi-Fi Transfer runs: a banner above the mini-playe
 
 ## Local Library import
 
-Beyond downloading from the catalog, you can import audio files already on your device. Imported tracks appear in **Library → Local Library**, separate from catalog downloads. Enable **Settings → Local Library → Scan nested folders** if your music is organized into subfolders.
+Beyond downloading from the catalog, you can import audio files already on your device. Imported tracks appear in **Library → Local Library**, separate from catalog downloads. Enable **Settings → Library → Scan nested folders** if your music is organized into subfolders.
 
 Use **Refresh** on an imported path to pick up new files. Refresh keeps working after vgmu is closed and reopened. On iPhone, folders added before version 1.0.7 need to be added again once with **Add path**; your imported tracks stay.
 
@@ -343,28 +357,21 @@ Use **Refresh** on an imported path to pick up new files. Refresh keeps working 
 
 Reached from the settings button on any screen.
 
-| Section                   | What it does                                                                                                                                                                                                      |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Catalog Source**        | Toggle the live online catalog on or off. Turn it off to restrict vgmu to your offline Library                                                                                                                 |
-| **Download Quality**      | Choose Best Available, FLAC Only, M4A/AAC, MP3, or OGG                                                                                                                                                            |
-| **Confirmations**         | "Always ask before downloading" and "Always ask before saving" toggles                                                                                                                                            |
-| **Default App View**      | Which tab opens on launch: Library, Home, Search, or Manager                                                                                                                                                     |
-| **Language · BETA**       | System default, English, Español, Français, Deutsch, Português, Русский, 日本語, 简体中文, or 한국어. Translations are machine-made; Help and Legal stay in English |
-| **Library**               | "Hide items already in a folder": remove albums and playlists from the main Library list once they belong to a folder; "Album headers in playlists": group playlist tracks by album, with chips for the details shown; "Rounded artwork": display track and album artwork as circles instead of rounded squares |
-| **Interface style**       | Clean, Console, or PictoChat, plus Haptics, Reduce motion, Crop artwork to fill, the Now Playing background, and the Home rows. See [Interface styles](#interface-styles) below |
-| **Colors / Look / Themes** | Each style's color settings: Console's Colors, PictoChat's Look, or Clean's Themes |
-| **Themes (Clean)**        | See [Themes](#themes) below                                                                                                                                                                                       |
-| **Screen Layout**         | Orientation (Portrait, Rotate, or Landscape), zoom (70% to 100%, the same in both orientations), Cover size (Large, Medium, or Small covers), and Player cards in landscape. See [Landscape, zoom, and controllers](#landscape-zoom-and-controllers) |
+| Section                   | What it does |
+| ------------------------- | ------------ |
+| **General**               | **App language** (System default, English, Español, Français, Deutsch, Português, Русский, 日本語, 简体中文, or 한국어; translations are in beta and machine-made, and Help and Legal stay in English), **Open on startup** (Library, Home, Search, or Manager), **Haptics**, and **Reduce motion** |
+| **Catalog Source**        | Toggle the live online catalog on or off (off restricts vgmu to your offline Library), and **Refresh Home on cellular** (off = Wi-Fi first) |
+| **Interface style**       | Clean, Console, or PictoChat, and the Home rows. See [Interface styles](#interface-styles) below |
+| **Colors / Look / Themes** | Each style's color settings: Console's Colors, PictoChat's Look, or Clean's Themes (see [Themes](#themes) below) |
+| **Display**               | Orientation (Portrait, Rotate, or Landscape), zoom (70% to 100%, the same in both orientations), Cover size (Large, Medium, or Small covers), Crop artwork to fill, Rounded artwork, and Marquee Scroll Speed. See [Landscape, zoom, and controllers](#landscape-zoom-and-controllers) |
+| **Now Playing**           | The Now Playing background and its [Theater](#theater) options (Console and PictoChat), **Cover and controls** (Always show or Fade away), and Player cards in landscape |
+| **Lyrics**                | Find lyrics, unsynced scrolling, lyrics color, and what lyrics do when the controls fade: Fade too, Keep showing, Full screen, Cinematic, or Freestyle. See [Lyrics](#lyrics) |
 | **Controls (Android)**    | Bind controller buttons, including L3, R3, and Home, to tab switching, playback, Open Now Playing, Open Settings, and Open playback queue |
-| **Lyrics**                | Find lyrics, Unsynced lyrics, and how unsynced lyrics scroll. See [Lyrics](#lyrics) |
-| **Marquee Scroll Speed**  | How fast long titles scroll                                                                                                                                                                                       |
-| **Playlist Artwork**      | Use playlist art for tracks missing their own artwork, and optionally override track art with playlist art                                                                                                        |
-| **Track Metadata**        | Apply playlist-level track edits globally                                                                                                                                                                         |
-| **Local Library**         | Scan nested folders when importing                                                                                                                                                                                |
-| **Network**               | Allow Home to auto-refresh over cellular (off = Wi-Fi only)                                                                                                                                                       |
-| **Download History**      | How long completed-download history is kept                                                                                                                                                                       |
+| **Library**               | Hide items already in a folder, Album headers in playlists, playlist artwork for missing or all track art, Apply playlist track edits globally, Scan nested folders for Local Library imports, and Always ask before saving |
+| **Downloads**             | Download Quality (Best Available, FLAC Only, M4A/AAC, MP3, or OGG), Always ask before downloading files, and History retention for finished downloads |
 | **Storage**               | Breakdown of space used: downloaded tracks, local imports, artwork, the online artwork cache, backups and temporary files, and total. **Clear online artwork cache** frees cached online covers, which download again when shown. On iPhone, **Maximum artwork storage** limits that cache, from 100 MB to 5 GB (500 MB by default), and the oldest covers go the next time you leave the app |
 | **Discord Rich Presence** | See [Discord Rich Presence](#discord-rich-presence) below                                                                                                                                                         |
+| **Game Artwork**          | Save your own free iiDB key so an album's gallery can find its game's box art, icons, and banners |
 | **Help**                  | Quick in-app usage reference                                                                                                                                                                                      |
 | **About**                 | App version, credits, and links to the vgmu website, releases page, Discord, YouTube, TikTok, Instagram, and Ko-fi                                                                                                                                             |
 | **Legal & Safety**        | Links to the Privacy Policy, EULA, and License                                                                                                                                                                    |
@@ -373,34 +380,23 @@ Reached from the settings button on any screen.
 
 vgmu has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean. See the [Gallery](../GALLERY.md) for every screen in all three.
 
-- **Console**: a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (pink by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, [Theater](#theater) (the album's art gallery, in landscape), or nothing. Track rows keep the heart inline and put Add to playlist, Add to folder, Add to queue, and Download in a ⋯ sheet. Inside your own playlist, that sheet also has Remove from playlist.
-- **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (Console's pink by default, fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, [Theater](#theater), or nothing.
+- **Console**: a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (pink by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Settings → Now Playing → Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, [Theater](#theater) (the album's art gallery, in landscape), or nothing. Track rows keep the heart inline and put Add to playlist, Add to folder, Add to queue, and Download in a ⋯ sheet. Inside your own playlist, that sheet also has Remove from playlist.
+- **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (Console's pink by default, fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background (**Settings → Now Playing**) is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, [Theater](#theater), or nothing.
 - **Clean**: the original, restrained vgmu look, with the color themes below and nothing animating.
 
-In every style, **Haptics** turns tap feedback on or off, **Reduce motion** turns off animations, page transitions, moving backgrounds, and the launch animation (it's also on whenever your device's own reduce-motion setting is), and **Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.
+In every style, **Settings → General** has **Haptics**, which turns tap feedback on or off, and **Reduce motion**, which turns off animations, page transitions, moving backgrounds, and the launch animation (it's also on whenever your device's own reduce-motion setting is), and **Settings → Display → Crop artwork to fill** (on by default) fills each cover frame; turn it off to see covers that aren't square whole. The launch splash plays in every style.
 
 ### Theater
 
-Theater is a Now Playing background for Console and PictoChat. Turn the phone sideways and the album's art gallery fills the screen behind the player, fading from one image to the next; an album without a gallery shows its cover. Upright, Now Playing shows the style's default background instead (music notes, or PictoChat's squares). With Theater chosen, its options appear under the background picker:
+Theater is a Now Playing background for Console and PictoChat. Turn the phone sideways and the album's art gallery fills the screen behind the player, fading from one image to the next; an album without a gallery shows its cover. Upright, Now Playing keeps the background you picked there. With Theater chosen, its options appear under the background picker in **Settings → Now Playing**:
 
 - **Change image every**: 5, 10, 15 (default), or 30 seconds, or 1 minute
 - **Order**: Gallery order, or **Shuffle**, which shows every image once before any repeats
 - **Motion**: **Still** (default), or **Zoom in** / **Zoom out**, each image slowly zooming one way while it shows
 - **Image fill**: **Fill the screen** (default, cropping the edges) or **Whole image**
 - **Image opacity**: how strongly the art shows behind the player, 20% to 80%
-- **Cover and controls**: **Always show** (default), or **Fade away**, which fades the cover and controls out a few seconds after your last touch so only the art is left; a tap brings them back
-
-With **Fade away**, two more options appear:
-
-- **Image while faded**: **Keep opacity** (default), or **Full opacity** once the player has faded
-- **Lyrics when the controls fade**, for when [lyrics](#lyrics) are open:
-  - **Fade too**: the lyrics fade with the controls
-  - **Keep showing**: the lyrics stay where they are
-  - **Full screen** (default): the lyrics fade in across the whole screen and scroll on their own, unsynced ones included. **Full-screen lyrics** can float over the art (**No card**, default) or sit **In a card** in the middle of the screen, with the gallery showing on both sides
-  - **Cinematic**: synced lyrics play a line at a time like a lyric video, rising in, drifting, and lifting away, with the next line faint below
-  - **Freestyle**: each synced line picks one of 21 entrances. The whole line can slide, whip, spiral, slam, drop, swing, glitch, or unfold in; the words can fly, rise, flip like cards, or stomp in; or the letters can pop, scatter, type out, scramble, flip, stretch, rain, converge, or spin in. The order the pieces arrive in, the speed, and where the line sits, how big it is, and how it tilts change from line to line too. Some lines sway, float, pulse, or ripple while they're sung, and the way a line leaves varies as well. Colors never change, and no two lines in a row use the same entrance
-
-  Cinematic and Freestyle show unsynced lyrics full screen instead. With Reduce motion, they change lines in place without moving.
+- **Cover and controls** sits just below, under **Settings → Now Playing**, and applies to every background; the lyric presentations are under **Settings → Lyrics**. See [Full-screen lyric styles](#full-screen-lyric-styles).
+- **Image while faded** (shown with **Fade away**): **Keep opacity** (default) or **Full opacity** once the player has faded. This option affects only Theater's gallery.
 
 Each image loads just before it shows, and the next fade waits until it has, so a slow connection holds the current image longer instead of fading to a blank one. Reduce motion holds Theater on one image.
 

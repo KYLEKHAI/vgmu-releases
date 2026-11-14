@@ -11,7 +11,7 @@
 <div align="center">
 A free video game music app for iOS and Android. vgmu lets you discover, organize, and listen to your favourite game soundtracks. Stream them or save them for offline listening, with no subscription.
 
-**Live site: [vgmu.kylekhai.workers.dev](https://vgmu.kylekhai.workers.dev/)**
+**Live site: [vgmu.app](https://vgmu.app/)**
 
 </div>
 <div align="center" style="margin: 20px 0;">

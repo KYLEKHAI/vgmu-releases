@@ -32,7 +32,7 @@ A free video game music app for iOS and Android. vgmu lets you discover, organiz
 
 ## Download
 
-- **Current release:** [v2.0.0, TBD](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v2.0.0)
+- **Current release:** [v2.0.0, November 15, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v2.0.0)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).
 - [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v2.0.0/vgmu-2.0.0-SHA256SUMS.txt)

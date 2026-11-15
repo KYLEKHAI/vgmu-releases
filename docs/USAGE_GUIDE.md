@@ -13,6 +13,7 @@ A complete reference for everything vgmu can do.
 - [Search](#search)
 - [Library](#library)
 - [Album pages](#album-pages)
+- [iiSU and iiDB](#iisu-and-iidb)
 - [Playback](#playback)
 - [Lyrics](#lyrics)
 - [Sound Lab](#sound-lab)
@@ -158,9 +159,21 @@ Every album page offers:
 - **Download album**: queues every track for offline saving
 - Per-track rows, each with its own **play**, **like**, **add to queue**, **add to playlist**, **add to folder**, and **download** actions
 - A **track search** that filters the list. While a search is active, playback follows it: tapping a track, or **Play album**, plays just the matching tracks, and Next Up holds those results instead of the whole album. The same applies to playlist and folder pages.
-- A gallery of alternate cover art, when the catalog provides more than one image. With your own free iiDB key saved in **Settings → Game Artwork**, the gallery can also **Find game artwork**: the game's box art, icons, and banners from iiDB, a community game database, ready to save or set as the album artwork. **Rescan album** runs the match again, and artwork found this way joins the [Theater](#theater) slideshow until you close vgmu.
+- A gallery of alternate cover art, when the catalog provides more than one image. With an iiDB key saved, the gallery can also add the game's own artwork (see [iiSU and iiDB](#iisu-and-iidb)).
 - An "album information" panel with additional metadata
 - The album's description. In Console and PictoChat it shows right on the page; in Clean, tap the album's title area to reveal it
+
+## iiSU and iiDB
+
+iiDB is a community game database. With your own free iiDB key, vgmu can add a game's box art, icons, and banners to the gallery of an online album from that game.
+
+- **Get a key:** sign in to your iiSU account and copy the iiDB API key from your profile. It's free.
+- **Save it:** paste it under **Settings → Game Artwork**. Until a key is saved, the end of every album gallery reminds you, and **Connect iiDB in Settings** takes you straight there.
+- **Find game artwork:** open an online album's gallery and tap **Find game artwork**. vgmu searches iiDB for the album's game and adds its artwork under the game's name. When the title could be more than one game, pick it from the list; **Not the right game?** or **Search iiDB by game name** finds another.
+- **Use the artwork:** press and hold an image to save it or set it as the album artwork.
+- **Rescan album** runs the match again.
+- **Theater:** artwork found this way joins that album's [Theater](#theater) slideshow until you close vgmu.
+- **Privacy:** nothing is sent to iiDB until you tap. Then vgmu sends the album's title, platform, and year. Game artwork belongs to its publishers and artists.
 
 ## Playback
 
@@ -218,7 +231,7 @@ Lyrics come from [LRCLIB](https://lrclib.net), a free community lyrics database,
 
 Cinematic and Freestyle work with **every Now Playing background** in landscape: Console's Notes, Rings, XMB, Theater, and None; PictoChat's Squares, Chat, Theater, and None; and Clean.
 
-In **Settings → Now Playing**, set **Cover and controls** to **Fade away**; **Settings → Lyrics** then shows **Lyrics when the controls fade**. Open lyrics using the speech-bubble button in Now Playing. In landscape, after about four seconds without a touch, the controls fade and your selected presentation appears. Tap anywhere to bring the player back; that first tap does not press a hidden playback button.
+**Cover and controls** in **Settings → Now Playing** is **Fade away** by default (set it there if you changed it); **Settings → Lyrics** then shows **Lyrics when the controls fade**. Open lyrics using the speech-bubble button in Now Playing. In landscape, after about four seconds without a touch, the controls fade and your selected presentation appears. Tap anywhere to bring the player back; that first tap does not press a hidden playback button.
 
 - **Fade too**: lyrics fade with the controls.
 - **Keep showing**: lyrics stay where they are while the controls fade.
@@ -267,7 +280,7 @@ The **Manager** tab holds the tools that look after your music, as four tiles:
 
 Manager's tab icon shows a live badge count of active, pending, and in-progress downloads.
 
-The **bell** in Manager's header opens the **Inbox**: an available update with its release notes, announcements about vgmu, and failed downloads. A dot on the bell means something there is new.
+The **bell** in Manager's header opens the **Inbox**: an available update with its release notes, announcements about vgmu, and failed downloads, each with how long ago it arrived; some announcements carry a picture. While something there is new, a dot sits on the **Manager** tab and the bell rings (it stays still with Reduce motion); opening the Inbox clears them. Pull down or tap **Refresh** to check for an update and new announcements right away, and tap the **X** on an announcement to dismiss it. A tip about using vgmu sits at the bottom; **Next tip** shows another.
 
 ## Downloads
 
@@ -385,7 +398,7 @@ Reached from the settings button on any screen.
 
 vgmu has three interface styles. They share one Library, one set of downloads, and every other setting, so you can switch anytime under **Settings → Interface style** without losing anything. New installs start in Console; people updating from 1.0 keep Clean. See the [Gallery](../GALLERY.md) for every screen in all three.
 
-- **Console**: a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (pink by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Settings → Now Playing → Now Playing background** picks what moves behind the player while music plays: floating music notes (default), the XMB wave, drifting Wii Menu style rings, [Theater](#theater) (the album's art gallery, in landscape), or nothing. Track rows keep the heart inline and put Add to playlist, Add to folder, Add to queue, and Download in a ⋯ sheet. Inside your own playlist, that sheet also has Remove from playlist.
+- **Console**: a home-menu look after the Wii, Wii U, and 3DS system menus: covers in white bezels on a dotted shell, one accent color, rounded type, and gentle motion. **Settings → Colors** has Appearance (System, Light, or Dark), fourteen accent colors (pink by default) plus any custom color, and a Background slider from darker to brighter. **Colorful tab icons** (off by default) gives Home, Search, Library, and Manager each their own color. **Settings → Now Playing → Now Playing background** picks what moves behind the player while music plays: floating music notes (the upright default), the XMB wave, drifting Wii Menu style rings, [Theater](#theater) (the album's art gallery, the landscape default), or nothing. Track rows keep the heart inline and put Add to playlist, Add to folder, Add to queue, and Download in a ⋯ sheet. Inside your own playlist, that sheet also has Remove from playlist.
 - **PictoChat**: the Nintendo DS chat app: pixel-cornered messages with name tabs, DS buttons that press in, DS ON/OFF switches, and pixel icons. **Settings → Look** has Appearance, your DS color (Console's pink by default, fifteen of the DS's user colors, or any custom color), the Background (the DS menu **Grid**, with a Grid size slider, or **Paper lines** ruled in your color), the Font (**NDS12**, the DS's own pixel font; **DotGothic16**, a finer pixel font that is easier to read; or **M PLUS 1p**, a plain sans), and **Pixelate artwork**, which draws album covers in square pixels with a Pixel size slider. **Colorful tab icons** (off by default) gives each tab its own DS color. Its Now Playing background (**Settings → Now Playing**) is the DS boot screen's **Squares** (default), a faint **Chat** room of people typing and drawing, [Theater](#theater), or nothing.
 - **Clean**: the original, restrained vgmu look, with the color themes below and nothing animating.
 
@@ -393,14 +406,14 @@ In every style, **Settings → General** has **Haptics**, which turns tap feedba
 
 ### Theater
 
-Theater is a Now Playing background for Console and PictoChat. Turn the phone sideways and the album's art gallery fills the screen behind the player, fading from one image to the next; an album without a gallery shows its cover. Upright, Now Playing keeps the background you picked there. With Theater chosen, its options appear under the background picker in **Settings → Now Playing**:
+Theater is a Now Playing background for Console and PictoChat, and the default in landscape. Turn the phone sideways and the album's art gallery fills the screen behind the player, fading from one image to the next; an album without a gallery shows its cover. Upright, Now Playing keeps the background you picked there. With Theater chosen, its options appear under the background picker in **Settings → Now Playing**:
 
 - **Change image every**: 5, 10, 15 (default), or 30 seconds, or 1 minute
 - **Order**: Gallery order, or **Shuffle**, which shows every image once before any repeats
 - **Motion**: **Still** (default), or **Zoom in** / **Zoom out**, each image slowly zooming one way while it shows
 - **Image fill**: **Fill the screen** (default, cropping the edges) or **Whole image**
 - **Image opacity**: how strongly the art shows behind the player, 20% to 80%
-- **Cover and controls** sits just below, under **Settings → Now Playing**, and applies to every background; the lyric presentations are under **Settings → Lyrics**. See [Full-screen lyric styles](#full-screen-lyric-styles).
+- **Cover and controls** (**Fade away** by default, or **Always show**) sits just below, under **Settings → Now Playing**, shows only while the phone is sideways, and applies to every background; the lyric presentations are under **Settings → Lyrics**. See [Full-screen lyric styles](#full-screen-lyric-styles).
 - **Image while faded** (shown with **Fade away**): **Keep opacity** (default) or **Full opacity** once the player has faded. This option affects only Theater's gallery.
 
 Each image loads just before it shows, and the next fade waits until it has, so a slow connection holds the current image longer instead of fading to a blank one. Reduce motion holds Theater on one image.

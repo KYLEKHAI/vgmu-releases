@@ -4,7 +4,7 @@
 
 A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 2.0](#everywhere--new-in-20)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 2.0](#everywhere--new-in-20) · [Theater](#everywhere--theater) · [Lyrics](#everywhere--lyrics) · [Internet Archive](#everywhere--internet-archive-and-game-artwork) · [Inbox](#everywhere--inbox-and-shortcuts)**
 
 </div>
 
@@ -1351,7 +1351,226 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <img src="assets/screenshots/console-settings-reduce-motion.jpg" width="240"><br>
 <sub><b>Figure 217: Reduce motion</b><br>A switch under General turns off animations, page transitions, and moving backgrounds.</sub>
 </td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-cover-size.jpg" width="240"><br>
+<sub><b>Figure 218: Cover size</b><br>Under Display, fit 3, 4, or 5 covers across. Home, Search, Browse, and your Library follow it.</sub>
+</td>
 <td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-landscape-controller-focus.jpg" width="400"><br>
+<sub><b>Figure 219: Controller focus</b><br>On Android, the D-pad or stick moves a ring between controls, and LB and RB switch tabs. Shown on an Android handheld.</sub>
+</td>
+<td align="center" width="420">
+<img src="assets/screenshots/console-landscape-stats.jpg" width="400"><br>
+<sub><b>Figure 220: Stats sideways</b><br>Stats, Browse, Search, and your Library lay out for landscape too.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Theater
+
+<div align="center"><b>New in 2.0: sideways, Now Playing can play the album's art gallery behind the player, then fade the cover and controls away so only the art is left.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-theater.jpg" width="400"><br>
+<sub><b>Figure 221: Theater</b><br>The landscape background for Now Playing. The album's gallery fills the screen behind the player cards, fading from one image to the next.</sub>
+</td>
+<td align="center" width="420">
+<img src="assets/screenshots/console-theater-fade-away.jpg" width="400"><br>
+<sub><b>Figure 222: Fade away</b><br>A few seconds after your last touch, the cover and controls fade and the art takes over. A tap brings them back. Here the image fits whole.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/pictochat-theater.jpg" width="400"><br>
+<sub><b>Figure 223: Theater in PictoChat</b><br>PictoChat frames the player in its own panels over the slideshow.</sub>
+</td>
+<td align="center" width="420">
+<img src="assets/screenshots/console-theater-game-artwork.jpg" width="400"><br>
+<sub><b>Figure 224: Game artwork in Theater</b><br>Artwork found on iiDB joins the album's slideshow, like this Final Fantasy X art.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-theater-settings.jpg" width="400"><br>
+<sub><b>Figure 225: Theater settings</b><br>Under Now Playing, choose how often the image changes, the order, a slow zoom in or out, how the image fits, and how strongly it shows.</sub>
+</td>
+<td align="center" width="420"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Lyrics
+
+<div align="center"><b>New in 2.0: synced lyrics from LRCLIB follow the song on Now Playing. While the controls are faded, they can play like a lyric video.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-lyrics-landscape.jpg" width="400"><br>
+<sub><b>Figure 226: Synced lyrics</b><br>When vgmu finds lyrics, the lyrics button opens them beside the player. The line being sung lights up.</sub>
+</td>
+<td align="center" width="420">
+<img src="assets/screenshots/console-lyrics-cinematic-card.jpg" width="400"><br>
+<sub><b>Figure 227: Cinematic, in a card</b><br>One line at a time in the middle of the screen, inside the player's frosted card.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-lyrics-cinematic.jpg" width="400"><br>
+<sub><b>Figure 228: Cinematic, no card</b><br>Without the card, each line sits right on the art, with the next one waiting below.</sub>
+</td>
+<td align="center" width="420">
+<img src="assets/screenshots/pictochat-lyrics-cinematic.jpg" width="400"><br>
+<sub><b>Figure 229: Cinematic in PictoChat</b><br>PictoChat writes each line in its pixel font, in a message frame.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-lyrics-freestyle-card.jpg" width="400"><br>
+<sub><b>Figure 230: Freestyle</b><br>Every line comes in a different way: sliding, spinning, flipping, or typing itself out.</sub>
+</td>
+<td align="center" width="420">
+<img src="assets/screenshots/console-lyrics-freestyle.jpg" width="400"><br>
+<sub><b>Figure 231: Freestyle, no card</b><br>Freestyle straight over the XMB background.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-lyrics-settings.jpg" width="400"><br>
+<sub><b>Figure 232: Lyrics settings</b><br>Settings → Lyrics sets the lyrics color and what lyrics do while the controls fade: fade too, keep showing, full screen, Cinematic, or Freestyle.</sub>
+</td>
+<td align="center" width="420"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Internet Archive and game artwork
+
+<div align="center"><b>New in 2.0: Search can look through soundtrack uploads on the Internet Archive, and an album's gallery can find the game's artwork on iiDB with your own free key.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-archive-search.jpg" width="240"><br>
+<sub><b>Figure 233: Search the Internet Archive</b><br>Switch Search to Internet Archive to look through soundtrack uploads. Archive albums play, save, download, and share like any other.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-archive-decade.jpg" width="240"><br>
+<sub><b>Figure 234: Filter by decade</b><br>Sort by most downloaded or newest, and narrow the results to a decade.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-archive-lossless.jpg" width="240"><br>
+<sub><b>Figure 235: Lossless only</b><br>Set Quality to Lossless (FLAC) to see only lossless uploads.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-archive-album.jpg" width="240"><br>
+<sub><b>Figure 236: Archive albums in PictoChat</b><br>An Archive album with its description, ready to play, save, or download.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-iidb-gallery.jpg" width="240"><br>
+<sub><b>Figure 237: Game artwork from iiDB</b><br>Find game artwork adds the game's logo, key art, icons, and banners to the album's gallery.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-artwork-actions.jpg" width="240"><br>
+<sub><b>Figure 238: Save or set as artwork</b><br>Hold any image to save it to Photos or Files, or make it the album's artwork.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-iidb-settings.jpg" width="240"><br>
+<sub><b>Figure 239: Your iiDB key</b><br>Settings → Game Artwork keeps your free iiDB key from your iiSU account.</sub>
+</td>
+<td align="center" width="280"></td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="420">
+<img src="assets/screenshots/console-iidb-pick-game.jpg" width="400"><br>
+<sub><b>Figure 240: Not the right game?</b><br>If iiDB matched the wrong game, pick another match or search by name, then rescan the album.</sub>
+</td>
+<td align="center" width="420"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · Inbox and shortcuts
+
+<div align="center"><b>New in 2.0: an Inbox for updates and announcements, and quicker ways from a track to its album or out of a folder.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-inbox.jpg" width="240"><br>
+<sub><b>Figure 241: Inbox</b><br>The bell in Manager opens app updates and their release notes, announcements, and failed downloads, each with its date. Tips cycle at the bottom.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-inbox-bell.jpg" width="240"><br>
+<sub><b>Figure 242: Something new</b><br>A dot on the Manager tab and a ringing bell mean something new is waiting.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-go-to-album.jpg" width="240"><br>
+<sub><b>Figure 243: Go to album</b><br>A track's sheet in a playlist can open its album.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-go-to-album-highlight.jpg" width="240"><br>
+<sub><b>Figure 244: The track, highlighted</b><br>The album opens with that track highlighted.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-remove-from-folder.jpg" width="240"><br>
+<sub><b>Figure 245: Remove from folder</b><br>Inside a folder, a track's sheet can take it back out.</sub>
+</td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>

@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {
+      "id": "v2-0-0-release",
+      "title": "Welcome to vgmu 2.0",
+      "body": "Internet Archive search, landscape mode, Theater, synced lyrics, eight new languages, controller support on Android, and this Inbox. Tap to read the full post.",
+      "url": "https://vgmu.app/news/vgmu-2-0/",
+      "date": "2026-11-15",
+      "image": "https://raw.githubusercontent.com/KYLEKHAI/vgmu-releases/main/assets/release-video.jpg"
+    }
+  ]
+}

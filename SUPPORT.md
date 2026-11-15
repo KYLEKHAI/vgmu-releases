@@ -27,7 +27,7 @@
 
 **Q: Is vgmu available in my language?**
 
-- vgmu's interface is in beta in Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, and Korean, besides English. It follows your phone by default; change it under **Settings → General → App language**. Translations are machine-made, so some wording may look off
+- vgmu's interface is in beta in Spanish, French, German, Portuguese, Russian, Japanese, Simplified Chinese, and Korean, besides English. It follows your phone by default; change it under **Settings → General → App language**. Translations are machine-made, so some wording may look off. Help, Legal & Safety, the license and privacy policy, release notes, and the vgmu website and guides stay in English.
 
 **Q: Where do I download vgmu?**
 

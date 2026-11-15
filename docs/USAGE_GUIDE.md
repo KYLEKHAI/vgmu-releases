@@ -364,7 +364,7 @@ Reached from the settings button on any screen.
 
 | Section                   | What it does |
 | ------------------------- | ------------ |
-| **General**               | **App language** (System default, English, Español, Français, Deutsch, Português, Русский, 日本語, 简体中文, or 한국어; translations are in beta and machine-made, and Help and Legal stay in English), **Open on startup** (Library, Home, Search, or Manager), **Haptics**, and **Reduce motion** |
+| **General**               | **App language** (System default, English, Español, Français, Deutsch, Português, Русский, 日本語, 简体中文, or 한국어; translations are in beta and machine-made, and Help, Legal & Safety, the license and privacy policy, release notes, and the vgmu website and guides stay in English), **Open on startup** (Library, Home, Search, or Manager), **Haptics**, and **Reduce motion** |
 | **Catalog Source**        | Toggle the live online catalog on or off (off restricts vgmu to your offline Library), and **Refresh Home on cellular** (off = Wi-Fi first) |
 | **Interface style**       | Clean, Console, or PictoChat, and the Home rows. See [Interface styles](#interface-styles) below |
 | **Colors / Look / Themes** | Each style's color settings: Console's Colors, PictoChat's Look, or Clean's Themes (see [Themes](#themes) below) |

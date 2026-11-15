@@ -1547,12 +1547,16 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <div align="center">
 <table><tr>
 <td align="center" width="280">
+<img src="assets/screenshots/console-inbox.jpg" width="240"><br>
+<sub><b>Figure 241: Inbox</b><br>The bell in Manager opens app updates and their release notes, announcements, and failed downloads, each with its date. Tips cycle at the bottom.</sub>
+</td>
+<td align="center" width="280">
 <img src="assets/screenshots/pictochat-inbox-bell.jpg" width="240"><br>
-<sub><b>Figure 241: Inbox</b><br>A dot on the Manager tab and a ringing bell mean something new is waiting. The bell opens the Inbox: app updates and their release notes, announcements, and failed downloads, each with its date, with tips at the bottom.</sub>
+<sub><b>Figure 242: Something new</b><br>A dot on the Manager tab and a ringing bell mean something new is waiting.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-go-to-album.jpg" width="240"><br>
-<sub><b>Figure 242: Go to album</b><br>A track's sheet in a playlist can open its album.</sub>
+<sub><b>Figure 243: Go to album</b><br>A track's sheet in a playlist can open its album.</sub>
 </td>
 </tr></table>
 </div>
@@ -1561,12 +1565,13 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-go-to-album-highlight.jpg" width="240"><br>
-<sub><b>Figure 243: The track, highlighted</b><br>The album opens with that track highlighted.</sub>
+<sub><b>Figure 244: The track, highlighted</b><br>The album opens with that track highlighted.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-remove-from-folder.jpg" width="240"><br>
-<sub><b>Figure 244: Remove from folder</b><br>Inside a folder, a track's sheet can take it back out.</sub>
+<sub><b>Figure 245: Remove from folder</b><br>Inside a folder, a track's sheet can take it back out.</sub>
 </td>
+<td align="center" width="280"></td>
 </tr></table>
 </div>
 

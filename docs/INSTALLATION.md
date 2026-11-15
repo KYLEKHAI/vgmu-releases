@@ -8,6 +8,10 @@ Published device testing covers Android 16 on Google Pixel 9. Compatibility with
 
 You need enough storage for the app and saved audio, and an internet connection for the download and online catalog features.
 
+[<img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="55">](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22kylekhai.vgmu%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FKYLEKHAI%2Fvgmu-releases%22%2C%22author%22%3A%22KYLEKHAI%22%2C%22name%22%3A%22vgmu%22%7D)
+
+Or follow the manual steps below.
+
 1. Open the [latest release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest), read the notes, and download its `.apk` asset.
 2. [Verify the SHA-256 checksum](#verify-your-download).
 3. Open the APK using your browser or file manager. If prompted, allow that specific app to **Install unknown apps** in Android Settings. Labels differ by device; keep Play Protect enabled.

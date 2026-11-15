@@ -32,6 +32,8 @@ A free video game music app for iOS and Android. vgmu lets you discover, organiz
 
 ## Download
 
+[<img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="55">](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22kylekhai.vgmu%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FKYLEKHAI%2Fvgmu-releases%22%2C%22author%22%3A%22KYLEKHAI%22%2C%22name%22%3A%22vgmu%22%7D)
+
 - **Current release:** [v2.0.0, November 15, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v2.0.0)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).

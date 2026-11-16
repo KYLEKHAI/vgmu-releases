@@ -165,11 +165,12 @@ Every album page offers:
 
 ## iiSU and iiDB
 
-iiDB is a community game database. With your own free iiDB key, vgmu can add a game's box art, icons, and banners to the gallery of an online album from that game.
+iiDB is a community game database. With your own free iiDB key, vgmu can add a game's box art, logos, icons, and banners to the gallery of an online album from that game.
 
 - **Get a key:** sign in to your iiSU account and copy the iiDB API key from your profile. It's free.
 - **Save it:** paste it under **Settings → Game Artwork**. Until a key is saved, the end of every album gallery reminds you, and **Connect iiDB in Settings** takes you straight there.
 - **Find game artwork:** open an online album's gallery and tap **Find game artwork**. vgmu searches iiDB for the album's game and adds its artwork under the game's name. When the title could be more than one game, pick it from the list; **Not the right game?** or **Search iiDB by game name** finds another.
+- **Large artwork:** turn on **Large artwork** under **Settings → Game Artwork** to also add the game's heroes and screenshots. They're several MB each, so it's off by default.
 - **Use the artwork:** press and hold an image to save it or set it as the album artwork.
 - **Rescan album** runs the match again.
 - **Theater:** artwork found this way joins that album's [Theater](#theater) slideshow until you close vgmu.
@@ -215,7 +216,7 @@ Your queue, current track, and playback position are saved automatically and res
 
 As each song starts, vgmu looks for its lyrics. When it finds them, Now Playing shows a **lyrics** button (a speech bubble) in its bottom row: tap it to swap the cover for the lyrics, and again to bring the cover back. Lyrics stay open for the rest of the session, even if you close and reopen Now Playing.
 
-- **Synced lyrics** follow the song. The line being sung is bright and held a third of the way down, the rest are dim, and opening lyrics mid-song jumps straight to the current line.
+- **Synced lyrics** follow the song. The line being sung is bright and held a third of the way down, the rest are dim, and opening lyrics mid-song jumps straight to the current line. Tap any synced line to jump the song to it.
 - **Unsynced lyrics** have no timing, so every line is equally bright and none is highlighted. You scroll them yourself by default (swipe down from the top of the lyrics, or anywhere else, to close Now Playing), or choose to have them move evenly through the song. That's only an estimate, so it can run ahead or behind.
 - A **Synced** or **Unsynced** badge above the lyrics tells you which you're looking at.
 

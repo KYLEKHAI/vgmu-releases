@@ -6,7 +6,8 @@
       "body": "Tap any synced lyric line to skip the song to it. Game artwork adds logos and an optional Large artwork setting, and Liked Tracks no longer reshuffles when tracks download. Tap to read more.",
       "url": "https://vgmu.app/news/vgmu-2-0-1/",
       "date": "2026-11-16",
-      "image": "https://raw.githubusercontent.com/KYLEKHAI/vgmu-releases/main/assets/news-2-0-1.jpg"
+      "image": "https://raw.githubusercontent.com/KYLEKHAI/vgmu-releases/main/assets/news-2-0-1.jpg",
+      "dismissible": false
     },
     {
       "id": "v2-0-0-release",
@@ -15,7 +16,7 @@
       "url": "https://vgmu.app/news/vgmu-2-0/",
       "date": "2026-11-15",
       "image": "https://raw.githubusercontent.com/KYLEKHAI/vgmu-releases/main/assets/news-2-0.jpg",
-      "dismissible": true
+      "dismissible": false
     }
   ]
 }

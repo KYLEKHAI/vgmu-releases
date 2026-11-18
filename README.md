@@ -71,7 +71,7 @@ See the [installation guide](docs/INSTALLATION.md) for detailed setup instructio
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 2.0.0
+**Version:** 2.0.1
 
 ## Follow and support vgmu
 
@@ -88,7 +88,7 @@ vgmu is a personal project for enjoying video game music on mobile. For question
 
 ## Made possible with
 
-Expo, [LRCLIB](https://lrclib.net) for lyrics, and online video game music archives
+[iiDB](https://iidb.iisu.network), [Expo](https://expo.dev), [LRCLIB](https://lrclib.net) for lyrics, and online video game music archives
 
 <p align="center">
   <img src="assets/expo.png" width="150" style="margin: 0 20px;">

@@ -4,7 +4,9 @@
 
 A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 2.0](#everywhere--new-in-20) · [Theater](#everywhere--theater) · [Lyrics](#everywhere--lyrics) · [Internet Archive](#everywhere--internet-archive-and-game-artwork) · [Inbox](#everywhere--inbox-and-shortcuts) · [New in 2.0.2](#everywhere--new-in-202)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing)**
+
+**Updates: [1.5](#updates--new-in-15) · [2.0](#updates--new-in-20) · [2.0 Theater](#updates--20-theater) · [2.0 Lyrics](#updates--20-lyrics) · [2.0 Internet Archive](#updates--20-internet-archive-and-game-artwork) · [2.0 Inbox](#updates--20-inbox-and-shortcuts) · [2.0.2](#updates--new-in-202)**
 
 </div>
 
@@ -1263,7 +1265,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · New in 1.5
+## Updates · New in 1.5
 
 <div align="center"><b>New in 1.5: see custom covers full size, and look inside completed downloads.</b></div>
 
@@ -1285,7 +1287,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · New in 2.0
+## Updates · New in 2.0
 
 <div align="center"><b>New in 2.0: landscape mode with a floating dock, interface zoom, controller buttons on Android, nine languages, album headers in playlists, and quicker ways around Settings.</b></div>
 
@@ -1376,7 +1378,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · Theater
+## Updates · 2.0 Theater
 
 <div align="center"><b>New in 2.0: sideways, Now Playing can play the album's art gallery behind the player, then fade the cover and controls away so only the art is left.</b></div>
 
@@ -1420,7 +1422,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · Lyrics
+## Updates · 2.0 Lyrics
 
 <div align="center"><b>New in 2.0: synced lyrics from LRCLIB follow the song on Now Playing. While the controls are faded, they can play like a lyric video.</b></div>
 
@@ -1477,7 +1479,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · Internet Archive and game artwork
+## Updates · 2.0 Internet Archive and game artwork
 
 <div align="center"><b>New in 2.0: Search can look through soundtrack uploads on the Internet Archive, and an album's gallery can find the game's artwork on iiDB with your own free key.</b></div>
 
@@ -1540,7 +1542,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · Inbox and shortcuts
+## Updates · 2.0 Inbox and shortcuts
 
 <div align="center"><b>New in 2.0: an Inbox for updates and announcements, and quicker ways from a track to its album or out of a folder.</b></div>
 
@@ -1579,7 +1581,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 ---
 
-## Everywhere · New in 2.0.2
+## Updates · New in 2.0.2
 
 <div align="center"><b>New in 2.0.2: tap gallery artwork to open it in a card and zoom in full screen, queue anything from Home with a hold, and an animated XMB background.</b></div>
 
@@ -1619,9 +1621,18 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 
 <div align="center">
 <table><tr>
+<td align="center" width="840">
+<img src="assets/screenshots/console-xmb-landscape-ps4.jpg" width="800"><br>
+<sub><b>Figure 252: XMB sideways</b><br>In landscape, the XMB's ribbons and particles drift behind the player cards, here playing PlayStation 4 System Music.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-recap-five-games.jpg" width="240"><br>
-<sub><b>Figure 252: Five top games</b><br>The Stats share card fits up to five top games.</sub>
+<sub><b>Figure 253: Five top games</b><br>The Stats share card fits up to five top games.</sub>
 </td>
 <td align="center" width="280"></td>
 <td align="center" width="280"></td>

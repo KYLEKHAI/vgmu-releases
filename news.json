@@ -2,7 +2,7 @@
   "messages": [
     {
       "id": "v2-0-2-release",
-      "title": "vgmu 2.0.2: a closer look at album art",
+      "title": "vgmu 2.0.2: Artwork cards and improved XMB",
       "body": "Tap any gallery image to open it in a card, then tap again to zoom in full screen. Hold anything on Home to queue it, and Console's XMB background now moves. Tap to read more.",
       "url": "https://vgmu.app/news/vgmu-2-0-2/",
       "date": "2026-11-23",

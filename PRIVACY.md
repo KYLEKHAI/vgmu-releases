@@ -1,8 +1,8 @@
 # vgmu Privacy Policy
 
-**Version:** 2.0.0
-**Effective date:** 2026-11-15
-**Applies to:** vgmu 2.0.0 personal-use binary releases
+**Version:** 2.0.2
+**Effective date:** 2026-11-23
+**Applies to:** vgmu 2.0.2 personal-use binary releases
 
 This policy describes the current vgmu application (the “App”) in plain language. It is an owner-authored privacy notice from vgmu Developer, not legal advice. Privacy questions can be sent to [vgmu.dev@gmail.com](mailto:vgmu.dev@gmail.com), through the [feedback form](https://vgmu.app/feedback/), or by [opening an issue](../../issues/new?template=feedback.md).
 

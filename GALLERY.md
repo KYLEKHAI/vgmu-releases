@@ -4,7 +4,7 @@
 
 A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>PictoChat</b>, and <b>Clean</b>. The screens show a range of games, accent colors, and both light and dark appearance.
 
-**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 2.0](#everywhere--new-in-20) · [Theater](#everywhere--theater) · [Lyrics](#everywhere--lyrics) · [Internet Archive](#everywhere--internet-archive-and-game-artwork) · [Inbox](#everywhere--inbox-and-shortcuts)**
+**[Start here](#start-here) · [Console](#console--home) · [PictoChat](#pictochat--home) · [Clean](#clean--home-and-library) · [Everywhere](#everywhere--albums-and-library-tools) · [Stats](#everywhere--listening-stats) · [Sound Lab](#everywhere--sound-lab) · [Manager](#everywhere--manager-and-transfer-hub) · [Sharing](#everywhere--sharing) · [New in 1.5](#everywhere--new-in-15) · [New in 2.0](#everywhere--new-in-20) · [Theater](#everywhere--theater) · [Lyrics](#everywhere--lyrics) · [Internet Archive](#everywhere--internet-archive-and-game-artwork) · [Inbox](#everywhere--inbox-and-shortcuts) · [New in 2.0.2](#everywhere--new-in-202)**
 
 </div>
 
@@ -1571,6 +1571,59 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <img src="assets/screenshots/console-remove-from-folder.jpg" width="240"><br>
 <sub><b>Figure 245: Remove from folder</b><br>Inside a folder, a track's sheet can take it back out.</sub>
 </td>
+<td align="center" width="280"></td>
+</tr></table>
+</div>
+
+<div align="right"><a href="#vgmu-gallery">↑ back to top</a></div>
+
+---
+
+## Everywhere · New in 2.0.2
+
+<div align="center"><b>New in 2.0.2: tap gallery artwork to open it in a card and zoom in full screen, queue anything from Home with a hold, and an animated XMB background.</b></div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-artwork-card.jpg" width="240"><br>
+<sub><b>Figure 246: The artwork card</b><br>Tap any image in an album's gallery to open it in a card. The arrows, or a swipe, flip through the gallery, and the round buttons save or share it.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/pictochat-artwork-card.jpg" width="240"><br>
+<sub><b>Figure 247: The card in PictoChat</b><br>Each interface draws the card its own way. Game artwork from iiDB shows the game's name, and the third button sets it as the album artwork.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-set-artwork-confirm.jpg" width="240"><br>
+<sub><b>Figure 248: Asks before changing</b><br>Set as album artwork now checks with you before it replaces the album's cover.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/clean-artwork-zoom.jpg" width="240"><br>
+<sub><b>Figure 249: Full screen</b><br>Tap the image in the card to see it full screen. Pinch or double-tap to zoom and drag to look around. The buttons fade after a few seconds.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-home-hold-queue.jpg" width="240"><br>
+<sub><b>Figure 250: Queue from Home</b><br>Hold a track, album, or playlist on any Home row to add it to the playback queue.</sub>
+</td>
+<td align="center" width="280">
+<img src="assets/screenshots/console-xmb-ribbon.jpg" width="240"><br>
+<sub><b>Figure 251: Animated XMB</b><br>Console's XMB background now moves, with layered ribbons and drifting particles. Thin XMB in Settings brings back the original wave.</sub>
+</td>
+</tr></table>
+</div>
+
+<div align="center">
+<table><tr>
+<td align="center" width="280">
+<img src="assets/screenshots/console-recap-five-games.jpg" width="240"><br>
+<sub><b>Figure 252: Five top games</b><br>The Stats share card fits up to five top games.</sub>
+</td>
+<td align="center" width="280"></td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>

@@ -34,10 +34,10 @@ A free video game music app for iOS and Android. vgmu lets you discover, organiz
 
 [<img src="https://raw.githubusercontent.com/ImranR98/Obtainium/refs/heads/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="55">](https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22kylekhai.vgmu%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2FKYLEKHAI%2Fvgmu-releases%22%2C%22author%22%3A%22KYLEKHAI%22%2C%22name%22%3A%22vgmu%22%7D)
 
-- **Current release:** [v2.0.1, November 16, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v2.0.1)
+- **Current release:** [v2.0.2, November 23, 2026](https://github.com/KYLEKHAI/vgmu-releases/releases/tag/v2.0.2)
 - **Android:** Start with the [APK installation guide](docs/INSTALLATION.md#android).
 - **iOS:** Sideload with [AltStore Classic or SideStore](docs/INSTALLATION.md#ios).
-- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v2.0.1/vgmu-2.0.1-SHA256SUMS.txt)
+- [Latest GitHub release](https://github.com/KYLEKHAI/vgmu-releases/releases/latest) · [SHA-256 checksums](https://github.com/KYLEKHAI/vgmu-releases/releases/download/v2.0.2/vgmu-2.0.2-SHA256SUMS.txt)
 
 **Website:** [vgmu.app](https://vgmu.app/), with the install guides, FAQ and a tour of every screen.
 
@@ -71,7 +71,7 @@ See the [installation guide](docs/INSTALLATION.md) for detailed setup instructio
 
 vgmu is a personal project for enjoying video game music on mobile. For questions, see [Support](SUPPORT.md).
 
-**Version:** 2.0.1
+**Version:** 2.0.2
 
 ## Follow and support vgmu
 

@@ -248,8 +248,8 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <sub><b>Figure 38: Now Playing: Notes</b><br>The cover in a white bezel with music notes in the logo's colors floating in and out behind it (the default background).</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/console-now-playing-xmb.jpg" width="240"><br>
-<sub><b>Figure 39: Now Playing: XMB</b><br>The XMB wave rolling through the space between the cover and the title.</sub>
+<img src="assets/screenshots/console-xmb-animal-crossing.png" width="240"><br>
+<sub><b>Figure 39: XMB in light mode</b><br>The XMB wave behind Animal Crossing: New Horizons in light mode.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-now-playing-rings.jpg" width="240"><br>
@@ -280,16 +280,19 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <sub><b>Figure 45: Rings in dark</b><br>The rings on the dark shell, in a green accent.</sub>
 </td>
 <td align="center" width="280">
-<img src="assets/screenshots/console-dark-xmb.jpg" width="240"><br>
-<sub><b>Figure 46: XMB in dark</b><br>The XMB wave on the dark shell, in an amber accent.</sub>
+<img src="assets/screenshots/console-xmb-playstation-4.png" width="240"><br>
+<sub><b>Figure 246: XMB in dark mode</b><br>The XMB wave behind PlayStation 4 System Music in dark mode.</sub>
 </td>
 </tr></table>
 <table><tr>
 <td align="center" width="280">
+<img src="assets/screenshots/console-dark-xmb.jpg" width="240"><br>
+<sub><b>Figure 46: Thin XMB in dark mode</b><br>The Thin XMB wave behind Octopath Traveler in dark mode, with an amber accent.</sub>
+</td>
+<td align="center" width="280">
 <img src="assets/screenshots/console-queue-mixed.jpg" width="240"><br>
 <sub><b>Figure 47: A mixed queue</b><br>Tracks you queue from different games sit above what's next from the current album. Reorder or remove any of them.</sub>
 </td>
-<td align="center" width="280"></td>
 <td align="center" width="280"></td>
 </tr></table>
 </div>
@@ -1589,15 +1592,15 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-artwork-card.jpg" width="240"><br>
-<sub><b>Figure 246: The artwork card</b><br>Tap any image in an album's gallery to open it in a card. The arrows, or a swipe, flip through the gallery, and the round buttons save or share it.</sub>
+<sub><b>Figure 247: The artwork card</b><br>Tap any image in an album's gallery to open it in a card. The arrows, or a swipe, flip through the gallery, and the round buttons save or share it.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/pictochat-artwork-card.jpg" width="240"><br>
-<sub><b>Figure 247: The card in PictoChat</b><br>Each interface draws the card its own way. Game artwork from iiDB shows the game's name, and the third button sets it as the album artwork.</sub>
+<sub><b>Figure 248: The card in PictoChat</b><br>Each interface draws the card its own way. Game artwork from iiDB shows the game's name, and the third button sets it as the album artwork.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/clean-set-artwork-confirm.jpg" width="240"><br>
-<sub><b>Figure 248: Asks before changing</b><br>Set as album artwork now checks with you before it replaces the album's cover.</sub>
+<sub><b>Figure 249: Asks before changing</b><br>Set as album artwork now checks with you before it replaces the album's cover.</sub>
 </td>
 </tr></table>
 </div>
@@ -1606,15 +1609,15 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/clean-artwork-zoom.jpg" width="240"><br>
-<sub><b>Figure 249: Full screen</b><br>Tap the image in the card to see it full screen. Pinch or double-tap to zoom and drag to look around. The buttons fade after a few seconds.</sub>
+<sub><b>Figure 250: Full screen</b><br>Tap the image in the card to see it full screen. Pinch or double-tap to zoom and drag to look around. The buttons fade after a few seconds.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-home-hold-queue.jpg" width="240"><br>
-<sub><b>Figure 250: Queue from Home</b><br>Hold a track, album, or playlist on any Home row to add it to the playback queue.</sub>
+<sub><b>Figure 251: Queue from Home</b><br>Hold a track, album, or playlist on any Home row to add it to the playback queue.</sub>
 </td>
 <td align="center" width="280">
 <img src="assets/screenshots/console-xmb-ribbon.jpg" width="240"><br>
-<sub><b>Figure 251: Animated XMB</b><br>Console's XMB background now moves, with layered ribbons and drifting particles. Thin XMB in Settings brings back the original wave.</sub>
+<sub><b>Figure 252: Animated XMB</b><br>Console's XMB background now moves, with layered ribbons and drifting particles. Thin XMB in Settings brings back the original wave.</sub>
 </td>
 </tr></table>
 </div>
@@ -1623,7 +1626,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="840">
 <img src="assets/screenshots/console-xmb-landscape-ps4.jpg" width="800"><br>
-<sub><b>Figure 252: XMB sideways</b><br>In landscape, the XMB's ribbons and particles drift behind the player cards, here playing PlayStation 4 System Music.</sub>
+<sub><b>Figure 253: XMB sideways</b><br>In landscape, the XMB's ribbons and particles drift behind the player cards, here playing PlayStation 4 System Music.</sub>
 </td>
 </tr></table>
 </div>
@@ -1632,7 +1635,7 @@ A screen-by-screen tour of vgmu 2.0 in all three interfaces: <b>Console</b>, <b>
 <table><tr>
 <td align="center" width="280">
 <img src="assets/screenshots/console-recap-five-games.jpg" width="240"><br>
-<sub><b>Figure 253: Five top games</b><br>The Stats share card fits up to five top games.</sub>
+<sub><b>Figure 254: Five top games</b><br>The Stats share card fits up to five top games.</sub>
 </td>
 <td align="center" width="280"></td>
 <td align="center" width="280"></td>
